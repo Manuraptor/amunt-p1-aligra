@@ -15,7 +15,7 @@
     section{
              width: 100%;
              height: 39px;
-             background-color: #FCAF3B;
+             background-color: #FCB900;
         position: relative;
             }
 
@@ -23,7 +23,7 @@
         width: 100%;
         height: 183px;
         Background-color: black;
-        color: #FCAF3B;
+        color: #FCB900;
         display: flex;
         flex-direction: row;
         align-items: center;
