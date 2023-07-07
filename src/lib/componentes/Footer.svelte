@@ -16,6 +16,7 @@
              width: 100%;
              height: 39px;
              background-color: #FCAF3B;
+        position: relative;
             }
 
     div {
@@ -25,13 +26,14 @@
         color: #FCAF3B;
         display: flex;
         flex-direction: row;
-        Align-items: center;
-        Justify-content: center;
+        align-items: center;
+        justify-content: center;
         gap:105px;
         font-size: 25px;
         font-style: Oblique;
-
-        font-family: 'Ubuntu Mono', monospace;    }
+        position: relative;
+        font-family: 'Ubuntu Mono', monospace;
+    }
 
 
 </style>
