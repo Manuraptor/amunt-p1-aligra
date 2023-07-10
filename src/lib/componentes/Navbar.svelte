@@ -1,45 +1,90 @@
-<nav>
+
+<script>
+    import '/src/global.css'
+    import { onMount } from 'svelte';
+
+    let sidebarActive = false;
+
+    function toggleSidebar() {
+        sidebarActive = !sidebarActive;
+    }
+
+    onMount(() => {
+        const btnToggle = document.querySelector('.toggle-btn');
+        btnToggle.addEventListener('click', toggleSidebar);
+    });
+</script>
+
+<div id="sidebar" class:active={sidebarActive}>
+    <div class="toggle-btn">
+        <span>&#9776;</span>
+    </div>
     <ul>
+        <li><img src="src/lib/imagenes/Logo/2.png" alt="Logotipo"></li>
         <li>
-            <a href="/ ">Aligra</a>
+            <a href="/">Aligra</a>
         </li>
         <li>
-            <a href="/Caracteristiques">Caracteristiques</a>
+            <a href="/caracteristiques">Caracteristiques</a>
         </li>
         <li>
             <a href="/kits">Kits</a>
-    </li>
+        </li>
         <li>
-        <a href="/colaboradors">Colaboradors</a>
-    </li>
-
+            <a href="/colaboradors">Colaboradors</a>
+        </li>
     </ul>
-</nav>
-<style>
-    nav{
-        display: flex;
-        align-items: flex-start;
-        font-family: 'Ubuntu', sans-serif;
-        font-size: 25px;
-        font-style: oblique;
-        background: #FCB900;
-        width: 80px;
-        height: 600px;
-        transition: 0.5s;
+</div>
 
-   }
-    ul{
-        list-style: none;
+<style>
+    #sidebar {
+        position: fixed;
+        width: 200px;
+        height: 100%;
+        background: #FCB900;
+        left: -200px;
+        transition: left 0.3s ease;
     }
-    li{
-        margin-top: 20px;
+
+    #sidebar.active {
+        left: 0;
     }
-    a{
+
+    #sidebar ul li {
+        text-align: center;
+        padding: 15px 10px;
+        border-bottom: 1px solid rgba(100, 100, 100, 0.3);
+    }
+
+    #sidebar ul li a {
+        color: black;
         text-decoration: none;
-        color: black;
+        font-style: oblique;
+        font-size: 25px;
     }
-    a:hover{
-        color: black;
+    #sidebar ul li a:hover{
+        font-weight: bold;
+    }
+
+    img {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+    }
+
+    .toggle-btn {
+        background-color: #FCB900;
+        position: absolute;
+        left: 230px;
+        cursor: pointer;
+        top: 20px;
+        border-radius: 50%;
+    }
+
+    span {
+        display: block;
+        width: 40px;
+        text-align: center;
         font-size: 30px;
     }
 </style>

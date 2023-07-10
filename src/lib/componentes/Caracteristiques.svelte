@@ -1,3 +1,7 @@
+<script>
+    import '/src/global.css'
+</script>
+
 <section>
  <article>
      <p>  Aligra està concebut per adaptar-se a una gran diversitat de situacions,

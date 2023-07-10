@@ -1,4 +1,6 @@
-
+<script>
+    import '/src/global.css'
+</script>
 
 <section>
     <p> </p>
@@ -32,7 +34,7 @@
         font-size: 25px;
         font-style: Oblique;
         position: relative;
-        font-family: 'Ubuntu Mono', monospace;
+
     }
 
 
