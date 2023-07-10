@@ -10,23 +10,23 @@
  </article>
     <div class="containermediano">
     <div>Aqui van 1 cuadrado y 1 parrafo</div><div class="image">FOTO</div>
-        <img class="square" src="src/lib/imagenes/Caracteristiques/Rectangle 29.jpg" alt="decoración cuadrado" />
+        <img class="square" src="../../lib/imagenes/Caracteristiques/Rectangle%2029.jpg" alt="decoración cuadrado" />
     </div>
     <div>Aqui van 1 cuadrado y 1 parrafo</div>
-    <img class="square"  src="src/lib/imagenes/Caracteristiques/Rectangle 27.jpg" alt="decoración cuadrado" />
+    <img class="square" src="../../lib/imagenes/Caracteristiques/Rectangle%2027.jpg" alt="decoración cuadrado" />
 
     <div class="containermediano">
     <div class="image">FOTO</div><div>Aqui van 1 cuadrado y 1 parrafo</div>
-        <img class="square" src="src/lib/imagenes/Caracteristiques/Rectangle 19.jpg" alt="decoración cuadrado" />
+        <img class="square" src="../../lib/imagenes/Caracteristiques/Rectangle%2019.jpg" alt="decoración cuadrado" />
         <div>Aqui van 1 cuadrado y 1 parrafo</div>
-        <img class="square" src="src/lib/imagenes/Caracteristiques/Rectangle 18.jpg" alt="decoración cuadrado" />
+        <img class="square" src="../../lib/imagenes/Caracteristiques/Rectangle%2018.jpg" alt="decoración cuadrado" />
     </div>
 
     <div class="containermediano">
     <div>Aqui van 1 cuadrado y 1 parrafo</div><div class="image">FOTO</div>
-        <img class="square" src="src/lib/imagenes/Caracteristiques/Rectangle 15.jpg" alt="decoración cuadrado" />
+        <img class="square" src="../../lib/imagenes/Caracteristiques/Rectangle%2015.jpg" alt="decoración cuadrado" />
         <div>Aqui van 1 cuadrado y 1 parrafo</div>
-        <img class="square" src="src/lib/imagenes/Caracteristiques/Rectangle 14.jpg" alt="decoración cuadrado" />
+        <img class="square" src="../../lib/imagenes/Caracteristiques/Rectangle%2014.jpg" alt="decoración cuadrado" />
     </div>
 
 </section>

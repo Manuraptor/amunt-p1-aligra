@@ -2,10 +2,6 @@
     import '/src/global.css'
 </script>
 
-<section>
-    <p> </p>
-
-</section>
 
 <div>
     <p>Contacto</p><p>Politica de Privacidad</p><p>Acerca de</p><p>Ayuda</p>
@@ -14,17 +10,12 @@
 
 <style>
 
-    section{
-             width: 100%;
-             height: 39px;
-             background-color: #FCB900;
-        position: relative;
-            }
+
 
     div {
         width: 100%;
-        height: 183px;
-        Background-color: black;
+        height: 150px;
+        background-color: black;
         color: #FCB900;
         display: flex;
         flex-direction: row;
@@ -32,8 +23,10 @@
         justify-content: center;
         gap:105px;
         font-size: 25px;
-        font-style: Oblique;
-        position: relative;
+        font-style: oblique;
+        border-top:10px solid #FCB900;
+        bottom: 0;
+        position: fixed;
 
     }
 
