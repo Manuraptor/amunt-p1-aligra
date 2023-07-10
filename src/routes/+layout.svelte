@@ -4,7 +4,6 @@
     import '/src/global.css'
 
 </script>
-<Navbar />
-
-<slot />
+<Navbar/>
+<slot/>
 <Footer/>
