@@ -26,7 +26,7 @@
         font-style: oblique;
         border-top:10px solid #FCB900;
         bottom: 0;
-        position: fixed;
+        position: relative;
 
     }
 

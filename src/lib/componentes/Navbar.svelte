@@ -20,7 +20,7 @@
         <span>&#9776;</span>
     </div>
     <ul>
-        <li><img src="src/lib/imagenes/Logo/2.png" alt="Logotipo"></li>
+        <li><img src="src/lib/imagenes/Logo/Aligra%20-%20copia.png" alt="Logotipo"></li>
         <li>
             <a href="/">Aligra</a>
         </li>
