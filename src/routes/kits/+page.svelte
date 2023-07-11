@@ -9,7 +9,7 @@
 
 <section>
 
-    <h1>Parts que componen el sistema Aligra</h1>
+    <h1>Parts que componen el sistema <span>Aligra</span></h1>
     <div class="articulos">
 
         <img src={ImgKit1} alt="kits">
@@ -61,7 +61,7 @@
 
 <style>
     h1{
-        font-size: 40gitpx;
+        font-size: 40px;
     }
 
     .articulos {
