@@ -2,7 +2,7 @@
     import '/src/global.css'
     import Foto1 from "$lib/imagenes/Caracteristiques/d18.jpg"
     import Foto2 from "$lib/imagenes/Caracteristiques/d21.jpg"
-    import Foto3 from "$lib/imagenes/Caracteristiques/f11.jpg"
+    import Foto3 from "$lib/imagenes/Caracteristiques/foto3carateristiques.jpg"
     import Rectangle29 from "$lib/imagenes/Caracteristiques/Rectangle29.jpg"
     import Rectangle27 from "$lib/imagenes/Caracteristiques/Rectangle27.jpg"
     import Rectangle18 from "$lib/imagenes/Caracteristiques/Rectangle18.jpg"
@@ -117,11 +117,13 @@
     .contenedormediano {
         display: flex;
         flex-direction: row;
+        margin-top: 80px;
     }
 
     .contenedormediano2 {
         display: flex;
         flex-direction: column;
+        gap: 50px;
     }
 
     .contenedormediano3 {
@@ -131,6 +133,7 @@
         align-items: center;
         height: 100px;
         width:725px;
+
     }
 
 </style>
