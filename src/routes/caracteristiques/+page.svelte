@@ -1,124 +1,74 @@
 <script>
     import '/src/global.css'
+    import Foto1 from "$lib/imagenes/Caracteristiques/d18.jpg"
+    import Foto2 from "$lib/imagenes/Caracteristiques/d21.jpg"
+    import Foto3 from "$lib/imagenes/Caracteristiques/f11.jpg"
+    import Rectangle29 from "$lib/imagenes/Caracteristiques/Rectangle29.jpg"
+    import Rectangle27 from "$lib/imagenes/Caracteristiques/Rectangle27.jpg"
+    import Rectangle18 from "$lib/imagenes/Caracteristiques/Rectangle18.jpg"
+    import Rectangle19 from "$lib/imagenes/Caracteristiques/Rectangle19.jpg"
+    import Rectangle14 from "$lib/imagenes/Caracteristiques/Rectangle14.jpg"
+    import Rectangle15 from "$lib/imagenes/Caracteristiques/Rectangle15.jpg"
+
 </script>
+
 
 <section>
     <article>
         <p> Aligra està concebut per adaptar-se a una gran diversitat de situacions,
             tant a escala arquitectònica com a nivell de paisatge urbà.</p>
-        <h3>Les principals característiques del sistema Aligra són les següents:</h3><script>
-            import '/src/global.css'
-        </script>
-
-            <section>
-                <article>
-                    <p> Aligra està concebut per adaptar-se a una gran diversitat de situacions,
-                        tant a escala arquitectònica com a nivell de paisatge urbà.</p>
-                    <h3>Les principals característiques del sistema Aligra són les següents:</h3>
-                </article>
-                <div class="contenedormediano">
-                    <div class="contenedormediano2">
-                        <div class="contenedormediano3">
-                            <img class="square" src="src/lib/imagenes/Caracteristiques/Rectangle 29.jpg"/>
-                            <div>Aqui van 1 cuadrado y 1 parrafo</div>
-                        </div>
-                        <div class="containermediano2">
-                            <img class="square" src="src/lib/imagenes/Caracteristiques/Rectangle 27.jpg"/>
-                            <div>Aqui van 1 cuadrado y 1 parrafo</div>
-                        </div>
-                    </div>
-                    <img src="src/lib/imagenes/Caracteristiques/d1 8.jpg"/>
-                </div>
-
-                <div class="contenedormediano">
-                    <div class="contenedormediano2">
-                        <div class="contenedormediano3">
-                            <div class="image"><img src="src/lib/imagenes/Caracteristiques/d2 1.jpg"/></div>
-                            <div>Aqui van 1 cuadrado y 1 parrafo</div>
-                            <img class="square" src="src/lib/imagenes/Caracteristiques/Rectangle 18.jpg"/>
-                        </div>
-                        <div class="contenedormediano2">
-                            <div>Aqui van 1 cuadrado y 1 parrafo</div>
-                            <img class="square" src="src/lib/imagenes/Caracteristiques/Rectangle 19.jpg" alt="decoración cuadrado"/>
-                        </div>
-                    </div>
-                </div>
-                <div class="contenedormediano">
-                    <div class="contenedormediano2">
-                        <div class="contenedormediano3">
-                            <img class="square" src="src/lib/imagenes/Caracteristiques/Rectangle 14.jpg" alt="decoración cuadrado"/>
-                            <div>Aqui van 1 cuadrado y 1 parrafo</div>
-                            <div class="image"><img src="src/lib/imagenes/Caracteristiques/f1 1.jpg"/></div>
-
-                        </div>
-                        <div class="contenedormediano3">
-                            <img class="square" src="src/lib/imagenes/Caracteristiques/Rectangle 15.jpg" alt="decoración cuadrado"/>
-                            <div>Aqui van 1 cuadrado y 1 parrafo</div>
-                        </div>
-                    </div>
-                </div>
-
-            </section>
-
-            <style>
-
-                .contenedormediano {
-                    display: flex;
-                    flex-direction: row;
-                }
-
-                .contenedormediano2 {
-                    display: flex;
-                    flex-direction: column;
-                }
-
-                .contenedormediano3 {
-                    display: flex;
-                    flex-direction: row;
-                }
-
-            </style>3>
+        <h3>Les principals característiques del sistema Aligra són les següents:</h3>
     </article>
     <div class="contenedormediano">
         <div class="contenedormediano2">
             <div class="contenedormediano3">
-                <img class="square" src="src/lib/imagenes/Caracteristiques/Rectangle 29.jpg"/>
+                <img class="square" src={Rectangle29}
+                     alt="decoración cuadrado"/>
                 <div>Aqui van 1 cuadrado y 1 parrafo</div>
             </div>
-            <div class="containermediano2">
-                <img class="square" src="src/lib/imagenes/Caracteristiques/Rectangle 27.jpg"/>
+            <div class="contenedormediano3">
+                <img class="square" src={Rectangle27}
+                     alt="decoración cuadrado"/>
                 <div>Aqui van 1 cuadrado y 1 parrafo</div>
             </div>
         </div>
-        <img src="src/lib/imagenes/Caracteristiques/d1 8.jpg"/>
+        <img src={Foto2} alt="foto"/>
     </div>
 
     <div class="contenedormediano">
+        <img src={Foto1}
+             alt="foto"/>
         <div class="contenedormediano2">
             <div class="contenedormediano3">
-                <div class="image"><img src="src/lib/imagenes/Caracteristiques/d2 1.jpg"/></div>
+
                 <div>Aqui van 1 cuadrado y 1 parrafo</div>
-                <img class="square" src="src/lib/imagenes/Caracteristiques/Rectangle 18.jpg"/>
+                <img class="square" src={Rectangle18}
+                     alt="decoración cuadrado"/>
             </div>
-            <div class="contenedormediano2">
+            <div class="contenedormediano3">
                 <div>Aqui van 1 cuadrado y 1 parrafo</div>
-                <img class="square" src="src/lib/imagenes/Caracteristiques/Rectangle 19.jpg" alt="decoración cuadrado"/>
+                <img class="square" src={Rectangle19}
+                     alt="decoración cuadrado"/>
             </div>
         </div>
     </div>
     <div class="contenedormediano">
         <div class="contenedormediano2">
             <div class="contenedormediano3">
-                <img class="square" src="src/lib/imagenes/Caracteristiques/Rectangle 14.jpg" alt="decoración cuadrado"/>
+                <img class="square" src={Rectangle14}
+                     alt="decoración cuadrado"/>
                 <div>Aqui van 1 cuadrado y 1 parrafo</div>
-                <div class="image"><img src="src/lib/imagenes/Caracteristiques/f1 1.jpg"/></div>
+
 
             </div>
             <div class="contenedormediano3">
-                <img class="square" src="src/lib/imagenes/Caracteristiques/Rectangle 15.jpg" alt="decoración cuadrado"/>
+                <img class="square" src={Rectangle15}
+                     alt="decoración cuadrado"/>
                 <div>Aqui van 1 cuadrado y 1 parrafo</div>
             </div>
         </div>
+        <img src={Foto3}
+             alt="foto"/>
     </div>
 
 </section>
@@ -141,3 +91,5 @@
     }
 
 </style>
+
+
