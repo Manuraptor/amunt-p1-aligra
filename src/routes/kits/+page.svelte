@@ -9,7 +9,7 @@
 
 <section>
 
-    <h1>Parts que componen el sistema Aligra</h1>
+    <h1>Parts que componen el sistema <span>Aligra</span></h1>
     <div class="articulos">
 
         <img src={ImgKit1} alt="kits">
@@ -79,6 +79,11 @@
         padding: 20px 20px;
         width: 700px;
 
+    }
+    span{
+        font-family: Impact;
+        letter-spacing: 1px;
+        font-weight: lighter;
     }
 
 
