@@ -80,6 +80,11 @@
         width: 700px;
 
     }
+    span{
+        font-family: Impact;
+        letter-spacing: 1px;
+        font-weight: lighter;
+    }
 
 
 

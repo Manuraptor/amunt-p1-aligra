@@ -2,7 +2,8 @@
 <script>
     import imgLogo from "$lib/imagenes/Logo/AligraLogo.png"
     import '/src/global.css'
-    import { onMount } from 'svelte';
+    import {onMount} from "svelte";
+    /*import { onMount } from 'svelte';
 
     let sidebarActive = false;
 
@@ -13,6 +14,20 @@
     onMount(() => {
         const btnToggle = document.querySelector('.toggle-btn');
         btnToggle.addEventListener('click', toggleSidebar);
+    });*/
+    let sidebarActive = false;
+
+    function toggleSidebar() {
+        sidebarActive = !sidebarActive;
+    }
+
+    onMount(() => {
+        const btnToggle = document.querySelector(".toggle-btn");
+        const header = document.querySelector("header");
+        btnToggle.addEventListener("click", () => {
+            toggleSidebar();
+            header.classList.toggle("shifted");
+        });
     });
 </script>
 
