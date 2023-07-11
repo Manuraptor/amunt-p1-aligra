@@ -14,7 +14,7 @@
 
     div {
         width: 100%;
-        height: 150px;
+        height: 100px;
         background-color: black;
         color: #FCB900;
         display: flex;
@@ -24,7 +24,7 @@
         gap:105px;
         font-size: 25px;
         font-style: oblique;
-        border-top:10px solid #FCB900;
+        border-top:20px solid #FCB900;
         bottom: 0;
         position: relative;
 
