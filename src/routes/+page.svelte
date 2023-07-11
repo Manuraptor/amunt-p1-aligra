@@ -2,17 +2,20 @@
     import imgPortada from "$lib/imagenes/Portada/Repte urbà_Aligra_2.jpg"
 
 </script>
-
+    <main>
     <img src={imgPortada} alt="portada">
     <h2>Projecte Aligra</h2>
     <h3>UNA SOLUCIÓ ALTERNATIVA D'ACCÉS A L'HABITATGE PÚBLIC</h3>
 
-
+</main>
 
 <style>
+    main{
+        overflow: hidden;
+    }
     img{
         width:100%;
-        height:600px;
+        height:641px;
         border-bottom: 20px solid rgba(252, 185, 0, 1);
     }
     h2{
