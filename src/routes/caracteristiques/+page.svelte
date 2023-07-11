@@ -6,7 +6,7 @@
     <article>
         <p> Aligra està concebut per adaptar-se a una gran diversitat de situacions,
             tant a escala arquitectònica com a nivell de paisatge urbà.</p>
-        <h3>Les principals característiques del sistema Aligra són les següents:</h<script>
+        <h3>Les principals característiques del sistema Aligra són les següents:</h3><script>
             import '/src/global.css'
         </script>
 
