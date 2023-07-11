@@ -26,6 +26,9 @@
             <a href="/">Aligra</a>
         </li>
         <li>
+            <a href="/què-és?">Què és?</a>
+        </li>
+        <li>
             <a href="/caracteristiques">Caracteristiques</a>
         </li>
         <li>
