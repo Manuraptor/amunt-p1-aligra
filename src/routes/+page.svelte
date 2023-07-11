@@ -50,12 +50,12 @@
     }
     h2{
         width: 486px;
-        color: rgba(252,185,0,1);
+       color: rgba(252,185,0,1);
         position: absolute;
         top: 35px;
         left: 200px;
         font-weight: Bold;
-        font-size: 35px;
+        font-size: 30px;
         opacity: 1;
         text-align: center;
         text-decoration: none;
@@ -65,7 +65,7 @@
         width: 780px;
         color: rgba(252,185,0,1);
         position: absolute;
-        top: 520px;
+        top: 525px;
         left: 420px;
         font-weight:bold;
         font-style: italic;

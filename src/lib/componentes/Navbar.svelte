@@ -1,5 +1,6 @@
 
 <script>
+    import imgLogo from "$lib/imagenes/Logo/AligraLogo.png"
     import '/src/global.css'
     import { onMount } from 'svelte';
 
@@ -20,7 +21,7 @@
         <span>&#9776;</span>
     </div>
     <ul>
-        <li><img src="src/lib/imagenes/Logo/Aligra%20-%20copia.png" alt="Logotipo"></li>
+        <li><img src={imgLogo} alt="Logotipo"></li>
         <li>
             <a href="/">Aligra</a>
         </li>
