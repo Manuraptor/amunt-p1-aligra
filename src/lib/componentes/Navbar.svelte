@@ -3,18 +3,6 @@
     import imgLogo from "$lib/imagenes/Logo/AligraLogo.png"
     import '/src/global.css'
     import {onMount} from "svelte";
-    /*import { onMount } from 'svelte';
-
-    let sidebarActive = false;
-
-    function toggleSidebar() {
-        sidebarActive = !sidebarActive;
-    }
-
-    onMount(() => {
-        const btnToggle = document.querySelector('.toggle-btn');
-        btnToggle.addEventListener('click', toggleSidebar);
-    });*/
     let sidebarActive = false;
 
     function toggleSidebar() {
@@ -58,7 +46,7 @@
 <style>
     #sidebar {
         position: fixed;
-        width: 200px;
+        width: 205px;
         height: 100%;
         background: #FCB900;
         left: -200px;
