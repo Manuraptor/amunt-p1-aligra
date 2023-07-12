@@ -9,20 +9,22 @@
     import Rectangle19 from "$lib/imagenes/Caracteristiques/Rectangle19.jpg"
     import Rectangle14 from "$lib/imagenes/Caracteristiques/Rectangle14.jpg"
     import Rectangle15 from "$lib/imagenes/Caracteristiques/Rectangle15.jpg"
+    /* import Tarjeta from "$routes/caracteristiques/Tarjeta.svelte"*/
 
 </script>
 
 
+<article>
+
+    <p>Aligra està concebut per adaptar-se a una gran diversitat de situacions,</p>
+    <p>tant a escala arquitectònica com a nivell de paisatge urbà.</p>
+
+
+    <h3>Les principals característiques del sistema Aligra són les següents:</h3>
+
+</article>
+<!-- <Tarjeta/> -->
 <section>
-    <article>
-        <div>
-             Aligra està concebut per adaptar-se a una gran diversitat de situacions,
-                tant a escala arquitectònica com a nivell de paisatge urbà.</div>
-
-        <div>
-            <h3>Les principals característiques del sistema Aligra són les següents:</h3></div>
-
-    </article>
     <div class="contenedorgrupo">
         <div class="contenedor2cuadrados">
             <div class="cuadradoytexto">
@@ -50,7 +52,8 @@
         </div>
         <img src={Foto2} alt="foto"/>
     </div>
-
+</section>
+<section>
     <div class="contenedorgrupo">
         <img src={Foto1}
              alt="foto"/>
@@ -81,6 +84,8 @@
             </div>
         </div>
     </div>
+</section>
+<section>
     <div class="contenedorgrupo">
         <div class="contenedor2cuadrados">
             <div class="cuadradoytexto">
@@ -124,12 +129,15 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        padding-top: 150px;
     }
 
     section {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
 
-        width: 1200px;
-        height: 1400px;
     }
 
     .contenedortexto {
@@ -144,7 +152,7 @@
     .contenedorgrupo {
         display: flex;
         flex-direction: row;
-        margin-top: 80px;
+        margin-top: 50px;
     }
 
     .contenedor2cuadrados {
@@ -160,13 +168,19 @@
         align-items: center;
         height: 100px;
         width: 725px;
+        font-size: 20px;
     }
 
-    p{
+    p {
+        display: flex;
         font-size: 32px;
-
+        justify-content: center;
     }
 
+        h3{
+            margin-top: 30px;
+
+        }
 </style>
 
 
