@@ -136,7 +136,6 @@
         display: flex;
         justify-content: center;
         margin-top: 160px;
-        margin-left: 80px;
 
     }
 
