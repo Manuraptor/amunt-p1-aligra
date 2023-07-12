@@ -16,11 +16,11 @@
 
 <article>
 
-    <p>Aligra està concebut per adaptar-se a una gran diversitat de situacions,</p>
+    <p><span>Aligra</span> &nbsp està concebut per adaptar-se a una gran diversitat de situacions,</p>
     <p>tant a escala arquitectònica com a nivell de paisatge urbà.</p>
 
 
-    <h3>Les principals característiques del sistema Aligra són les següents:</h3>
+    <h3>Les principals característiques del sistema <span>Aligra</span> són les següents:</h3>
 
 </article>
 <!-- <Tarjeta/> -->
@@ -28,7 +28,7 @@
     <div class="contenedorgrupo">
         <div class="contenedor2cuadrados">
             <div class="cuadradoytexto">
-                <img class="square" src={Rectangle29}
+                <img src={Rectangle29}
                      alt="decoración cuadrado"/>
                 <div class="contenedortexto">
                     -Economia de mitjans.
@@ -39,14 +39,14 @@
                 </div>
             </div>
             <div class="cuadradoytexto">
-                <img class="square" src={Rectangle27}
+                <img  src={Rectangle27}
                      alt="decoración cuadrado"/>
                 <div class="contenedortexto">-
                     Modularitat.
 
-                    Dimensionalment, tant la part física de Aligra com els seus sistemes
-                    de serveis es basen rigorosament en modulatges compatibles amb els
-                    estàndars industrials i tecnològics més universals.
+                    Dimensionalment, tant la part física com els seus sistemes de serveis
+                    es basen rigorosament en modulatges compatibles amb els estàndars industrials
+                    i tecnològics més universals.
                 </div>
             </div>
         </div>
@@ -67,7 +67,7 @@
                     amb l’ús d’unions reversibles i accessibles, facilita
                     notablement el seu muntatge i desmuntatge.
                 </div>
-                <img class="square" src={Rectangle18}
+                <img src={Rectangle18}
                      alt="decoración cuadrado"/>
             </div>
             <div class="cuadradoytexto">
@@ -79,7 +79,7 @@
                     processos de muntatge i desmuntatge en matèria de
                     seguretat, inclusivitat i estalvi energètic.
                 </div>
-                <img class="square" src={Rectangle19}
+                <img src={Rectangle19}
                      alt="decoración cuadrado"/>
             </div>
         </div>
@@ -89,7 +89,7 @@
     <div class="contenedorgrupo">
         <div class="contenedor2cuadrados">
             <div class="cuadradoytexto">
-                <img class="square" src={Rectangle14}
+                <img src={Rectangle14}
                      alt="decoración cuadrado"/>
                 <div class="contenedortexto">
                     -Materials ecològics.
@@ -102,7 +102,7 @@
 
             </div>
             <div class="cuadradoytexto">
-                <img class="square" src={Rectangle15}
+                <img src={Rectangle15}
                      alt="decoración cuadrado"/>
                 <div class="contenedortexto">
                     -Flexibilitat.
@@ -125,7 +125,6 @@
         display: flex;
         width: 100%;
         height: 100px;
-        color: red;
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -136,14 +135,15 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        margin-top: 80px;
+        margin-top: 160px;
+        margin-left: 80px;
 
     }
 
     .contenedortexto {
 
         height: 100px;
-        width: 565px;
+        width: 730px;
         display: flex;
         align-items: center;
 
@@ -152,7 +152,6 @@
     .contenedorgrupo {
         display: flex;
         flex-direction: row;
-        margin-top: 50px;
     }
 
     .contenedor2cuadrados {
@@ -167,20 +166,34 @@
         justify-content: space-around;
         align-items: center;
         height: 100px;
-        width: 725px;
+        width: 900px;
         font-size: 20px;
+        font-style: oblique;
     }
 
     p {
         display: flex;
-        font-size: 32px;
+        font-size: 36px;
         justify-content: center;
+        font-style: italic;
+        font-family: "Ubuntu Condensed";
+
     }
 
         h3{
             margin-top: 30px;
-
+            font-style: initial;
+            font-family: "Ubuntu Condensed";
+            font-size: 24px;
+            font-weight: lighter;
         }
+    span {
+        font-family: Impact;
+        letter-spacing: 1px;
+        font-weight: lighter;
+        color: #FCB900;
+    }
+
 </style>
 
 
