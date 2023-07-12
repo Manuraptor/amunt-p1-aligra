@@ -6,7 +6,7 @@
      import  ImgKit5  from "$lib/imagenes/kits/ImgKit5.jpg";
      import '/src/global.css'
 </script>
-
+<main>
 <section>
 
     <h1>Parts que componen el sistema <span>Aligra</span></h1>
@@ -58,16 +58,17 @@
     </div>
 
 </section>
+</main>
 
 <style>
-    div {
-        margin-left: 200px;
-        padding: 20px;
+    main{
+        margin-left: 160px;
     }
+
     h1{
         text-align: center;
         font-size: 40px;
-        margin-top: 50px;
+        padding-top: 50px;
         height: 50px;
         padding: 60px;
         right: 40px;
@@ -77,8 +78,6 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr) ;
         margin: 50px 50px;
-
-
     }
 
     img {
@@ -96,9 +95,6 @@
         letter-spacing: 1px;
         font-weight: lighter;
     }
-
-
-
 
 </style>
 
