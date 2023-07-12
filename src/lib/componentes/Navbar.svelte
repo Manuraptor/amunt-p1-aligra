@@ -29,7 +29,7 @@
             <a href="/">Aligra</a>
         </li>
         <li>
-            <a href="/què-és?">Què és?</a>
+            <a href="/Aligra">Què és?</a>
         </li>
         <li>
             <a href="/caracteristiques">Caracteristiques</a>

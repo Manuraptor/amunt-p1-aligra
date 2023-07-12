@@ -8,9 +8,14 @@
     function toggleOverlay() {
         overlayActive = !overlayActive;
     }
+
+    let handleKeyPress;
 </script>
 <main>
-    <img src={imgPortada} alt="portada" on:click={toggleOverlay} />
+   <!-- <img src={imgPortada} alt="portada" on:click={toggleOverlay} />-->
+    <button on:click={toggleOverlay} on:keydown={handleKeyPress}>
+        <img src={imgPortada} alt="portada">
+    </button>
     <header class:shifted={sidebarActive}>
         <h2 class="portada-heading">Projecte Aligra</h2>
         <h3 class="portada-heading">UNA SOLUCIÓ ALTERNATIVA D'ACCÉS A L'HABITATGE PÚBLIC</h3>
@@ -24,6 +29,13 @@
 <style>
     main {
         overflow: hidden;
+    }
+    button {
+        width: 100%;
+        background: none;
+        border: none;
+        padding: 0;
+        cursor: pointer;
     }
 
     img {
