@@ -2,31 +2,16 @@
 <script>
     import imgLogo from "$lib/imagenes/Logo/AligraLogo.png"
     import '/src/global.css'
-    import {onMount} from "svelte";
-    let sidebarActive = false;
 
-    function toggleSidebar() {
-        sidebarActive = !sidebarActive;
-    }
 
-    onMount(() => {
-        const btnToggle = document.querySelector(".toggle-btn");
-        const header = document.querySelector("header");
-        btnToggle.addEventListener("click", () => {
-            toggleSidebar();
-            header.classList.toggle("shifted");
-        });
-    });
+
 </script>
+<nav>
 
-<div id="sidebar" class:active={sidebarActive}>
-    <div class="toggle-btn">
-        <span>&#9776;</span>
-    </div>
     <ul>
         <li><img src={imgLogo} alt="Logotipo"></li>
         <li>
-            <a href="/">Aligra</a>
+            <a href="/"><span>Aligra</span></a>
         </li>
         <li>
             <a href="/Aligra">Què és?</a>
@@ -41,36 +26,44 @@
             <a href="/colaboradors">Colaboradors</a>
         </li>
     </ul>
-</div>
+</nav>
+
 
 <style>
-    #sidebar {
-        position: fixed;
-        width: 205px;
+   nav {
+        position: absolute;
+        width: 225px;
         height: 100%;
         background: #FCB900;
-        left: -200px;
-        transition: left 0.3s ease;
+        left: -13%;
+        transition: 0.4s linear;
+
     }
 
-    #sidebar.active {
+    nav:hover {
         left: 0;
     }
 
-    #sidebar ul li {
+    nav ul li {
+        list-style: none;
         text-align: center;
         padding: 15px 10px;
-        border-bottom: 1px solid rgba(100, 100, 100, 0.3);
+        border-bottom: 1px solid rgba(100, 100, 100, 0.2);
     }
 
-    #sidebar ul li a {
+
+    nav ul li a {
         color: black;
         text-decoration: none;
-        font-style: oblique;
-        font-size: 25px;
+        font-style: normal;
+        font-size: 22px;
+
     }
-    #sidebar ul li a:hover{
+    nav ul li a:hover{
         font-weight: bold;
+         background: yellow;
+        padding: 10px 20px;
+
     }
 
     img {
@@ -78,20 +71,15 @@
         width: 50px;
         border-radius: 50%;
     }
-
-    .toggle-btn {
-        background-color: #FCB900;
-        position: absolute;
-        left: 230px;
-        cursor: pointer;
-        top: 20px;
-        border-radius: 50%;
+    span{
+        font-family: Impact;
+        font-weight: normal;
+        letter-spacing: 1px;
+        font-size: 22px;
+    }
+    span:hover{
+        font-size: 25px;
     }
 
-    span {
-        display: block;
-        width: 40px;
-        text-align: center;
-        font-size: 30px;
-    }
+
 </style>
