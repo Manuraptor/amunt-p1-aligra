@@ -62,6 +62,10 @@
 <style>
     h1{
         font-size: 40px;
+        margin-top: 50px;
+        height: 50px;
+        padding: 60px;
+        right: 40px;
     }
 
     .articulos {
