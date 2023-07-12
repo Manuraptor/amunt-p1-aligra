@@ -15,23 +15,28 @@
 
 <section>
     <article>
-        <p> Aligra està concebut per adaptar-se a una gran diversitat de situacions,
-            tant a escala arquitectònica com a nivell de paisatge urbà.</p>
-        <h3>Les principals característiques del sistema Aligra són les següents:</h3>
+        <div>
+             Aligra està concebut per adaptar-se a una gran diversitat de situacions,
+                tant a escala arquitectònica com a nivell de paisatge urbà.</div>
+
+        <div>
+            <h3>Les principals característiques del sistema Aligra són les següents:</h3></div>
+
     </article>
-    <div class="contenedormediano">
-        <div class="contenedormediano2">
-            <div class="contenedormediano3">
+    <div class="contenedorgrupo">
+        <div class="contenedor2cuadrados">
+            <div class="cuadradoytexto">
                 <img class="square" src={Rectangle29}
                      alt="decoración cuadrado"/>
                 <div class="contenedortexto">
-                      -Economia de mitjans.
+                    -Economia de mitjans.
 
-                       El sistema multicapa, concebut de manera que cada estrat
-                       compleix alhora diverses funcions, ofereix el màxim rendiment
-                       dels materials.</div>
+                    El sistema multicapa, concebut de manera que cada estrat
+                    compleix alhora diverses funcions, ofereix el màxim rendiment
+                    dels materials.
+                </div>
             </div>
-            <div class="contenedormediano3">
+            <div class="cuadradoytexto">
                 <img class="square" src={Rectangle27}
                      alt="decoración cuadrado"/>
                 <div class="contenedortexto">-
@@ -46,11 +51,11 @@
         <img src={Foto2} alt="foto"/>
     </div>
 
-    <div class="contenedormediano">
+    <div class="contenedorgrupo">
         <img src={Foto1}
              alt="foto"/>
-        <div class="contenedormediano2">
-            <div class="contenedormediano3">
+        <div class="contenedor2cuadrados">
+            <div class="cuadradoytexto">
 
                 <div class="contenedortexto">
                     -Facilitat de muntatge.
@@ -62,7 +67,7 @@
                 <img class="square" src={Rectangle18}
                      alt="decoración cuadrado"/>
             </div>
-            <div class="contenedormediano3">
+            <div class="cuadradoytexto">
                 <div class="contenedortexto">
                     -Lleugeresa.
 
@@ -76,9 +81,9 @@
             </div>
         </div>
     </div>
-    <div class="contenedormediano">
-        <div class="contenedormediano2">
-            <div class="contenedormediano3">
+    <div class="contenedorgrupo">
+        <div class="contenedor2cuadrados">
+            <div class="cuadradoytexto">
                 <img class="square" src={Rectangle14}
                      alt="decoración cuadrado"/>
                 <div class="contenedortexto">
@@ -91,7 +96,7 @@
 
 
             </div>
-            <div class="contenedormediano3">
+            <div class="cuadradoytexto">
                 <img class="square" src={Rectangle15}
                      alt="decoración cuadrado"/>
                 <div class="contenedortexto">
@@ -111,39 +116,54 @@
 
 <style>
 
+    article {
+        display: flex;
+        width: 100%;
+        height: 100px;
+        color: red;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
     section {
 
-        width:1200px;
+        width: 1200px;
         height: 1400px;
     }
 
-        .contenedortexto{
+    .contenedortexto {
 
-            height: 100px;
-            width: 565px;
-            display: flex;
-            align-items: center;
+        height: 100px;
+        width: 565px;
+        display: flex;
+        align-items: center;
 
-        }
-    .contenedormediano {
+    }
+
+    .contenedorgrupo {
         display: flex;
         flex-direction: row;
         margin-top: 80px;
     }
 
-    .contenedormediano2 {
+    .contenedor2cuadrados {
         display: flex;
         flex-direction: column;
         gap: 50px;
     }
 
-    .contenedormediano3 {
+    .cuadradoytexto {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
         height: 100px;
-        width:725px;
+        width: 725px;
+    }
+
+    p{
+        font-size: 32px;
 
     }
 
