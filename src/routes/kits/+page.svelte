@@ -13,13 +13,13 @@
     <div class="articulos">
 
         <img src={ImgKit1} alt="kits">
-        <p>· Kit 1: d’ampliació de volum<br>
-              · Modularitat adaptable. Es tracta d'un sistema modular bidimensional, lleuger i en sec,<br>
-                desmuntable i reutilitzable, basat principalment en fusta microlaminada. La modulació <br>
-                proposada permet resoldre fàcilment diverses mides d'ampliació.<br>
-              · Economia material. El sistema es diferencia d'altres solucions basades en fusta per la<br>
-                reducció de l’ús de material, en un exercici d'optimització radical dels recursos mitjançant<br>
-                l'aprofitament de les tècniques més avançades de la indústria de la fusta.<br>
+        <p>Kit 1: d’ampliació de volum
+               Modularitat adaptable. Es tracta d'un sistema modular bidimensional, lleuger i en sec,
+                desmuntable i reutilitzable, basat principalment en fusta microlaminada. La modulació
+                proposada permet resoldre fàcilment diverses mides d'ampliació.
+               Economia material. El sistema es diferencia d'altres solucions basades en fusta per la
+                reducció de l’ús de material, en un exercici d'optimització radical dels recursos mitjançant
+                l'aprofitament de les tècniques més avançades de la indústria de la fusta.
         </p>
 
 
@@ -60,7 +60,12 @@
 </section>
 
 <style>
+    div {
+        margin-left: 200px;
+        padding: 20px;
+    }
     h1{
+        text-align: center;
         font-size: 40px;
         margin-top: 50px;
         height: 50px;
@@ -75,11 +80,13 @@
 
 
     }
+
     img {
         width: 700px;
         height: 350px;
     }
     p{
+        margin: 50px;
         padding: 20px 20px;
         width: 700px;
 
@@ -89,6 +96,7 @@
         letter-spacing: 1px;
         font-weight: lighter;
     }
+
 
 
 
