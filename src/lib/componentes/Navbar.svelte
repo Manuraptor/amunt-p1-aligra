@@ -36,11 +36,10 @@
         position: absolute;
         width: 225px;
         height: 100%;
-<<<<<<< HEAD
+
         background: #131111;
-=======
-        background: black;
->>>>>>> 8fdd159cdc637b74e2ddc12dd15b254245ceaa35
+
+
         left: -13%;
         transition: 0.4s linear;
 
