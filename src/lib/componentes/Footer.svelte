@@ -23,7 +23,7 @@
         justify-content: center;
         gap:105px;
         font-size: 25px;
-        font-style: oblique;
+
         border-top:20px solid #FCB900;
         bottom: 0;
         position: relative;

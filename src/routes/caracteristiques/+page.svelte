@@ -13,8 +13,8 @@
 
 </script>
 
-
-<article>
+<main>
+    <article>
 
     <p><span>Aligra</span> &nbsp està concebut per adaptar-se a una gran diversitat de situacions,</p>
     <p>tant a escala arquitectònica com a nivell de paisatge urbà.</p>
@@ -118,8 +118,15 @@
     </div>
 
 </section>
-
+</main>
 <style>
+
+
+    main {
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+    }
 
     article {
         display: flex;
@@ -167,22 +174,18 @@
         height: 100px;
         width: 900px;
         font-size: 20px;
-        font-style: oblique;
     }
 
     p {
         display: flex;
         font-size: 36px;
         justify-content: center;
-        font-style: italic;
-        font-family: "Ubuntu Condensed";
 
     }
 
         h3{
             margin-top: 30px;
             font-style: initial;
-            font-family: "Ubuntu Condensed";
             font-size: 24px;
             font-weight: lighter;
         }
