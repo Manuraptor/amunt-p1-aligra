@@ -195,6 +195,7 @@
         letter-spacing: 1px;
         font-weight: lighter;
         color: #FFF455;
+        text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
     }
 
 </style>
