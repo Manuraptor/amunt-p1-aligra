@@ -1,12 +1,7 @@
-
 <script>
     import imgLogo from "$lib/imagenes/Logo/AligraLogo.png"
     import '/src/global.css'
-    import imgFavicon from "$lib/imagenes/Logo/favicon-navbar.png"
-
-
-
-
+    import imgFavicon from "$lib/imagenes/Logo/menu (1).png"
 </script>
 <nav>
 
@@ -39,7 +34,7 @@
 
 
 <style>
-   nav {
+    nav {
         position: relative;
         align-items: center;
         width: 225px;
@@ -69,7 +64,8 @@
         font-size: 22px;
 
     }
-    nav ul li a:hover{
+
+    nav ul li a:hover {
         font-weight: bold;
         /* background: #DAA600;*/
         background: #FFD700;
@@ -79,19 +75,22 @@
     }
 
     .logo {
-        height: 50px;
-        width: 50px;
+        height: 60px;
+        width: 60px;
         border-radius: 50%;
     }
-   div{
-       margin-left: 220px;
-       background: #FFF455;
-   }
-   .favicon {
-       height: 50px;
-       width: 50px;
-   }
 
+    div {
+        margin-left: 220px;
+        background: #FFF455;
+    }
+
+    .favicon {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+       /* background: #FFF455;*/
+    }
 
 
 </style>
