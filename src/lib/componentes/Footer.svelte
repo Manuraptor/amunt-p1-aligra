@@ -24,7 +24,7 @@
         gap:105px;
         font-size: 25px;
 
-        border-top:20px solid #FFF455;
+        border-top:10px solid #FFF455;
         bottom: 0;
         position: relative;
 

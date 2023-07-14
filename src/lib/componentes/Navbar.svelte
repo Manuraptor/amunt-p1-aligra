@@ -82,14 +82,14 @@
 
     div {
         margin-left: 220px;
-        background: #FFF455;
+        background: black;
     }
 
     .favicon {
         height: 40px;
         width: 40px;
         border-radius: 50%;
-       /* background: #FFF455;*/
+       background: rgba(141, 170, 204, 0.7);
     }
 
 
