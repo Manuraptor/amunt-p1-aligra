@@ -9,10 +9,12 @@
 <nav>
 
     <ul>
-        <li><img src={imgLogo} alt="Logotipo"></li>
         <li>
-            <a href="/"><span>Aligra</span></a>
+            <a href="/" aria-label="Inicio">
+                <img src={imgLogo} alt="Logotipo">
+            </a>
         </li>
+
         <li>
             <a href="/Aligra">Què és?</a>
         </li>
@@ -34,7 +36,7 @@
         position: absolute;
         width: 225px;
         height: 100%;
-        background: #FCB900;
+        background: black;
         left: -13%;
         transition: 0.4s linear;
 
@@ -53,7 +55,7 @@
 
 
     nav ul li a {
-        color: black;
+        color: #FFF455;
         text-decoration: none;
         font-style: normal;
         font-size: 22px;
@@ -61,7 +63,9 @@
     }
     nav ul li a:hover{
         font-weight: bold;
-         background: yellow;
+        /* background: #DAA600;*/
+        background: #FFD700;
+        color: white;
         padding: 10px 20px;
 
     }
@@ -71,15 +75,7 @@
         width: 50px;
         border-radius: 50%;
     }
-    span{
-        font-family: Impact;
-        font-weight: normal;
-        letter-spacing: 1px;
-        font-size: 22px;
-    }
-    span:hover{
-        font-size: 25px;
-    }
+
 
 
 </style>
