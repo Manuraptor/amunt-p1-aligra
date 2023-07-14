@@ -2,16 +2,20 @@
 <script>
     import imgLogo from "$lib/imagenes/Logo/AligraLogo.png"
     import '/src/global.css'
+    import imgFavicon from "$lib/imagenes/Logo/favicon-navbar.png"
+
 
 
 
 </script>
 <nav>
-
+   <!-- <div>
+        <img src={imgFavicon} alt="Favicon" class="favicon">
+    </div>-->
     <ul>
         <li>
             <a href="/" aria-label="Inicio">
-                <img src={imgLogo} alt="Logotipo">
+                <img src={imgLogo} alt="LogotipoAligra" class="logo">
             </a>
         </li>
 
@@ -27,19 +31,22 @@
         <li>
             <a href="/colaboradors">Colaboradors</a>
         </li>
+
+
     </ul>
+    <div>
+        <img src={imgFavicon} alt="Favicon" class="favicon">
+    </div>
 </nav>
 
 
 <style>
    nav {
         position: absolute;
+        align-items: center;
         width: 225px;
         height: 100%;
-
         background: #131111;
-
-
         left: -13%;
         transition: 0.4s linear;
 
@@ -73,11 +80,19 @@
 
     }
 
-    img {
+    .logo {
         height: 50px;
         width: 50px;
         border-radius: 50%;
     }
+   div{
+       margin-left: 220px;
+       background: #FFF455;
+   }
+   .favicon {
+       height: 50px;
+       width: 50px;
+   }
 
 
 
