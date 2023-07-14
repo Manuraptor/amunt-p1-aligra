@@ -31,7 +31,7 @@
                 <img src={Rectangle29}
                      alt="decoración cuadrado"/>
                 <div class="contenedortexto">
-                    -Economia de mitjans.
+                    - Economia de mitjans.
 
                     El sistema multicapa, concebut de manera que cada estrat
                     compleix alhora diverses funcions, ofereix el màxim rendiment
@@ -61,7 +61,7 @@
             <div class="cuadradoytexto">
 
                 <div class="contenedortexto">
-                    -Facilitat de muntatge.
+                    - Facilitat de muntatge.
 
                     La combinació de lleugeresa i modularitat, juntament
                     amb l’ús d’unions reversibles i accessibles, facilita
@@ -72,7 +72,7 @@
             </div>
             <div class="cuadradoytexto">
                 <div class="contenedortexto">
-                    -Lleugeresa.
+                    - Lleugeresa.
 
                     La selecció acurada dels materials i l’aprofitament
                     òptim de les seves prestacions permet millorar els
@@ -92,7 +92,7 @@
                 <img src={Rectangle14}
                      alt="decoración cuadrado"/>
                 <div class="contenedortexto">
-                    -Materials ecològics.
+                    - Materials ecològics.
 
                     El sistema utilitzat materials negatius en CO2, no emissors de
                     COVs, higroscòpics,i materials que no retenen ni propaguen
@@ -105,7 +105,7 @@
                 <img src={Rectangle15}
                      alt="decoración cuadrado"/>
                 <div class="contenedortexto">
-                    -Flexibilitat.
+                    - Flexibilitat.
 
                     En oferir una àmplia gamma de materials i gruixos, el sistema
                     facilita l’adaptació a eventuals modificacions amb la possible
