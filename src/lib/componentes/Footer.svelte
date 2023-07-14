@@ -15,8 +15,8 @@
     div {
         width: 100%;
         height: 100px;
-        background-color: black;
-        color: #FCB900;
+        background-color: #131111;
+        color: #FFF455;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -24,7 +24,7 @@
         gap:105px;
         font-size: 25px;
 
-        border-top:20px solid #FCB900;
+        border-top:20px solid #FFF455;
         bottom: 0;
         position: relative;
 

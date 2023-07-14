@@ -135,14 +135,15 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding-top: 150px;
+        padding-top: 250px;
+        padding-bottom: 120px;
     }
 
     section {
         width: 100%;
         display: flex;
         justify-content: center;
-        margin-top: 160px;
+        margin-top: 120px;
 
     }
 
@@ -193,7 +194,7 @@
         font-family: Impact;
         letter-spacing: 1px;
         font-weight: lighter;
-        color: #FCB900;
+        color: #FFF455;
     }
 
 </style>

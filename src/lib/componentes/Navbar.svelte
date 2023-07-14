@@ -34,7 +34,7 @@
         position: absolute;
         width: 225px;
         height: 100%;
-        background: #FCB900;
+        background: #131111;
         left: -13%;
         transition: 0.4s linear;
 
