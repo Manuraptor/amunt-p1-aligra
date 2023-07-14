@@ -9,9 +9,7 @@
 
 </script>
 <nav>
-   <!-- <div>
-        <img src={imgFavicon} alt="Favicon" class="favicon">
-    </div>-->
+
     <ul>
         <li>
             <a href="/" aria-label="Inicio">
@@ -42,12 +40,12 @@
 
 <style>
    nav {
-        position: absolute;
+        position: relative;
         align-items: center;
         width: 225px;
         height: 100%;
         background: #131111;
-        left: -13%;
+        left: -14%;
         transition: 0.4s linear;
 
     }
