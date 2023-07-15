@@ -2,11 +2,12 @@
 export let imagen
 export let texto
 
+import { fade } from 'svelte/transition';
 
 </script>
 
 <section>
-    <img src={imagen} alt="imagen">
+    <img transition:fade src={imagen}  alt="logo"/>
     <p>{texto}</p>
 
 </section>
@@ -25,7 +26,16 @@ export let texto
         width: 900px;
         gap:85px;
         margin-left: 275px;
+        margin-bottom: 60px;
+        align-items: center;
     }
 
-
+    img {
+        width: 200px;
+        filter: grayscale(75%);
+        transition: all 0.5s ease;
+    }
+    img:hover {
+        filter: none;
+    }
 </style>

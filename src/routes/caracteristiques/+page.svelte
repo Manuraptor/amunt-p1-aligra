@@ -135,7 +135,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding-top: 250px;
+        padding-top: 1px;
         padding-bottom: 120px;
     }
 
