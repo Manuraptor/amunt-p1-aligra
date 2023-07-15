@@ -35,7 +35,8 @@
 
 <style>
     nav {
-        position: relative;
+       /* position: relative;*/
+        position: fixed;
         align-items: center;
         width: 225px;
         height: 100%;
@@ -67,9 +68,14 @@
 
     nav ul li a:hover {
         font-weight: bold;
-       background: #FFD700;
-        color: white;
+      /* background: #FFD700;*/
+   /* background:hsl(60, 80%, 90%);*/
+      /*  background: rgba(0, 0, 0, 0.2);*/
+        background-color: rgba(141, 170, 204, 0.7);
+        /*color: white;*/
+        color:hsl(60, 80%, 90%);
         padding: 10px 20px;
+        text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 
     }
 

@@ -1,5 +1,6 @@
 
 <script>
+    import { fade } from 'svelte/transition';
     import imgPortada1 from "$lib/imagenes/AligraQueEs/ImgPortadaAligra1.jpg";
     import imgPortada2 from "$lib/imagenes/AligraQueEs/ImgPortadaAligra2.jpg";
     import imgPortada3 from "$lib/imagenes/AligraQueEs/ImgPortadaAligra3.jpg";
@@ -7,10 +8,7 @@
 </script>
 
 <main>
-    <header>
-        <h2>Presentació del Projecte</h2>
-        <h2><span>Aligra</span></h2>
-    </header>
+
     <div>
         <article>
             <span class="aligra">Aligra</span> és un dels projectes guanyadors de la convocatòria per a la “Regeneració d’edificis d’habitatges amb sistemes innovadors sostenibles” de la fundació BitHàbitat. En el marc dels “reptes urbans”, l'Ajuntament de Barcelona busca solucions integrals que millorin l'habitabilitat i el rendiment energètic dels habitatges de la ciutat.<br>
@@ -18,12 +16,21 @@
         </article>
 
         <section>
-            <img src={imgPortada1} alt="">
-            <img src={imgPortada2} alt="">
-            <img src={imgPortada3} alt="">
-            <img src={imgPortada4} alt="">
+            <img transition:fade src={imgPortada1} alt="">
+            <img transition:fade src={imgPortada2} alt="">
+            <img transition:fade src={imgPortada3} alt="">
+            <img transition:fade src={imgPortada4} alt="">
         </section>
 
+        <article>
+            El sistema Aligra respon al Repte Urbà de forma rigorosa i flexible. Diverses empreses de
+            perfils complementaris ens hem aliat per oferir aquesta solució multicapa i escalable a partir
+            de la nostra llarga experiència acumulada en el disseny arquitectònic amb perspectiva
+            ecològica.<br> El resultat és un sistema integrat de construcció prefabricada a base d’elements
+            bidimiensonals (2D), que aprèn de les solucions propietàries més interessants que ja ofereix
+            el mercat, però que es tradueix a un sistema genèric, de codi obert, adaptable a qualsevol
+            licitació o situació constructiva sense les restriccions imposades per les patents privatives.<br>
+            </article>
         <article>
             <span class="aligra">Aligra</span> està concebut per adaptar-se a una gran diversitat de situacions, tant a escala arquitectònica com a nivell de paisatge urbà. S’han analitzat diferents configuracions d’ampliació de volum a partir d’edificis reals de la ciutat de Barcelona, des de polígons residencials fins a finques de l'Eixample, passant per alguns casos menys habituals d’edificis no alineats a carrer.<br>
             S’han considerat i analitzat casos d’ampliació de l'espai privatiu dels habitatges, d'introducció de galeries, de generació d’espais oberts privats i col·lectius, així com la possibilitat d’encabir nous nuclis de comunicació vertical. A nivell de materials, es proposa un sistema on les capes d'acabat són intercanviables per tal d'oferir diversitat de textures i colors de façana.
@@ -33,25 +40,10 @@
 
 <style>
     main {
-        margin-left: 200px;
-        padding: 20px;
+        margin-left: 210px;
+        padding: 25px;
     }
-    header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        height: 80px;
-        font-size: 25px;
-        margin-bottom: 30px;
-    }
-    h2 span{
-        font-family: Impact;
-        font-weight: lighter;
 
-
-    }
 
     div {
         display: flex;
@@ -79,10 +71,16 @@
         width: 300px;
         height: 200px;
         object-fit: cover;
+        filter: grayscale(90%);
+        transition: all 0.5s ease;
+    }
+    section img:hover{
+        filter: none;
     }
     span.aligra{
         font-family: Impact;
-        color: rgba(252, 185, 0, 1);
+       /* color: #FFF455;*/
+        color: white;
         letter-spacing: 2px;
         font-size: 20px;
         font-weight: lighter;
