@@ -70,9 +70,12 @@
         object-fit: cover;
         filter: grayscale(90%);
         transition: all 0.5s ease;
+        cursor:pointer;
     }
     section img:hover{
+        transform: scale(1.1);
         filter: none;
+       /* margin: 10px;*/
     }
     .aligra{
         font-family: Impact;
