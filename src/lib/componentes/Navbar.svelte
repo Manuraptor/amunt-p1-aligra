@@ -67,8 +67,7 @@
 
     nav ul li a:hover {
         font-weight: bold;
-        /* background: #DAA600;*/
-        background: #FFD700;
+       background: #FFD700;
         color: white;
         padding: 10px 20px;
 
@@ -90,6 +89,8 @@
         width: 40px;
         border-radius: 50%;
        background: rgba(141, 170, 204, 0.7);
+       /* background-color: hsl(60, 80%, 90%);*/
+
     }
 
 

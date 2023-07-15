@@ -1,9 +1,9 @@
 
 <script>
-    import imgPortada1 from "$lib/imagenes/Portada/ImgPortadaAligra1.jpg";
-    import imgPortada2 from "$lib/imagenes/Portada/ImgPortadaAligra2.jpg";
-    import imgPortada3 from "$lib/imagenes/Portada/ImgPortadaAligra3.jpg";
-    import imgPortada4 from "$lib/imagenes/Portada/ImgPortadaAligra4.jpg";
+    import imgPortada1 from "$lib/imagenes/AligraQueEs/ImgPortadaAligra1.jpg";
+    import imgPortada2 from "$lib/imagenes/AligraQueEs/ImgPortadaAligra2.jpg";
+    import imgPortada3 from "$lib/imagenes/AligraQueEs/ImgPortadaAligra3.jpg";
+    import imgPortada4 from "$lib/imagenes/AligraQueEs/ImgPortadaAligra4.jpg";
 </script>
 
 <main>
