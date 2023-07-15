@@ -30,5 +30,9 @@
 		"vite": "^4.3.6",
 		"vitest": "^0.32.2"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"svelte-routing": "^1.11.0",
+		"svelte-spa-router": "^3.3.0"
+	}
 }
