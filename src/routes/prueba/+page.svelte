@@ -22,7 +22,7 @@
 
         <div class="card">
             <h2> Adaptabilitat i Variedat en la Transformació Urbana i Arquitectònica</h2>
-            <p>Aligra está concebido para adaptarse a una amplia variedad de situaciones arquitectónicas y urbanas. Se han analizado diversas configuraciones, desde edificios residenciales hasta edificios menos habituales no alineados a la calle. Se han considerado ampliaciones de espacio privado, introducción de galerías, generación de espacios abiertos privados y colectivos, así como la posibilidad de incluir nuevos núcleos de comunicación vertical. Además, se propone un sistema en el que las capas de acabado son intercambiables para ofrecer diversidad de texturas y colores en la fachada.</p>
+            <p>Aligra está concebido para adaptarse a una amplia variedad de situaciones arquitectónicas y urbanas. Se han analizado diversas configuraciones, desde edificios residenciales hasta edificios menos habituales no alineados a la calle.<br> Se han considerado ampliaciones de espacio privado, introducción de galerías, generación de espacios abiertos privados y colectivos, así como la posibilidad de incluir nuevos núcleos de comunicación vertical.<br> Además, se propone un sistema en el que las capas de acabado son intercambiables para ofrecer diversidad de texturas y colores en la fachada.</p>
         </div>
     </div>
 
@@ -62,16 +62,18 @@
    }
 
    .image-container {
-       width: 50%;
+       width: 40%;
        margin-left: 40px;
        object-fit: cover;
        filter: grayscale(90%);
        transition: all 0.5s ease;
        cursor:pointer;
+
    }
    .image-container:hover{
        transform: scale(1.1);
        filter: none;
+
    }
 
    img {

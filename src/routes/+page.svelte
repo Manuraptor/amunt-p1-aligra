@@ -37,10 +37,10 @@
         padding: 20px;
         border-radius: 10px;
         text-align: center;
-        transform: translateX(25%);
+        transform: translateX(23%);
         transition: transform 0.1s ease;
-     /*background-color: rgba(0, 0, 0, 0.5);*/
-       background-color: rgba(141, 170, 204, 0.7);
+     background-color: rgba(0, 0, 0, 0.5);
+       /*background-color: rgba(141, 170, 204, 0.7);*/
         text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 
         color: hsl(60, 80%, 90%);
