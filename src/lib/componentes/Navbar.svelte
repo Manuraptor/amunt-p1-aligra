@@ -24,6 +24,12 @@
         <li>
             <a href="/colaboradors">Colaboradors</a>
         </li>
+        <li>
+            <a href="/prueba">Prueba</a>
+        </li>
+        <li>
+            <a href="/pruebakit">PruebaKit</a>
+        </li>
 
 
     </ul>
@@ -54,7 +60,7 @@
         list-style: none;
         text-align: center;
         padding: 15px 10px;
-        border-bottom: 1px solid rgba(100, 100, 100, 0.2);
+       border-bottom: 1px solid rgba(100, 100, 100, 0.2);
     }
 
 
@@ -69,9 +75,9 @@
     nav ul li a:hover {
         font-weight: bold;
       /* background: #FFD700;*/
-   /* background:hsl(60, 80%, 90%);*/
-      /*  background: rgba(0, 0, 0, 0.2);*/
-        background-color: rgba(141, 170, 204, 0.7);
+   background:hsl(60, 80%, 90%);
+        /*background: rgba(0, 0, 0, 0.2);*/
+        /*background-color: rgba(141, 170, 204, 0.7);*/
         /*color: white;*/
         color:hsl(60, 80%, 90%);
         padding: 10px 20px;
@@ -94,8 +100,8 @@
         height: 40px;
         width: 40px;
         border-radius: 50%;
-       background: rgba(141, 170, 204, 0.7);
-       /* background-color: hsl(60, 80%, 90%);*/
+      /* background: rgba(141, 170, 204, 0.7);*/
+        background-color: hsl(60, 80%, 90%);
 
     }
 
