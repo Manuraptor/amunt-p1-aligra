@@ -1,59 +1,52 @@
-
 <script>
-    import  ImgKit1  from "$lib/imagenes/kits/ImgKit1.jpg";
-    import  ImgKit2  from "$lib/imagenes/kits/ImgKit2.jpg";
-    import  ImgKit3  from "$lib/imagenes/kits/ImgKit3.jpg";
-    import  ImgKit4  from "$lib/imagenes/kits/ImgKit4.jpg";
-    import  ImgKit5  from "$lib/imagenes/kits/ImgKit5.jpg";
-    import '/src/global.css'
+    import KitCard from '$lib/componentes/KitCard.svelte';
 
-
-
+    let kits = [
+        {
+            id: 1,
+            image: 'src/lib/imagenes/kits/ImgKit1.jpg',
+            title: 'KIT 1 ',
+            description: 'D’AMPLIACIÓ DE VOLUM'
+        },
+        {
+            id: 2,
+            image: 'src/lib/imagenes/kits/ImgKit2.jpg',
+            title: 'Kit 2',
+            description: ' D’ENVOLUPANT BIOCLIMÀTICA'
+        },
+        {
+            id: 3,
+            image: 'src/lib/imagenes/kits/ImgKit3.jpg',
+            title: 'KIT 3',
+            description: 'KIT ALIJUB'
+        },
+        {
+            id: 4,
+            image: 'src/lib/imagenes/kits/ImgKit4.jpg',
+            title: 'KIT 4',
+            description: 'KIT FOTOVOLTAIC'
+        },
+        {
+            id: 5,
+            image: 'src/lib/imagenes/kits/ImgKit5.jpg',
+            title: 'Kit 5',
+            description: 'KIT SMART BULDING'
+        }
+    ];
 </script>
 <main>
-    <section>
-
-        <h1>PARTS QUE LA COMPOSEN</h1>
-        <div class="articulos">
-
-            <img src={ImgKit1} alt="kits">
-
-            <img src={ImgKit2} alt="kits">
-
-            <img src={ImgKit3} alt="kits">
-
-            <img src={ImgKit4} alt="kits">
-
-            <img src={ImgKit5} alt="kits">
-
-        </div>
-
-    </section>
+    <div>
+        {#each kits as kit (kit.id)}
+            <KitCard {kit} />
+        {/each}
+    </div>
 </main>
+
 <style>
-    main{
-        margin-left: 160px;
-    }
 
-    h1{
-        text-align: center;
-        font-size: 40px;
-        padding-top: 50px;
-        height: 50px;
-        padding: 60px;
-        right: 40px;
-    }
-
-    .articulos {
+    div{
         display: grid;
-        grid-template-columns: repeat(2, 1fr) ;
-        margin: 50px 50px;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 220px;
     }
-
-    img {
-        width: 700px;
-        height: 350px;
-    }
-
-
 </style>

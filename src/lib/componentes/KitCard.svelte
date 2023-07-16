@@ -1,19 +1,19 @@
-
 <script>
     export let kit;
-    let showModal = false;
 
-    function openModal() {
+    let showModal = false;
+    function openModal(){
         showModal = true;
     }
-
-    function closeModal() {
+    function closeModal(){
         showModal = false;
     }
+
+
 </script>
 
-<div class="kit-card">
-    <img src={kit.image} alt={kit.title} />
+<div class="kit-card>">
+    <img src={kit.image} alt={kit.title}/>
     <h3>{kit.title}</h3>
     <p>{kit.description}</p>
     <button on:click={openModal}>Leer más</button>
@@ -21,21 +21,35 @@
     {#if showModal}
         <div class="modal">
             <div class="modal-content">
-                <p>Texto completo del Kit...</p>
-                <button on:click={closeModal}>Cerrar</button>
+                <p>D’AMPLIACIÓ DE VOLUM<br>
+                    Modularitat adaptable.<br>
+                    Es tracta d'un sistema modular bidimensional,<br>
+                    lleuger i en sec, desmuntable i reutilitzable, basat principalment en fusta microlaminada.<br>
+                    La modulació proposada permet resoldre fàcilment diverses mides d'ampliació.<br>
+                    Economia material.<br>
+                    El sistema es diferencia d'altres solucions basades en fusta per la reducció<br>
+                    de l’ús de material, en un exercici d'optimització radical dels recursos mitjançant l'aprofitament<br>
+                    de les tècniques més avançades de la indústria de la fusta.<br>
+                    Prestacions estructurals i acústiques.<br>
+                    La combinació d'un entramat lleuger de fusta amb una capa de compressió de formigó armat<br>
+                    colꞏlaborant permet millorar alhora les prestacions estructurals i acústiques del mòdul de forjat.
+                </p>
+                <button on:clik={closeModal}>Cerrar</button>
 
             </div>
         </div>
     {/if}
 </div>
-
 <style>
-    .kit-card {
+
+    /* .Kit-card {
         border: 1px solid #ccc;
         border-radius: 8px;
         padding: 16px;
         text-align: center;
     }
+
+     */
 
     img {
         width: 100%;
@@ -73,4 +87,5 @@
         padding: 16px;
         max-width: 400px;
     }
+
 </style>
