@@ -27,6 +27,9 @@
         <li>
             <a href="/prueba">Prueba</a>
         </li>
+        <li>
+            <a href="/pruebakit">PruebaKit</a>
+        </li>
 
 
     </ul>
