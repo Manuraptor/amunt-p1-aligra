@@ -16,8 +16,8 @@
 
 {#if showDiv}
     <div transition:fly={{ x: -400, duration: 1500 }}>
-        <h2>Regeneració Sostenible d'Edificis d'Habitatges</h2>
-        <h4><span>Aligra</span>, la solució guanyadora del repte urbà proposa una renovació avantguardista i sostenible d'edificis residencials mitjançant sistemes innovadors.</h4>
+
+        <h2><span>Aligra</span> REI sistema Aligra respon al Repte Urbá de forma rigorosa y flexible. Diverses empresas de<br> perfils complementaris ens hem aliat per oferir aquesta solució multicap </h2>
     </div>
 {/if}
 
@@ -31,7 +31,9 @@
     }
 
     div {
-       margin-top: -190px;
+        display: flex;
+        position: absolute;
+      margin-top: -760px;
         height: 110px;
         width: 70%;
         padding: 20px;
@@ -39,11 +41,11 @@
         text-align: center;
         transform: translateX(23%);
         transition: transform 0.1s ease;
-     background-color: rgba(0, 0, 0, 0.5);
+     /*background-color: rgba(0, 0, 0, 0.5);*/
        /*background-color: rgba(141, 170, 204, 0.7);*/
-        text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+        /*text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;*/
 
-        color: hsl(60, 80%, 90%);
+       /* color: hsl(60, 80%, 90%);*/
 
 
 
@@ -51,22 +53,19 @@
     }
 
     h2 {
-        font-size: 25px;
-        margin-bottom: 10px;
-       /* color: hsl(60, 80%, 90%);*/
-
-    }
-
-    h4 {
         font-size: 18px;
-       /* color: hsl(60, 80%, 90%);*/
+        margin-left: 110px;
+      /*  margin-bottom: 10px;*/
+        color: white;
+
     }
+
     span{
         font-family: Impact;
         font-weight: lighter;
         letter-spacing: 1px;
-        font-size: 20px;
-       /* color: hsl(60, 80%, 90%);*/
+        font-size: 25px;
+       color: #FCB900;
     }
 </style>
 
