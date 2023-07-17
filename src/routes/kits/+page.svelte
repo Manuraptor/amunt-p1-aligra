@@ -3,41 +3,47 @@
 
     let kits = [
         {
-            id: 1,
             image: 'src/lib/imagenes/kits/ImgKit1.jpg',
-            title: 'KIT 1 ',
-            description: 'D’AMPLIACIÓ DE VOLUM'
+            title: 'D’AMPLIACIÓ DE VOLUM',
+            description: [
+                "Modularitat adaptable." +
+                "Es tracta d'un sistema modular bidimensional, lleuger i en sec, desmuntable i reutilitzable, basat principalment en fusta microlaminada.",
+                "La modulació proposada permet resoldre fàcilment diverses mides d'ampliació.",
+                "Economia material.",
+                "El sistema es diferencia d'altres solucions basades en fusta per la reducció",
+                "de l’ús de material, en un exercici d'optimització radical dels recursos mitjançant l'aprofitament",
+                "de les tècniques més avançades de la indústria de la fusta.",
+                "Prestacions estructurals i acústiques.",
+                "La combinació d'un entramat lleuger de fusta amb una capa de compressió de formigó armat",
+                "colꞏlaborant permet millorar alhora les prestacions estructurals i acústiques del mòdul de forjat."
+            ]
         },
         {
-            id: 2,
             image: 'src/lib/imagenes/kits/ImgKit2.jpg',
             title: 'Kit 2',
-            description: ' D’ENVOLUPANT BIOCLIMÀTICA'
+            description: []
         },
         {
-            id: 3,
             image: 'src/lib/imagenes/kits/ImgKit3.jpg',
             title: 'KIT 3',
-            description: 'KIT ALIJUB'
+            description: []
         },
         {
-            id: 4,
             image: 'src/lib/imagenes/kits/ImgKit4.jpg',
             title: 'KIT 4',
-            description: 'KIT FOTOVOLTAIC'
+            description: []
         },
         {
-            id: 5,
             image: 'src/lib/imagenes/kits/ImgKit5.jpg',
             title: 'Kit 5',
-            description: 'KIT SMART BULDING'
+            description: []
         }
     ];
 </script>
 <main>
     <div>
-        {#each kits as kit (kit.id)}
-            <KitCard {kit} />
+        {#each kits as kit,i}
+            <KitCard numero={i} {kit} />
         {/each}
     </div>
 </main>
@@ -50,3 +56,4 @@
         margin-left: 220px;
     }
 </style>
+
