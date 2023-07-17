@@ -13,7 +13,7 @@
         </li>
 
         <li>
-            <a href="/Aligra">Què és?</a>
+            <a href="/Aligra">Qui som?</a>
         </li>
         <li>
             <a href="/caracteristiques">Caracteristiques</a>
@@ -40,9 +40,9 @@
        /* position: relative;*/
         position: fixed;
         align-items: center;
-        width: 225px;
+        width: 240px;
         height: 100%;
-        background: #131111;
+        background: rgba(0, 0, 0, 0.6);
         left: -14%;
         transition: 0.4s linear;
 
@@ -61,7 +61,7 @@
 
 
     nav ul li a {
-        color: #FFF455;
+        color: #FCB900;
         text-decoration: none;
         font-style: normal;
         font-size: 22px;
@@ -71,11 +71,11 @@
     nav ul li a:hover {
         font-weight: bold;
       /* background: #FFD700;*/
-   background:hsl(60, 80%, 90%);
+  /* background:hsl(60, 80%, 90%);*/
         /*background: rgba(0, 0, 0, 0.2);*/
         /*background-color: rgba(141, 170, 204, 0.7);*/
         /*color: white;*/
-        color:hsl(60, 80%, 90%);
+       /* color:hsl(60, 80%, 90%);*/
         padding: 10px 20px;
         text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 
