@@ -1,5 +1,6 @@
 <script>
     import '/src/global.css'
+    import { fade } from 'svelte/transition';
     import Foto1 from "$lib/imagenes/Caracteristiques/d18.jpg"
     import Foto2 from "$lib/imagenes/Caracteristiques/d21.jpg"
     import Foto3 from "$lib/imagenes/Caracteristiques/foto3carateristiques.jpg"
@@ -39,7 +40,7 @@
                 </div>
             </div>
             <div class="cuadradoytexto">
-                <img  src={Rectangle27}
+                <img src={Rectangle27}
                      alt="decoración cuadrado"/>
                 <div class="contenedortexto">-
                     Modularitat.
@@ -50,12 +51,12 @@
                 </div>
             </div>
         </div>
-        <img src={Foto2} alt="foto"/>
+        <img transition:fade src={Foto2} alt="foto"/>
     </div>
 </section>
 <section>
     <div class="contenedorgrupo">
-        <img src={Foto1}
+        <img transition:fade src={Foto1}
              alt="foto"/>
         <div class="contenedor2cuadrados">
             <div class="cuadradoytexto">
@@ -113,7 +114,7 @@
                 </div>
             </div>
         </div>
-        <img src={Foto3}
+        <img transition:fade src={Foto3}
              alt="foto"/>
     </div>
 
@@ -135,7 +136,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding-top: 1px;
+        padding-top: 275px;
         padding-bottom: 120px;
     }
 
@@ -196,6 +197,15 @@
         font-weight: lighter;
         color: #FFF455;
         text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    }
+
+    img {
+
+        filter: grayscale(75%);
+        transition: all 0.5s ease;
+    }
+    img:hover {
+        filter: none;
     }
 
 </style>

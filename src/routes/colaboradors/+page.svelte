@@ -1,5 +1,6 @@
 <script>
     import '/src/global.css'
+    import { fade } from 'svelte/transition';
 
     import Componente from "$lib/componentes/Componente.svelte";
     import straddle3 from "$lib/imagenes/Colaboradors/image 1.png";
@@ -55,9 +56,9 @@ i construcció prefabricada amb aquest material."/>
 
     <article>
 
-        <img src="{holaluz}" alt="logo"/>;
-        <img src="{sis}" alt="logo"/>;
-        <img src="{mavitec}" alt="logo"/>;
+        <img transition:fade src="{holaluz}" alt="logo"/>;
+        <img transition:fade src="{sis}" alt="logo"/>;
+        <img transition:fade src="{mavitec}" alt="logo"/>;
 
 
     </article>
@@ -67,7 +68,7 @@ i construcció prefabricada amb aquest material."/>
 
     main {
         width: 100%;
-        padding-top: 1px;
+        padding-top: 225px;
     }
 
     div {
@@ -79,13 +80,22 @@ i construcció prefabricada amb aquest material."/>
 
     article {
         margin-top:40px;
-        margin-left: 480px;
+        margin-left: 280px;
         width: 1000px;
         margin-bottom:60px;
         display: flex;
         flex-direction: row;
         justify-content: space-between
 
+    }
+
+    img {
+        width: 200px;
+        filter: grayscale(75%);
+        transition: all 0.5s ease;
+    }
+    img:hover {
+        filter: none;
     }
 
 </style>
