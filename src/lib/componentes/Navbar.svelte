@@ -1,9 +1,11 @@
 <script>
     import imgLogo from "$lib/imagenes/Logo/AligraLogo.png"
     import '/src/global.css'
-    import imgFavicon from "$lib/imagenes/Logo/menu (1).png"
+    import imgFavicon from "$lib/imagenes/Logo/barra-de-menus (2).png"
 </script>
 <nav>
+
+        <img src={imgFavicon} alt="Favicon" class="favicon">
 
     <ul>
         <li>
@@ -29,21 +31,18 @@
         </li>
 
     </ul>
-    <div>
-        <img src={imgFavicon} alt="Favicon" class="favicon">
-    </div>
+
 </nav>
 
 
 <style>
     nav {
-       /* position: relative;*/
         position: fixed;
         align-items: center;
         width: 240px;
         height: 100%;
         background: rgba(0, 0, 0, 0.6);
-        left: -14%;
+        left: -15.5%;
         transition: 0.4s linear;
 
     }
@@ -70,12 +69,6 @@
 
     nav ul li a:hover {
         font-weight: bold;
-      /* background: #FFD700;*/
-  /* background:hsl(60, 80%, 90%);*/
-        /*background: rgba(0, 0, 0, 0.2);*/
-        /*background-color: rgba(141, 170, 204, 0.7);*/
-        /*color: white;*/
-       /* color:hsl(60, 80%, 90%);*/
         padding: 10px 20px;
         text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 
@@ -87,18 +80,26 @@
         border-radius: 50%;
     }
 
-    div {
-        margin-left: 220px;
-        background: black;
-    }
+    /* {
+        margin-left: 270px;
+        will-change: transform;
+        backface-visibility: hidden;
+    }*/
 
     .favicon {
+        margin-left: 240px;
         height: 40px;
         width: 40px;
         border-radius: 50%;
       /* background: rgba(141, 170, 204, 0.7);*/
-        background-color: hsl(60, 80%, 90%);
+        background-color: #FCB900;
+        border: #FCB900;
+        margin-top: 60px;
 
+    }
+    .favicon:hover{
+        will-change: transform;
+        backface-visibility: hidden;
     }
 
 
