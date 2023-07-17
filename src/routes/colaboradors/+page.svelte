@@ -56,9 +56,11 @@ i construcció prefabricada amb aquest material."/>
 
     <article>
 
-        <img transition:fade src="{holaluz}" alt="logo"/>;
-        <img transition:fade src="{sis}" alt="logo"/>;
-        <img transition:fade src="{mavitec}" alt="logo"/>;
+        <a href="https://www.holaluz.com/"><img transition:fade src="{holaluz}" alt="logo"/> </a>;
+     <a href="https://sisconsultoria.com/"><img transition:fade src="{sis}" alt="logo"/></a>;
+     <a href="https://www.mavitecindustrial.com/"><img transition:fade src="{mavitec}" alt="logo"/></a>;
+
+
 
 
     </article>
