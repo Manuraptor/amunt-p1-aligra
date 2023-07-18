@@ -43,8 +43,8 @@
 
 
     img {
-        width: 100%;
-        max-height: 200px;
+        width: 100px;
+        max-height: 100px;
         object-fit: cover;
         border-radius: 8px;
         margin-bottom: 8px;

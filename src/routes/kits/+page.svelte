@@ -86,7 +86,7 @@
 
     div{
         display: grid;
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: (5, 1fr);
         gap: 20px;
         padding: 60px;
         padding-top: 70px;
