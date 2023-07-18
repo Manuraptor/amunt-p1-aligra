@@ -16,49 +16,50 @@
 </script>
 
 <main>
-    <Componente imagen="{straddle3}" texto=" Straddle3:  Colꞏlectiu de Barcelona que treballa en arquitectura
+    <a href="https://straddle3.net/es/"><Componente imagen="{straddle3}" texto=" Straddle3:  Colꞏlectiu de Barcelona que treballa en arquitectura
                                 i ciutat des d'una perspectiva crítica i inclusiva.
 
                                 Ha desenvolupat projectes d'habitatge social, processos participatius,
                                 intervencions en espais públics i recerca en la  construcció a  partir de
-                                materials reutilitzats i reciclats."/>
+                                materials reutilitzats i reciclats."/></a>
 
 
-    <Componente imagen="{societatorganica}" texto="Societat Orgànica:   Sostenibilitat i ecologia aplicada a l’edificació. Cooperativa d’arquitectes que treballa en el paradigma de la sostenibilitat en el sector de l’edificació. La consideració del tancament del cicle dels materials com
-a condició necessària per a aconseguir la sostenibilitat és el seu referent d’actuació."/>
+    <a href="https://societatorganica.com/"><Componente imagen="{societatorganica}" texto="Societat Orgànica:   Sostenibilitat i ecologia aplicada a l’edificació. Cooperativa d’arquitectes que treballa en el paradigma de la sostenibilitat en el sector de l’edificació. La consideració del tancament del cicle dels materials com
+a condició necessària per a aconseguir la sostenibilitat és el seu referent d’actuació."/></a>
 
 
-    <Componente imagen="{tejido}" texto="Tejido: tecnologies de la informació aplicades a la ciutat.
+    <a href="https://tejido.io/es/"> <Componente imagen="{tejido}" texto="Tejido: tecnologies de la informació aplicades a la ciutat.
             Cooperativa andalusa de base tecnològica que treballa en els àmbits de les tecnologies
-            de codi obert per a la transformació urbana i social, l'arquitectura i l'art"/>
+            de codi obert per a la transformació urbana i social, l'arquitectura i l'art"/></a>
 
-    <Componente imagen="{aiguasol}" texto="Aiguasol: Enginyeria en instalꞏlacions sostenibles.
+    <a href="https://aiguasol.coop/"><Componente  imagen="{aiguasol}" texto="Aiguasol: Enginyeria en instalꞏlacions sostenibles.
 Cooperativa autogestionada que ofereix serveis d'enginyeria i consultoria en energia i aire.
 A través d'una estructura horitzontal i socialment responsable, promou solucions innovadores
- per a reduir la petjada energètica i millorar la qualitat ambiental dels nostres entorns."/>
+ per a reduir la petjada energètica i millorar la qualitat ambiental dels nostres entorns."/></a>
 
-    <Componente imagen="{tallfusta}" texto="Tallfusta: Prefabricació lleugera. Empresa amb una àmplia
+    <a href="https://www.tallfusta.com/"> <Componente imagen="{tallfusta}" texto="Tallfusta: Prefabricació lleugera. Empresa amb una àmplia
 experiència en el sector de la construcció amb fusta. Sistemes avançats en solucions estructurals
-i construcció prefabricada amb aquest material."/>
+i construcció prefabricada amb aquest material."/></a>
 
-    <div>
-        <p>L’equip es complementa amb la colꞏlaboració permanent de:<br><br></p>
-        <ul>
-            <p> - Holaluz: experts en producció i distribució d’energía verda.<br><br></p>
+    <section>
+        <div>
+            <p>L’equip es complementa amb la colꞏlaboració permanent de:</p>
+        </div>
+        <div>
+            <p> - Holaluz: experts en producció i distribució d’energía verda.</p>
 
-            <p> - SiS Consultoría Acústica.<br><br></p>
+            <p> - SiS Consultoría Acústica.</p>
 
-            <p> - Maviteck consultors.<br><br></p>
+            <p> - Maviteck consultors.</p>
 
-            <p> - Melanie Theodosopoulou. Arquitecta i paisatgista.<br><br></p>
-        </ul>
+            <p> - Melanie Theodosopoulou. Arquitecta i paisatgista.</p>
     </div>
-
+    </section>
     <article>
 
-        <a href="https://www.holaluz.com/"><img transition:fade src="{holaluz}" alt="logo"/> </a>;
-     <a href="https://sisconsultoria.com/"><img transition:fade src="{sis}" alt="logo"/></a>;
-     <a href="https://www.mavitecindustrial.com/"><img transition:fade src="{mavitec}" alt="logo"/></a>;
+        <a href="https://www.holaluz.com/"><img transition:fade src="{holaluz}" alt="logo"/> </a>
+     <a href="https://sisconsultoria.com/"><img transition:fade src="{sis}" alt="logo"/></a>
+     <a href="https://www.mavitecindustrial.com/"><img transition:fade src="{mavitec}" alt="logo"/></a>
 
 
 
@@ -73,7 +74,7 @@ i construcció prefabricada amb aquest material."/>
         padding-top: 225px;
     }
 
-    div {
+    section {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -81,10 +82,10 @@ i construcció prefabricada amb aquest material."/>
     }
 
     article {
-        margin-top:40px;
+        margin-top:80px;
         margin-left: 280px;
         width: 1000px;
-        margin-bottom:60px;
+        margin-bottom:25px;
         display: flex;
         flex-direction: row;
         justify-content: space-between
@@ -98,6 +99,20 @@ i construcció prefabricada amb aquest material."/>
     }
     img:hover {
         filter: none;
+        transform: scale(1.1);
+
+
     }
 
+
+
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    p{
+        padding-top:20px;
+    }
 </style>

@@ -12,6 +12,7 @@
     import Rectangle15 from "$lib/imagenes/Caracteristiques/Rectangle15.jpg"
     /* import Tarjeta from "$routes/caracteristiques/Tarjeta.svelte"*/
 
+
 </script>
 
 <main>
@@ -32,7 +33,7 @@
                 <img src={Rectangle29}
                      alt="decoración cuadrado"/>
                 <div class="contenedortexto">
-                    - Economia de mitjans.
+                   1 - Economia de mitjans.
 
                     El sistema multicapa, concebut de manera que cada estrat
                     compleix alhora diverses funcions, ofereix el màxim rendiment
@@ -42,7 +43,7 @@
             <div class="cuadradoytexto">
                 <img src={Rectangle27}
                      alt="decoración cuadrado"/>
-                <div class="contenedortexto">-
+                <div class="contenedortexto">2 -
                     Modularitat.
 
                     Dimensionalment, tant la part física com els seus sistemes de serveis
@@ -62,7 +63,7 @@
             <div class="cuadradoytexto">
 
                 <div class="contenedortexto">
-                    - Facilitat de muntatge.
+                   3 - Facilitat de muntatge.
 
                     La combinació de lleugeresa i modularitat, juntament
                     amb l’ús d’unions reversibles i accessibles, facilita
@@ -73,7 +74,7 @@
             </div>
             <div class="cuadradoytexto">
                 <div class="contenedortexto">
-                    - Lleugeresa.
+                  4 - Lleugeresa.
 
                     La selecció acurada dels materials i l’aprofitament
                     òptim de les seves prestacions permet millorar els
@@ -93,7 +94,7 @@
                 <img src={Rectangle14}
                      alt="decoración cuadrado"/>
                 <div class="contenedortexto">
-                    - Materials ecològics.
+                   5 - Materials ecològics.
 
                     El sistema utilitzat materials negatius en CO2, no emissors de
                     COVs, higroscòpics,i materials que no retenen ni propaguen
@@ -106,7 +107,7 @@
                 <img src={Rectangle15}
                      alt="decoración cuadrado"/>
                 <div class="contenedortexto">
-                    - Flexibilitat.
+                   6 - Flexibilitat.
 
                     En oferir una àmplia gamma de materials i gruixos, el sistema
                     facilita l’adaptació a eventuals modificacions amb la possible
@@ -204,6 +205,9 @@
 
         filter: grayscale(75%);
         transition: all 0.5s ease;
+        object-fit: cover;
+        cursor:pointer;
+
     }
     img:hover {
         filter: none;
