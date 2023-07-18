@@ -1,9 +1,11 @@
 <script>
     import KitCard from '$lib/componentes/KitCard.svelte';
+    import Imagen1 from "$lib/imagenes/kits/ImgKit1.jpg"
+    import Imagen2 from "$lib/imagenes/kits/ImgKit2.jpg"
 
     let kits = [
         {
-            image: 'src/lib/imagenes/kits/ImgKit1.jpg',
+            image: Imagen1,
             title: 'D’AMPLIACIÓ DE VOLUM',
             description: [
                 "Modularitat adaptable.",
@@ -19,7 +21,7 @@
             ]
         },
         {
-            image: 'src/lib/imagenes/kits/ImgKit2.jpg',
+            image: Imagen2,
             title: 'D’ENVOLUPANT BIOCLIMÀTICA.',
             description: [
                 "Sistema modular amb diferents combinacions possibles, adaptable, segons s'agreguin o substitueixin materials, per a obra nova, rehabilitació, espais habitables i espais bioclimàtics.",
