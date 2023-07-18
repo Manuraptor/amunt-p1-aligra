@@ -86,8 +86,15 @@
 
     div{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        margin-left: 220px;
+        grid-template-rows: repeat(5, 1fr);
+        gap: 20px;
+        padding: 60px;
+        padding-top: 70px;
+
     }
+    .image{
+
+    }
+
 </style>
 

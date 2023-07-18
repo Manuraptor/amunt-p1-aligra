@@ -13,7 +13,7 @@
 
 </script>
 
-<div class="kit-card>">
+<div class="kit_card">
     <img src={kit.image} alt={kit.title}/>
     <h3>{`kit ${numero+1}: ${kit.title}`}</h3>
     <button on:click={openModal}>Leer más</button>
@@ -32,11 +32,12 @@
 </div>
 <style>
 
-     .Kit-card {
+       .kit_card {
         border: 1px solid #ccc;
         border-radius: 8px;
         padding: 16px;
         text-align: center;
+           height: 350px ;
     }
 
 
