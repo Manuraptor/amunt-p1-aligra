@@ -43,7 +43,7 @@ i construcció prefabricada amb aquest material."/></a>
 
     <section>
         <div>
-            <p>L’equip es complementa amb la colꞏlaboració permanent de:</p>
+            <h3>L’equip es complementa amb la colꞏlaboració permanent de:</h3>
         </div>
         <div>
             <p> - Holaluz: experts en producció i distribució d’energía verda.</p>
@@ -114,5 +114,8 @@ i construcció prefabricada amb aquest material."/></a>
 
     p{
         padding-top:20px;
+    }
+
+    h3{font-size: 16px;
     }
 </style>
