@@ -33,27 +33,37 @@
 <style>
 
        .kit_card {
-        border: 1px solid #ccc;
-        border-radius: 8px;
-        padding: 16px;
-        text-align: center;
-           height: 350px ;
+
+           background-color: #f5f5f5;
+           border-radius: 8px;
+           padding: 20px;
+           text-align: center;
+
+       }
+
+       img {
+           width: 100%;
+           object-fit: cover;
+           border-radius: 8px;
+           margin-bottom: 10px;
     }
 
+       h3 {
+         font-size: 18px;
+         margin-bottom: 10px;
 
 
-    img {
-        width: 100px;
-        max-height: 100px;
-        object-fit: cover;
-        border-radius: 8px;
-        margin-bottom: 8px;
     }
-
-    h3 {
-        font-size: 20px;
-        margin-bottom: 8px;
-    }
+       button {
+           background-color: gainsboro;
+           color: black;
+           border: none;
+           border-radius: 4px;
+           padding: 10px 10px;
+           font-size: 14px;
+           cursor: pointer;
+           margin-bottom: 5px;
+       }
 
     p {
         font-size: 16px;

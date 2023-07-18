@@ -59,7 +59,7 @@
             ]
         },
         {
-            image: Imagen5;
+            image: Imagen5,
             title: 'SMART BUILDING',
             description: [
                 "Monitoratge i control.",
@@ -81,7 +81,7 @@
     ];
 </script>
 <main>
-    <div class="grid">
+    <div class="cards">
         {#each kits as kit,i}
             <KitCard numero={i} {kit} />
         {/each}
@@ -89,12 +89,23 @@
 </main>
 
 <style>
+    .cards{
 
-    .grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: repeat(3, 1fr);
         gap: 20px;
+        padding: 1em;
+       ;
+
+
+
     }
+
+
+
+
+
+
 
 
 
