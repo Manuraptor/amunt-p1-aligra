@@ -81,7 +81,7 @@
     ];
 </script>
 <main>
-    <div>
+    <div class="grid">
         {#each kits as kit,i}
             <KitCard numero={i} {kit} />
         {/each}
@@ -90,14 +90,13 @@
 
 <style>
 
-    div{
+    .grid {
         display: grid;
-        grid-template-columns: (5, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 20px;
-        padding: 60px;
-        padding-top: 70px;
-
     }
+
+
 
 
 
