@@ -1,7 +1,11 @@
 <script>
     import KitCard from '$lib/componentes/KitCard.svelte';
-    import Imagen1 from "$lib/imagenes/kits/ImgKit1.jpg"
-    import Imagen2 from "$lib/imagenes/kits/ImgKit2.jpg"
+    import Imagen1 from "$lib/imagenes/kits/ImgKit1.jpg";
+    import Imagen2 from "$lib/imagenes/kits/ImgKit2.jpg";
+    import Imagen3 from "$lib/imagenes/kits/ImgKit3.jpg";
+    import Imagen4 from "$lib/imagenes/kits/ImgKit4.jpg";
+    import Imagen5 from "$lib/imagenes/kits/ImgKit5.jpg"
+
 
     let kits = [
         {
@@ -31,7 +35,7 @@
     ]
         },
         {
-            image: 'src/lib/imagenes/kits/ImgKit3.jpg',
+            image: Imagen3,
             title: 'ALJUB',
             description: [
                 "Sistema bicapa compost, que integra una safata aljub estructural que pot suportar dos tipus de capa d'acabat superior: una vegetal i una altra transitable, sense perjudici de que en el futur es puguin desenvolupar d’altres tipus.",
@@ -45,7 +49,7 @@
     ]
         },
         {
-            image: 'src/lib/imagenes/kits/ImgKit4.jpg',
+            image: Imagen4,
             title: 'FOTOVOLTAIC',
             description: [
                 "Sistema modular que permetrà la creació d'una comunitat energètica que podrà arribar a subministrar energia per a tot l'edifici.",
@@ -55,7 +59,7 @@
             ]
         },
         {
-            image: 'src/lib/imagenes/kits/ImgKit5.jpg',
+            image: Imagen5;
             title: 'SMART BUILDING',
             description: [
                 "Monitoratge i control.",
