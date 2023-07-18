@@ -1,9 +1,10 @@
 <script>
     import KitCard from '$lib/componentes/KitCard.svelte';
+    import Imagen1 from "$lib/imagenes/kits/ImgKit1.jpg"
 
     let kits = [
         {
-            image: 'src/lib/imagenes/kits/ImgKit1.jpg',
+            image: Imagen1,
             title: 'D’AMPLIACIÓ DE VOLUM',
             description: [
                 "Modularitat adaptable.",
