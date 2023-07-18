@@ -211,6 +211,7 @@
     }
     img:hover {
         filter: none;
+        transform: scale(1.1);
     }
 
 </style>
