@@ -92,9 +92,8 @@
         padding-top: 70px;
 
     }
-    .image{
 
-    }
+
 
 </style>
 
