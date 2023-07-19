@@ -39,7 +39,7 @@
     nav {
         position: fixed;
         align-items: center;
-        width: 240px;
+        width: 15rem;
         height: 100%;
         background: rgba(0, 0, 0, 0.6);
         left: -15%;
@@ -76,8 +76,8 @@
     }
 
     .logo {
-        height: 70px;
-        width: 70px;
+        height: 4rem;
+        width: 4rem;
         border-radius: 50%;
     }
 
@@ -92,6 +92,40 @@
         background: #FCB900;
         border: #FCB900;
         margin-top: 60px;
+
+    }
+    @media screen and (max-width: 768px) {
+        nav {
+            width: 20%;
+            height: 824px;
+            left:0px;
+            justify-content: center;
+        }
+        .favicon {
+            display: none;
+        }
+        .logo {
+            height: 3rem;
+            width: 3rem;
+        }
+        nav ul {
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+        }
+        nav ul li {
+            padding: 10px;
+        }
+        nav ul li a {
+            font-size: 18px;
+        }
+    }
+
+    /* Estilos para móvil */
+    @media screen and (max-width: 480px) {
+        nav ul li a {
+            font-size: 16px;
+        }
 
     }
 

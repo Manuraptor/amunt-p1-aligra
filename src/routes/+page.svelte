@@ -65,6 +65,18 @@
         font-size: 22px;
        color: #FCB900;
     }
+    @media screen and (max-width: 768px){
+        h2{
+            font-size: 17px;
+        }
+        h4{
+            font-size: 12px;
+            text-align: center;
+        }
+        span{
+            font-size: 17px;
+        }
+    }
 </style>
 
 
