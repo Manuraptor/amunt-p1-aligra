@@ -17,7 +17,8 @@
 {#if showDiv}
     <div transition:fly={{ x: -400, duration: 1500 }}>
 
-        <h2><span>Aligra</span> REI sistema Aligra respon al Repte Urbá de forma rigorosa y flexible. Diverses empresas de<br> perfils complementaris ens hem aliat per oferir aquesta solució multicap </h2>
+        <h2>Regeneració Sostenible d'Edificis d'Habitatges</h2>
+        <h4><span>Aligra</span>, la solució guanyadora del repte urbà proposa una renovació avantguardista i sostenible d'edificis residencials mitjançant sistemes innovadors.</h4>
     </div>
 {/if}
 
@@ -26,14 +27,15 @@
 
         width: 100%;
         height: 740px;
-        /*object-fit: fill;*/
-        object-fit: cover;
+        object-fit: fill;
+
     }
 
     div {
         display: flex;
+        flex-direction: column;
         position: absolute;
-      margin-top: -720px;
+        margin-top: -720px;
         height: 110px;
         width: 70%;
         padding: 20px;
@@ -43,18 +45,24 @@
         transition: transform 0.1s ease;
     }
 
+
     h2 {
-        font-size: 18px;
+        font-size: 22px;
+        margin-bottom: 10px;
         margin-left: 110px;
         color: white;
-
+    }
+    h4 {
+        margin-left: 110px;
+        font-size: 16px;
+        color: white;
     }
 
     span{
         font-family: Impact;
         font-weight: lighter;
         letter-spacing: 1px;
-        font-size: 25px;
+        font-size: 22px;
        color: #FCB900;
     }
 </style>

@@ -1,7 +1,7 @@
 <script>
-    import imgLogo from "$lib/imagenes/Logo/AligraLogo.png"
+    import imgLogo from "$lib/imagenes/LogoYFaviconesMenu/image1logoAligra-removebg-preview.png"
     import '/src/global.css'
-    import imgFavicon from "$lib/imagenes/Logo/barra-de-menus (2).png"
+    import imgFavicon from "$lib/imagenes/LogoYFaviconesMenu/logoAligra.png"
 </script>
 <nav>
 
@@ -42,7 +42,7 @@
         width: 240px;
         height: 100%;
         background: rgba(0, 0, 0, 0.6);
-        left: -15.5%;
+        left: -15%;
         transition: 0.4s linear;
 
     }
@@ -69,22 +69,19 @@
 
     nav ul li a:hover {
         font-weight: bold;
+        font-size: 24px;
         padding: 10px 20px;
         text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 
     }
 
     .logo {
-        height: 60px;
-        width: 60px;
+        height: 70px;
+        width: 70px;
         border-radius: 50%;
     }
 
-    /* {
-        margin-left: 270px;
-        will-change: transform;
-        backface-visibility: hidden;
-    }*/
+
 
     .favicon {
         margin-left: 240px;
@@ -92,15 +89,12 @@
         width: 40px;
         border-radius: 50%;
       /* background: rgba(141, 170, 204, 0.7);*/
-        background-color: #FCB900;
+        background: #FCB900;
         border: #FCB900;
         margin-top: 60px;
 
     }
-    .favicon:hover{
-        will-change: transform;
-        backface-visibility: hidden;
-    }
+
 
 
 </style>
