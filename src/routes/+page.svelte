@@ -23,7 +23,7 @@
 {/if}
 
 <style>
-    img {
+   /* img {
 
         width: 100%;
         height: 740px;
@@ -76,7 +76,7 @@
         span{
             font-size: 17px;
         }
-    }
+    }*/
 </style>
 
 

@@ -3,13 +3,15 @@
     import '/src/global.css'
     import imgFavicon from "$lib/imagenes/LogoYFaviconesMenu/logoAligra.png"
 </script>
+
+
 <nav>
 
         <img src={imgFavicon} alt="Favicon" class="favicon">
 
     <ul>
         <li>
-            <a href="/" aria-label="Inicio">
+            <a href="/" >
                 <img src={imgLogo} alt="LogotipoAligra" class="logo">
             </a>
         </li>
@@ -37,59 +39,64 @@
 
 <style>
     nav {
+        display: flex;
         position: fixed;
-        align-items: center;
-        width: 15rem;
-        height: 100%;
+        top: 0;
+        bottom: 0;
+       align-items: flex-end;
+        width: 180px;
+        flex-direction: column;
         background: rgba(0, 0, 0, 0.6);
-        left: -15%;
         transition: 0.4s linear;
+        left: -10%;
 
     }
 
-    nav:hover {
+   nav:hover {
         left: 0;
     }
 
     nav ul li {
+        bottom: 90px;
         list-style: none;
-        text-align: center;
-        padding: 15px 10px;
-       border-bottom: 1px solid rgba(100, 100, 100, 0.2);
+       padding: 15px 10px;
+      /* border-bottom: 1px solid rgba(100, 100, 100, 0.2);*/
     }
 
 
     nav ul li a {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 18px;
         color: #FCB900;
+        text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
         text-decoration: none;
         font-style: normal;
-        font-size: 22px;
-
+        font-size: 20px;
+        top:-90px;
     }
 
     nav ul li a:hover {
-        font-weight: bold;
-        font-size: 24px;
-        padding: 10px 20px;
+        cursor: pointer;
+        color:white;
+        /*padding: 10px 20px;*/
         text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 
     }
 
     .logo {
-        height: 4rem;
-        width: 4rem;
+        height: 3rem;
+        width: 3rem;
         border-radius: 50%;
     }
 
 
 
     .favicon {
-        margin-left: 240px;
+        margin-right:-30px;
         height: 40px;
         width: 40px;
         border-radius: 50%;
-      /* background: rgba(141, 170, 204, 0.7);*/
-        background: #FCB900;
         border: #FCB900;
         margin-top: 60px;
 
@@ -98,7 +105,7 @@
         nav {
             width: 20%;
             height: 824px;
-            left:0px;
+            left:0;
             justify-content: center;
         }
         .favicon {
@@ -121,7 +128,7 @@
         }
     }
 
-    /* Estilos para móvil */
+
     @media screen and (max-width: 480px) {
         nav ul li a {
             font-size: 16px;

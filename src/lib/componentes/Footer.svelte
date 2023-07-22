@@ -11,7 +11,7 @@
 <style>
 
 
-
+/*
     div {
         width: 100%;
         height: 100px;
@@ -22,13 +22,13 @@
         align-items: center;
         justify-content: center;
         gap:105px;
-        font-size: 25px;
+        font-size: 25px;*/
 
        /* border-top:10px solid #FFF455;*/
-        bottom: 0;
+       /* bottom: 0;
         position: relative;
 
-    }
+    }*/
 
 
 </style>

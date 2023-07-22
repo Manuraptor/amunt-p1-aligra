@@ -47,7 +47,7 @@
 </main>
 
 <style>
-    main {
+   /* main {
         margin-left: 210px;
         padding: 25px;
     }
@@ -76,10 +76,9 @@
     }
     section img:hover{
         transform: scale(1.1);
-        filter: none;
+        filter: none;*/
        /* margin: 10px;*/
-    }
-    .aligra{
+/*    .aligra{
         font-family: Impact;
        color: white;
         letter-spacing: 2px;
@@ -87,6 +86,6 @@
         font-weight: lighter;
         text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 
-    }
+    }*/
 </style>
 
