@@ -1,5 +1,5 @@
 
-
+<!--
 <script>
     import imgPortada from "$lib/imagenes/AligraQueEs/Repte urbà_Aligra_2.jpg"
     import { fly } from 'svelte/transition'
@@ -23,7 +23,7 @@
 {/if}
 
 <style>
-   /* img {
+    img {
 
         width: 100%;
         height: 740px;
@@ -76,7 +76,13 @@
         span{
             font-size: 17px;
         }
-    }*/
+    }
+</style>-->
+
+
+<script>
+    import '/src/global.css'
+</script>
+<style>
+
 </style>
-
-
