@@ -3,8 +3,14 @@
 *{
     box-sizing: border-box;
 }
-
 body{
     font-family: 'Ubuntu', sans-serif;
-    margin: 11rem ;
+    margin: 11rem 11rem 1rem;
+}
+h2{
+    font-size: 22px;
+    font-weight: bold;
+}
+p{
+    font-size: 15px;
 }

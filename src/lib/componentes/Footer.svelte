@@ -22,7 +22,7 @@
         justify-content: space-evenly;
         align-items: center;
         width: 100%;
-        height: 50px;
+        height: 40px;
         background-color: #131111;
         color: #FCB900;
         font-size: 15px;

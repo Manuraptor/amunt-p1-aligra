@@ -1,6 +1,5 @@
 
 <script>
-    import '/src/global.css'
     import { fade } from 'svelte/transition';
     import imgPortada1 from "$lib/imagenes/AligraQueEs/ImgPortadaAligra1.jpg";
     import imgPortada2 from "$lib/imagenes/AligraQueEs/ImgPortadaAligra2.jpg";
