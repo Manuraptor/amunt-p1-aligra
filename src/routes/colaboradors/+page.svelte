@@ -112,9 +112,7 @@ i construcció prefabricada amb aquest material."/></a>
         color: black;
     }
 
-    p{
-        padding-top:20px;
-    }
+
 
     h3{font-size: 16px;
     }

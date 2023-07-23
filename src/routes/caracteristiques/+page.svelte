@@ -1,208 +1,103 @@
 <script>
-    import '/src/global.css'
     import { fade } from 'svelte/transition';
     import Foto1 from "$lib/imagenes/Caracteristiques/d18.jpg"
     import Foto2 from "$lib/imagenes/Caracteristiques/d21.jpg"
     import Foto3 from "$lib/imagenes/Caracteristiques/foto3carateristiques.jpg"
-    import Rectangle29 from "$lib/imagenes/Caracteristiques/Rectangle29.jpg"
-    import Rectangle27 from "$lib/imagenes/Caracteristiques/Rectangle27.jpg"
-    import Rectangle18 from "$lib/imagenes/Caracteristiques/Rectangle18.jpg"
-    import Rectangle19 from "$lib/imagenes/Caracteristiques/Rectangle19.jpg"
-    import Rectangle14 from "$lib/imagenes/Caracteristiques/Rectangle14.jpg"
-    import Rectangle15 from "$lib/imagenes/Caracteristiques/Rectangle15.jpg"
-    /* import Tarjeta from "$routes/caracteristiques/Tarjeta.svelte"*/
-
+    import ArticleQueEsAligra from "$lib/componentes/ArticleQueEsAligra.svelte";
 
 </script>
 
-<main>
-    <article>
-
-    <p><span>Aligra</span> &nbsp està concebut per adaptar-se a una gran diversitat de situacions,</p>
-    <p>tant a escala arquitectònica com a nivell de paisatge urbà.</p>
 
 
-    <h3>Les principals característiques del sistema <span>Aligra</span> són les següents:</h3>
 
-</article>
-<!-- <Tarjeta/> -->
+        <h2>Característiques Innovadores del Sistema Arquitectònic &nbsp<span>Aligra</span></h2>
+
+
+
 <section>
-    <div class="contenedorgrupo">
-        <div class="contenedor2cuadrados">
-            <div class="cuadradoytexto">
-                <img src={Rectangle29}
-                     alt="decoración cuadrado"/>
-                <div class="contenedortexto">
-                   1 - Economia de mitjans.
+    <ArticleQueEsAligra>
 
-                    El sistema multicapa, concebut de manera que cada estrat
-                    compleix alhora diverses funcions, ofereix el màxim rendiment
-                    dels materials.
-                </div>
-            </div>
-            <div class="cuadradoytexto">
-                <img src={Rectangle27}
-                     alt="decoración cuadrado"/>
-                <div class="contenedortexto">2 -
-                    Modularitat.
+                   <h2>Economia de mitjans</h2>
 
-                    Dimensionalment, tant la part física com els seus sistemes de serveis
-                    es basen rigorosament en modulatges compatibles amb els estàndars industrials
-                    i tecnològics més universals.
-                </div>
-            </div>
-        </div>
-        <img transition:fade src={Foto2} alt="foto"/>
-    </div>
+                   <p> El sistema multicapa, concebut de manera que cada estrat compleix alhora diverses funcions, ofereix el màxim rendiment dels materials. Amb aquesta filosofia s'han dissenyat elements constructius polivalents que poden combinar-se de manera diversa per assolir finalitats diferents.</p>
+    </ArticleQueEsAligra>
+
+      <ArticleQueEsAligra>
+                  <h2> Modularitat.</h2>
+
+               <p> Dimensionalment, la part física del sistema està basat en un mòdul de 60 cm, una mida molt compatible amb els actuals estàndards industrials i de transport. El mateix criteri de composició modular s’ha seguit pel que fa a instalꞏlacions, inclosa la sensorització i el software que es proposa.</p>
+       </ArticleQueEsAligra>
+
+        <img class="fotocaracteristicas" transition:fade src={Foto2} alt="foto"/>
+
 </section>
 <section>
-    <div class="contenedorgrupo">
-        <img transition:fade src={Foto1}
-             alt="foto"/>
-        <div class="contenedor2cuadrados">
-            <div class="cuadradoytexto">
 
-                <div class="contenedortexto">
-                   3 - Facilitat de muntatge.
+        <img class="fotocaracteristicas" transition:fade src={Foto1} alt="foto"/>
 
-                    La combinació de lleugeresa i modularitat, juntament
-                    amb l’ús d’unions reversibles i accessibles, facilita
-                    notablement el seu muntatge i desmuntatge.
-                </div>
-                <img src={Rectangle18}
-                     alt="decoración cuadrado"/>
-            </div>
-            <div class="cuadradoytexto">
-                <div class="contenedortexto">
-                  4 - Lleugeresa.
+        <ArticleQueEsAligra>
+                    <h2>Lleugeresa</h2>
 
-                    La selecció acurada dels materials i l’aprofitament
-                    òptim de les seves prestacions permet millorar els
-                    processos de muntatge i desmuntatge en matèria de
-                    seguretat, inclusivitat i estalvi energètic.
-                </div>
-                <img src={Rectangle19}
-                     alt="decoración cuadrado"/>
-            </div>
-        </div>
-    </div>
+                 <p> La selecció acurada dels materials i l'aprofitament òptim de les seves prestacions permet que el sistema assoleix graus de lleugeresa considerablement superiors als de les alternatives similars que ofereix el mercat. Això millora els processos de muntatge i desmuntatge en matèria de seguretat, inclusivitat i estalvi energètic.
+                 </p>
+    </ArticleQueEsAligra>
+
+            <ArticleQueEsAligra>
+           <h2>Facilitat de muntatge</h2>
+
+                <p> La combinació de lleugeresa i modularitat, juntament amb l'ús d'unions reversibles i accessibles, facilita notablement el muntatge i el desmuntatge dels elements constructius.
+                </p>
+    </ArticleQueEsAligra>
 </section>
 <section>
-    <div class="contenedorgrupo">
-        <div class="contenedor2cuadrados">
-            <div class="cuadradoytexto">
-                <img src={Rectangle14}
-                     alt="decoración cuadrado"/>
-                <div class="contenedortexto">
-                   5 - Materials ecològics.
+<ArticleQueEsAligra>
+                   <h2>Materials ecològics.</h2>
 
-                    El sistema utilitzat materials negatius en CO2, no emissors de
-                    COVs, higroscòpics,i materials que no retenen ni propaguen
-                    radiació electromagnètica.
-                </div>
+                 <p>El sistema prioritza l’ús de materials saludables, renovables, reciclables i reutilitzables, principalment materials negatius en CO2, no emissors de COVs, higroscòpics, i materials que no retinguin ni propaguin radiació electromagnètic.</p>
 
+    </ArticleQueEsAligra>
+           <ArticleQueEsAligra>
+               <h2>Flexibilitat</h2>
 
-            </div>
-            <div class="cuadradoytexto">
-                <img src={Rectangle15}
-                     alt="decoración cuadrado"/>
-                <div class="contenedortexto">
-                   6 - Flexibilitat.
-
-                    En oferir una àmplia gamma de materials i gruixos, el sistema
+                  <p>En oferir una àmplia gamma de materials i gruixos, el sistema
                     facilita l’adaptació a eventuals modificacions amb la possible
-                    participació dels futurs usuaris.
-                </div>
-            </div>
-        </div>
-        <img transition:fade src={Foto3}
-             alt="foto"/>
-    </div>
+                    participació dels futurs usuaris.</p>
+           </ArticleQueEsAligra>
+
+        <img class="fotocaracteristicas" transition:fade src={Foto3} alt="foto"/>
+
 
 </section>
-</main>
+
+
+
 <style>
 
+   h2{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin-bottom: 40px;
+   }
+   span{
+       color: #FCB900;
+   }
 
-    main {
-        margin: 0;
-        padding:0;
-        box-sizing: border-box;
-        margin-left: 300px;
-    }
-
-    article {
-        display: flex;
-        width: 100%;
-        height: 100px;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding-top: 275px;
-        padding-bottom: 120px;
-    }
 
     section {
         width: 100%;
+        height: 400px;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         margin-top: 120px;
+        gap: 30px;
 
     }
 
-    .contenedortexto {
 
-        height: 100px;
-        width: 730px;
-        display: flex;
-        align-items: center;
-
-    }
-
-    .contenedorgrupo {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .contenedor2cuadrados {
-        display: flex;
-        flex-direction: column;
-        gap: 50px;
-    }
-
-    .cuadradoytexto {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        height: 100px;
-        width: 900px;
-        font-size: 20px;
-    }
-
-    p {
-        display: flex;
-        font-size: 36px;
-        justify-content: center;
-
-    }
-
-        h3{
-            margin-top: 30px;
-            font-style: initial;
-            font-size: 24px;
-            font-weight: lighter;
-        }
-    span {
-        font-family: Impact;
-        letter-spacing: 1px;
-        font-weight: lighter;
-        color: #FFF455;
-        text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
-    }
-
-    img {
-
+   img {
+       width: 300px;
+       height: 380px;
         filter: grayscale(75%);
         transition: all 0.5s ease;
         object-fit: cover;
