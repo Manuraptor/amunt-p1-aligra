@@ -5,7 +5,7 @@
     import Componente from "$lib/componentes/Componente.svelte";
     import straddle3 from "$lib/imagenes/Colaboradors/image 1.png";
     import societatorganica from "$lib/imagenes/Colaboradors/image 2.png";
-    import tejido from "$lib/imagenes/Colaboradors/image 17.png";
+    import tejido from "$lib/imagenes/Colaboradors/image 17.jpg";
     import aiguasol from "$lib/imagenes/Colaboradors/image 3.png";
     import tallfusta from "$lib/imagenes/Colaboradors/image 18.png";
     import holaluz from "$lib/imagenes/Colaboradors/image41.png";
@@ -29,7 +29,7 @@ a condició necessària per a aconseguir la sostenibilitat és el seu referent d
 
     <a href="https://tejido.io/es/"> <Componente imagen="{tejido}" titulo="Tejido:" texto="Tejido: tecnologies de la informació aplicades a la ciutat.
             Cooperativa andalusa de base tecnològica que treballa en els àmbits de les tecnologies
-            de codi obert per a la transformació urbana i social, l'arquitectura i l'art"/></a>
+            de codi obert per a la transformació urbana i social, l'arquitectura i l'art."/></a>
 
     <a href="https://aiguasol.coop/"><Componente  imagen="{aiguasol}" titulo="Aiguasol:"texto="Aiguasol: Enginyeria en instalꞏlacions sostenibles.
 Cooperativa autogestionada que ofereix serveis d'enginyeria i consultoria en energia i aire.

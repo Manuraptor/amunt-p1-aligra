@@ -15,6 +15,7 @@
 
 
 <section>
+    <div class="texto">
     <ArticleQueEsAligra>
 
                    <h2>Economia de mitjans</h2>
@@ -27,14 +28,14 @@
 
                <p> Dimensionalment, la part física del sistema està basat en un mòdul de 60 cm, una mida molt compatible amb els actuals estàndards industrials i de transport. El mateix criteri de composició modular s’ha seguit pel que fa a instalꞏlacions, inclosa la sensorització i el software que es proposa.</p>
        </ArticleQueEsAligra>
-
+    </div>
         <img class="fotocaracteristicas" transition:fade src={Foto2} alt="foto"/>
 
 </section>
 <section>
 
         <img class="fotocaracteristicas" transition:fade src={Foto1} alt="foto"/>
-
+    <div class="texto">
         <ArticleQueEsAligra>
                     <h2>Lleugeresa</h2>
 
@@ -48,8 +49,11 @@
                 <p> La combinació de lleugeresa i modularitat, juntament amb l'ús d'unions reversibles i accessibles, facilita notablement el muntatge i el desmuntatge dels elements constructius.
                 </p>
     </ArticleQueEsAligra>
+    </div>
 </section>
 <section>
+    <div class="texto">
+
 <ArticleQueEsAligra>
                    <h2>Materials ecològics.</h2>
 
@@ -63,7 +67,7 @@
                     facilita l’adaptació a eventuals modificacions amb la possible
                     participació dels futurs usuaris.</p>
            </ArticleQueEsAligra>
-
+    </div>
         <img class="fotocaracteristicas" transition:fade src={Foto3} alt="foto"/>
 
 
@@ -83,14 +87,19 @@
        color: #FCB900;
    }
 
+   .texto{
+       display: flex;
+       flex-direction: column
+   }
 
     section {
         width: 100%;
         height: 400px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         margin-top: 120px;
         gap: 30px;
+align-items: center;
 
     }
 
@@ -102,6 +111,7 @@
         transition: all 0.5s ease;
         object-fit: cover;
         cursor:pointer;
+row-gap: 200px;
 
     }
     img:hover {
