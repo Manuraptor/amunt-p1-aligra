@@ -16,7 +16,7 @@
 </script>
 
 <main>
-    <a href="https://straddle3.net/es/"><Componente imagen="{straddle3}" texto=" Straddle3:  Colꞏlectiu de Barcelona que treballa en arquitectura
+    <a href="https://straddle3.net/es/"><Componente imagen="{straddle3}" titulo="Straddle3:" texto= " Colꞏlectiu de Barcelona que treballa en arquitectura
                                 i ciutat des d'una perspectiva crítica i inclusiva.
 
                                 Ha desenvolupat projectes d'habitatge social, processos participatius,
@@ -71,7 +71,9 @@ i construcció prefabricada amb aquest material."/></a>
 
     main {
         width: 100%;
-        padding-top: 225px;
+        justify-content: center;
+        align-items: center;
+        row-gap: 300px;
     }
 
     section {
@@ -83,8 +85,6 @@ i construcció prefabricada amb aquest material."/></a>
 
     article {
         margin-top:80px;
-        margin-left: 280px;
-        width: 1000px;
         margin-bottom:25px;
         display: flex;
         flex-direction: row;
