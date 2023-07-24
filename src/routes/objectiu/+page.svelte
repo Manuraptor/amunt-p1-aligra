@@ -4,10 +4,12 @@
     import imgprueba from '$lib/imagenes/AligraQueEs/repte-urba_regeneracio_aligra-1280x1524.jpg'
     import ArticleQueEsAligra from "$lib/componentes/ArticleQueEsAligra.svelte";
 </script>
+
+<main>
 <div class="container">
     <div class="cards-container">
         <ArticleQueEsAligra>
-            <h2>Regeneració Innovadora i Sostenible</h2>
+            <h2>Regeneració Innovadora Sostenible</h2>
             <p>Aligra es un proyecto ganador de la convocatoria para la "Regeneració d’edificis d’habitatges amb sistemes innovadors sostenibles" de la fundació BitHàbitat. El Ayuntamiento de Barcelona busca soluciones integrales para mejorar la habitabilidad y el rendimiento energético de los edificios de la ciudad.</p>
 
         </ArticleQueEsAligra>
@@ -16,6 +18,8 @@
             <p>El objetivo del proyecto Aligra es mejorar el rendimiento energético de los edificios de Barcelona mediante el uso de nuevos materiales, tecnologías y diseños innovadores. También se busca abordar aspectos como el uso eficiente de los recursos, la mitigación del cambio climático y la resiliencia.</p>
 
         </ArticleQueEsAligra>
+
+
 
         <ArticleQueEsAligra>
             <h2>Una Solució Flexible i Sostenible per al Repte Urbà</h2>
@@ -34,37 +38,49 @@
 
     <div class="image-container">
         <img transition:fade src={imgprueba} alt="">
+        <img transition:fade src={imgprueba} alt="">
+
     </div>
+
 </div>
+</main>
 
 <style>
-    .container {
+
+ .container {
         display: flex;
         align-items: flex-start;
     }
 
-    .cards-container {
+   .cards-container {
         flex: 1;
-        margin-right: 70px;
+        margin-left: -100px;
+        margin-right: 100px;
     }
 
     .image-container {
         flex: 1;
         display: flex;
-        justify-content: flex-end;
+       justify-content: flex-end;
+        margin-right: -220px;
+        flex-direction: column;
+        position: relative;
+        gap:30px;
+        margin-top: 430px;
+
 
     }
 
-    .image-container img {
-        max-width: 100%;
-        height: auto;
+    .image-container {
+        max-width: 400px;
+        height: 600px;
         margin-left: 20px;
-        filter: grayscale(90%);
+        filter: grayscale(100%);
         transition: all 0.5s ease;
         cursor:pointer;
     }
 
-    .image-container img:hover {
+    .image-container:hover {
         transform: scale(1.1);
         filter: none;
 
@@ -72,52 +88,11 @@
 
 
 
- /*  .container {
-       display: flex;
-       justify-content: space-between;
-       align-items: flex-start;
-   }
 
-   .cards-container {
-       width: 50%;
-       display: flex;
-       flex-wrap: wrap;
-       margin-left: 50px;
-       margin-top: 90px;
 
-   }
 
-   .card {
-       flex: 0 0 100%;
-       background-color: #f5f5f5;
-       border-radius: 10px;
-       padding: 30px;
-       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-       margin-bottom: 30px;
-   }
-   p{
-       margin-top: 15px;
-       letter-spacing: 1px;
-   }
 
-   .image-container {
-       width: 40%;
-       margin-left: 40px;
-       object-fit: cover;
-       filter: grayscale(90%);
-       transition: all 0.5s ease;
-       cursor:pointer;
 
-   }
-   .image-container:hover{
-       transform: scale(1.1);
-       filter: none;
 
-   }
-
-   img {
-       width: 100%;
-       height: auto;
-       border-radius: 10px;
-   }*/
 </style>
+
