@@ -11,14 +11,19 @@ h2{
     font-size: 23px;
     font-weight: bold;
 }
+h3{
+    font-size: 20px;
+}
 p{
     font-size: 16px;
 }
 
+
 .aligra{
-    font-family: Impact,serif;
-    font-weight: lighter;
-    letter-spacing: 1px;
-    font-size: 22px;
+
+    font-family: Impact;
     color: #FCB900;
+    letter-spacing: 2px;
+    font-size: 22px;
+    font-weight: lighter;
 }

@@ -17,12 +17,14 @@
 
     <img src={imgPortada} alt="que-es-Aligra" />
 
-    {#if showDiv}
-        <div transition:fly={{ x: -400, duration: 1500 }}>
-            <h2>Regeneració Sostenible d'Edificis d'Habitatges</h2>
-            <h4><span class="aligra">Aligra</span>, la solució guanyadora del repte urbà proposa una renovació avantguardista i sostenible d'edificis<br> residencials mitjançant sistemes innovadors.</h4>
-        </div>
-    {/if}
+{#if showDiv}
+    <div transition:fly={{ x: -400, duration: 1500 }}>
+
+        <h2>Regeneració Sostenible d'Edificis d'Habitatges</h2>
+        <h4><span class="aligra">Aligra</span>, la solució guanyadora del repte urbà proposa una renovació avantguardista i sostenible d'edificis<br> residencials mitjançant sistemes innovadors.</h4>
+    </div>
+{/if}
+
 </main>
 
 
@@ -67,9 +69,16 @@
     }
 
     @media screen and (min-width: 1920px) {
-        div{
+        div {
             transform: translateX(37%);
             margin-top: -130px;
+
+        }
+    }
+
+    @media screen and (max-width: 768px){
+        h2{
+            font-size: 17px;
 
         }
         h4{
