@@ -5,15 +5,14 @@
     import imgPortada2 from "$lib/imagenes/AligraQueEs/ImgPortadaAligra2.jpg";
     import imgPortada3 from "$lib/imagenes/AligraQueEs/ImgPortadaAligra3.jpg";
     import Article from '$lib/componentes/ArticleQueEsAligra.svelte';
+    /*import imageRepteUrba from '$lib/imagenes/AligraQueEs/Repte urbà_Aligra_1.jpg'*/
 
 </script>
 
 <main>
 
     <section>
-        <img transition:fade src={imgPortada1} alt="">
-        <img transition:fade src={imgPortada2} alt="">
-        <img transition:fade src={imgPortada3} alt="">
+        <img transition:fade src={imgPortada3} alt="" class="edificiBcn">
 
     </section>
 
@@ -27,9 +26,9 @@
 
 
         <section>
+            <img transition:fade src={imgPortada3} alt="">
             <img transition:fade src={imgPortada1} alt="">
             <img transition:fade src={imgPortada2} alt="">
-            <img transition:fade src={imgPortada3} alt="">
 
         </section>
     <div>
@@ -45,12 +44,6 @@
     </div>
 
 
-    <section>
-        <img transition:fade src={imgPortada1} alt="">
-        <img transition:fade src={imgPortada2} alt="">
-        <img transition:fade src={imgPortada3} alt="">
-
-    </section>
 <div>
         <Article>
             <span class="aligra">Aligra</span> està concebut per adaptar-se a una gran diversitat de situacions, tant a escala arquitectònica com a nivell de paisatge urbà. S’han analitzat diferents configuracions d’ampliació de volum a partir d’edificis reals de la ciutat de Barcelona, des de polígons residencials fins a finques de l'Eixample, passant per alguns casos menys habituals d’edificis no alineats a carrer.<br>
@@ -88,6 +81,10 @@
     section img:hover {
         transform: scale(1.1);
         filter: none;
+    }
+    .edificiBcn{
+        width: 100%;
+        object-fit: cover;
     }
 
 </style>

@@ -55,11 +55,11 @@ i construcció prefabricada amb aquest material."/></a>
     </div>
     </section>
     <article>
-
+    <footer>
         <a href="https://www.holaluz.com/"><img transition:fade src="{holaluz}" alt="logo"/> </a>
      <a href="https://sisconsultoria.com/"><img transition:fade src="{sis}" alt="logo"/></a>
      <a href="https://www.mavitecindustrial.com/"><img transition:fade src="{mavitec}" alt="logo"/></a>
-
+        </footer>
 
 
 
@@ -106,7 +106,9 @@ i construcció prefabricada amb aquest material."/></a>
     }
 
 
-
+a{
+    justify-content: center;
+}
 
     a{
         text-decoration: none;
@@ -114,7 +116,12 @@ i construcció prefabricada amb aquest material."/></a>
         font-size: 16px;
     }
 
-
+    footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 150px;
+    }
 
 
 </style>
