@@ -20,8 +20,8 @@
 {#if showDiv}
     <div transition:fly={{ x: -400, duration: 1500 }}>
 
-        <h2>Regeneració Sostenible d'Edificis d'Habitatges</h2>
-        <h4><span class="aligra">Aligra</span>, la solució guanyadora del repte urbà proposa una renovació avantguardista i sostenible d'edificis<br> residencials mitjançant sistemes innovadors.</h4>
+        <h1>ALIGRA</h1>
+        <h3>Regeneració Sostenible d'Edificis d'Habitatges</h3>
     </div>
 {/if}
 
@@ -34,6 +34,19 @@
         margin: 0;
         height: auto;
         overflow: hidden;
+    }
+    h1{
+        font-family: Impact,sans-serif;
+        color: #FCB900;
+        font-size: 44px;
+        font-weight: lighter;
+        letter-spacing: 0.1rem;
+    }
+    h3{
+        color: white;
+        font-size: 24px;
+        margin-top: -20px;
+        letter-spacing: 0.1rem;
     }
 
 
@@ -53,20 +66,13 @@
         flex-direction: column;
         position: absolute;
         padding: 15px;
-        margin-top: -170px;
+        margin-top: -190px;
         text-align: center;
         transform: translateX(27%);
 
     }
 
-    h2 {
-        color: white;
-    }
-    h4 {
-        color: white;
-       margin-top:-5px;
-        font-size: 16px;
-    }
+
 
     @media screen and (min-width: 1920px) {
         div {
@@ -83,32 +89,17 @@
             transform: translateX(10%);
             margin-top: -100px;
         }
-        h2{
-            font-size: 19px;
-        }
-        h4 {
-            font-size: 14px;
-        }
-        .aligra{
-            font-size: 15px;
-        }
+
     }
     /*Version movil*/
     @media screen and (max-width: 768px) {
         div {
             transform: translateX(0);
            margin-top: -70px;
-        }
-        h2{
-            font-size: 19px;
+
         }
 
-        h4 {
-            font-size: 14px;
-        }
-        .aligra{
-            font-size: 14px;
-        }
+
     }
 
 

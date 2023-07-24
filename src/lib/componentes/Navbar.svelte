@@ -1,6 +1,6 @@
 <script>
     import '/src/global.css'
-    import imgFavicon from "$lib/imagenes/LogoYFaviconesMenu/hamburgermenu.png"
+    import imgFavicon from "$lib/imagenes/LogoYFaviconesMenu/icon_menu.png"
 </script>
 
 <nav>
@@ -78,13 +78,17 @@
 
     .favicon {
         background-color: #FCB900;
+        object-fit: cover;
         position: relative;
         top: 20px;
         left: 40px;
-        height: 40px;
-        width: 40px;
+        height: 35px;
+        width: 35px;
         border-radius: 50%;
         border: #FCB900;
+    }
+    .aligra{
+        font-size: 25px;
     }
         @media screen and (min-width: 1920px) {
             nav {

@@ -19,13 +19,16 @@
         bottom: 0;
         left: 0;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
+        gap:80px;
         align-items: center;
         width: 100%;
-        height: 40px;
+        height: 25px;
         background-color: #131111;
         color: #FCB900;
     }
-
+    p:hover{
+        color:white;
+    }
 
 </style>
