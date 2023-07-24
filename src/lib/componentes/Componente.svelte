@@ -2,12 +2,15 @@
 export let imagen
 export let texto
 
+export let titulo
+
 import { fade } from 'svelte/transition';
 
 </script>
 
 <section>
     <img transition:fade src={imagen}  alt="logo"/>
+    <h2>{titulo}</h2>
     <p>{texto}</p>
 
 </section>
