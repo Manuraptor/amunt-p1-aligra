@@ -22,8 +22,8 @@
                                 Ha desenvolupat projectes d'habitatge social, processos participatius,
                                 intervencions en espais públics i recerca en la  construcció a  partir de
                                 materials reutilitzats i reciclats."/></a>
-    <a href="https://societatorganica.com/"><Componente imagen="{societatorganica}" texto
-="Societat Orgànica:   Sostenibilitat i ecologia aplicada a l’edificació. Cooperativa d’arquitectes que treballa en el paradigma de la sostenibilitat en el sector de l’edificació. La consideració del tancament del cicle dels materials com
+    <a href="https://societatorganica.com/"><Componente imagen="{societatorganica}" titulo="Societat Orgànica:" texto
+=" Sostenibilitat i ecologia aplicada a l’edificació. Cooperativa d’arquitectes que treballa en el paradigma de la sostenibilitat en el sector de l’edificació. La consideració del tancament del cicle dels materials com
 a condició necessària per a aconseguir la sostenibilitat és el seu referent d’actuació."/></a>
 
 
@@ -36,7 +36,7 @@ Cooperativa autogestionada que ofereix serveis d'enginyeria i consultoria en ene
 A través d'una estructura horitzontal i socialment responsable, promou solucions innovadores
  per a reduir la petjada energètica i millorar la qualitat ambiental dels nostres entorns."/></a>
 
-    <a href="https://www.tallfusta.com/"> <Componente imagen="{tallfusta}" texto="Tallfusta: Prefabricació lleugera. Empresa amb una àmplia
+    <a href="https://www.tallfusta.com/"> <Componente imagen="{tallfusta}" titulo="Tallfusta:" texto=" Prefabricació lleugera. Empresa amb una àmplia
 experiència en el sector de la construcció amb fusta. Sistemes avançats en solucions estructurals
 i construcció prefabricada amb aquest material."/></a>
 
