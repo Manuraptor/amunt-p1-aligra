@@ -83,7 +83,13 @@ i construcció prefabricada amb aquest material."/></a>
     }
 
     article {
+
+       margin-top:80px;
+        margin-left: 280px;
+        width: 1000px;
+
         margin-top:80px;
+
         margin-bottom:25px;
         display: flex;
         flex-direction: row;
@@ -114,6 +120,5 @@ i construcció prefabricada amb aquest material."/></a>
 
 
 
-    h3{font-size: 16px;
-    }
+
 </style>
