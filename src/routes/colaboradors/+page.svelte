@@ -72,7 +72,7 @@ i construcció prefabricada amb aquest material."/></a>
        display:flex;
         width: 100%;
         flex-direction: column;
-        gap: 320px;
+        gap: 60px;
     }
 
     section {
@@ -84,12 +84,8 @@ i construcció prefabricada amb aquest material."/></a>
 
     article {
 
-       margin-top:80px;
-        margin-left: 280px;
+       margin-top:70px;
         width: 1000px;
-
-        margin-top:80px;
-
         margin-bottom:25px;
         display: flex;
         flex-direction: row;
@@ -98,7 +94,7 @@ i construcció prefabricada amb aquest material."/></a>
     }
 
     img {
-        width: 200px;
+        width: 150px;
         filter: grayscale(100%);
         transition: all 0.5s ease;
     }

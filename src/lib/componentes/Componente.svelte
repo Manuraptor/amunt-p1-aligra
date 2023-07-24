@@ -24,17 +24,17 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        height: 100px;
-        width: 900px;
-        gap: 30px;
-        margin-left: 275px;
+      /*  height: 100px;
+        width: 900px;*/
+        gap: 15px;
+   /*     margin-left: 275px;*/
         margin-bottom: 60px;
         align-items: center;
     }
 
     img {
         width: 200px;
-        filter: grayscale(75%);
+        filter: grayscale(100%);
         transition: all 0.5s ease;
     }
 
