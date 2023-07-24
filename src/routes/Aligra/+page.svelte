@@ -4,12 +4,18 @@
     import imgPortada1 from "$lib/imagenes/AligraQueEs/ImgPortadaAligra1.jpg";
     import imgPortada2 from "$lib/imagenes/AligraQueEs/ImgPortadaAligra2.jpg";
     import imgPortada3 from "$lib/imagenes/AligraQueEs/ImgPortadaAligra3.jpg";
-    import imgPortada4 from "$lib/imagenes/AligraQueEs/ImgPortadaAligra4.jpg";
     import Article from '$lib/componentes/ArticleQueEsAligra.svelte';
 
 </script>
 
 <main>
+
+    <section>
+        <img transition:fade src={imgPortada1} alt="">
+        <img transition:fade src={imgPortada2} alt="">
+        <img transition:fade src={imgPortada3} alt="">
+
+    </section>
 
     <div>
 
@@ -24,7 +30,7 @@
             <img transition:fade src={imgPortada1} alt="">
             <img transition:fade src={imgPortada2} alt="">
             <img transition:fade src={imgPortada3} alt="">
-            <img transition:fade src={imgPortada4} alt="">
+
         </section>
     <div>
         <Article>
@@ -37,6 +43,14 @@
             licitació o situació constructiva sense les restriccions imposades per les patents privatives.
         </Article>
     </div>
+
+
+    <section>
+        <img transition:fade src={imgPortada1} alt="">
+        <img transition:fade src={imgPortada2} alt="">
+        <img transition:fade src={imgPortada3} alt="">
+
+    </section>
 <div>
         <Article>
             <span class="aligra">Aligra</span> està concebut per adaptar-se a una gran diversitat de situacions, tant a escala arquitectònica com a nivell de paisatge urbà. S’han analitzat diferents configuracions d’ampliació de volum a partir d’edificis reals de la ciutat de Barcelona, des de polígons residencials fins a finques de l'Eixample, passant per alguns casos menys habituals d’edificis no alineats a carrer.<br>

@@ -23,7 +23,7 @@
             <a href="/colaboradors">Colaboradors</a>
         </li>
         <li>
-            <a href="/prueba">Prueba</a>
+            <a href="/objectiu">Objectiu</a>
         </li>
     </ul>
 </nav>
@@ -81,7 +81,7 @@
         object-fit: cover;
         position: relative;
         top: 20px;
-        left: 40px;
+        left: 36px;
         height: 35px;
         width: 35px;
         border-radius: 50%;
