@@ -14,10 +14,10 @@
     <div>
 
         <Article>
-            <span class="aligra">Aligra</span> és un dels projectes guanyadors de la convocatòria  per a la “Regeneració d’edificis d’habitatges amb sistemes innovadors sostenibles” de la fundació BitHábitat. En el marc dels “reptes urbans”, l'Ajuntament de Barcelona busca solucions integrals que millorin l'habitabilitat i el rendiment energètic dels habitatges de la ciutat. L'objectiu d'aquest “repte urbà” ha estat trobar noves solucions integrals per a millorar el rendiment energètic dels habitatges de barcelona, aportant nous materials i/o usos dels existents, noves tecnologies i nous dissenys. Amb aquest repte, promogut per BIT Hàbitat, de la mà de l’Institut Municipal d’Urbanisme i la Gerència d’Urbanisme, es buscaven solucions que no només abordin la rehabilitació integral dels edificis sinó que també qüestions com l’ús eficient dels recursos, la mitigació i adaptació al canvi climàtic, així com la resiliència.
+            <span class="aligra">Aligra</span> és un dels projectes guanyadors de la convocatòria  per a la “Regeneració d’edificis d’habitatges amb sistemes innovadors sostenibles” de la fundació BitHábitat. En el marc dels “reptes urbans”, l'Ajuntament de Barcelona busca solucions integrals que millorin l'habitabilitat i el rendiment energètic dels habitatges de la ciutat. L'objectiu d'aquest “repte urbà” ha estat trobar noves solucions integrals per a millorar el rendiment energètic dels habitatges de Barcelona, aportant nous materials i/o usos dels existents, noves tecnologies i nous dissenys. Amb aquest repte, promogut per BIT Hàbitat, de la mà de l’Institut Municipal d’Urbanisme i la Gerència d’Urbanisme, es buscaven solucions que no només abordin la rehabilitació integral dels edificis sinó que també qüestions com l’ús eficient dels recursos, la mitigació i adaptació al canvi climàtic, així com la resiliència.
 
         </Article>
-
+    </div>
 
 
         <section>
@@ -26,7 +26,7 @@
             <img transition:fade src={imgPortada3} alt="">
             <img transition:fade src={imgPortada4} alt="">
         </section>
-
+    <div>
         <Article>
             El sistema <span class="aligra">Aligra</span> respon al Repte Urbà de forma rigorosa i flexible. Diverses empreses de
             perfils complementaris ens hem aliat per oferir aquesta solució multicapa i escalable a partir
@@ -36,8 +36,8 @@
             el mercat, però que es tradueix a un sistema genèric, de codi obert, adaptable a qualsevol
             licitació o situació constructiva sense les restriccions imposades per les patents privatives.
         </Article>
-
-
+    </div>
+<div>
         <Article>
             <span class="aligra">Aligra</span> està concebut per adaptar-se a una gran diversitat de situacions, tant a escala arquitectònica com a nivell de paisatge urbà. S’han analitzat diferents configuracions d’ampliació de volum a partir d’edificis reals de la ciutat de Barcelona, des de polígons residencials fins a finques de l'Eixample, passant per alguns casos menys habituals d’edificis no alineats a carrer.<br>
             S’han considerat i analitzat casos d’ampliació de l'espai privatiu dels habitatges, d'introducció de galeries, de generació d’espais oberts privats i col·lectius, així com la possibilitat d’encabir nous nuclis de comunicació vertical. A nivell de materials, es proposa un sistema on les capes d'acabat són intercanviables per tal d'oferir diversitat de textures i colors de façana.
@@ -46,45 +46,35 @@
 </main>
 
 <style>
-   /* main {
-        margin-left: 210px;
-        padding: 25px;
-    }
+
 
 
     div {
-        margin-top: 50px;
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        margin-bottom: 30px;
+        margin-top: 20px;
     }
 
     section {
         display: flex;
-        overflow-x: auto;
-        gap: 10px;
+        margin: 40px;
+        gap: 30px;
+
     }
 
     section img {
-        width: 300px;
-        height: 200px;
+        width: 240px;
+        height: 240px;
         object-fit: cover;
         filter: grayscale(90%);
         transition: all 0.5s ease;
         cursor:pointer;
     }
-    section img:hover{
+    section img:hover {
         transform: scale(1.1);
-        filter: none;*/
-       /* margin: 10px;*/
-/*    .aligra{
-        font-family: Impact;
-       color: white;
-        letter-spacing: 2px;
-        font-size: 20px;
-        font-weight: lighter;
-        text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+        filter: none;
+    }
 
-    }*/
 </style>
 
