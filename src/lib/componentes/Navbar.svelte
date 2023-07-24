@@ -1,15 +1,13 @@
 <script>
-    import imgLogo from "$lib/imagenes/LogoYFaviconesMenu/image1logoAligra-removebg-preview.png"
     import '/src/global.css'
-    import imgFavicon from "$lib/imagenes/LogoYFaviconesMenu/logoAligra.png"
+    import imgFavicon from "$lib/imagenes/LogoYFaviconesMenu/hamburgermenu.png"
 </script>
 
 <nav>
     <img src={imgFavicon} alt="Favicon" class="favicon">
     <ul>
         <li>
-            <a href="/">
-                <img src={imgLogo} alt="LogotipoAligra" class="logo">
+            <a href="/" class="aligra">Aligra
             </a>
         </li>
         <li>
@@ -42,7 +40,7 @@
         flex-direction: column;
         background: rgba(0, 0, 0, 0.6);
         transition: 0.4s linear;
-        left: -11%;
+        left: -15%;
     }
 
     nav:hover {
@@ -76,13 +74,10 @@
 
     }
 
-    .logo {
-        height: 2.5rem;
-        width: 2.5rem;
-        border-radius: 50%;
-    }
+
 
     .favicon {
+        background-color: #FCB900;
         position: relative;
         top: 20px;
         left: 40px;
