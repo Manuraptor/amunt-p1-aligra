@@ -58,14 +58,14 @@
 
     section {
         display: flex;
-        margin: 40px;
         gap: 30px;
+        margin-bottom: 80px;
 
     }
 
     section img {
-        width: 240px;
-        height: 240px;
+        width: 218px;
+        height: 260px;
         object-fit: cover;
         filter: grayscale(90%);
         transition: all 0.5s ease;
