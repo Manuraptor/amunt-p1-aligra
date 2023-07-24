@@ -1,0 +1,265 @@
+[33mcommit d0ea0c69f1773c606dd686e9ddf148df55ae812f[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Gilda Irina Ichim <onlyirina7@gmail.com>
+Date:   Sat Jul 22 16:59:40 2023 +0200
+
+    cambiando estilos portada
+
+[33mcommit 060ddf61b3522c8f840f1aad7c3a2189ab748ea6[m
+Author: Gilda Irina Ichim <onlyirina7@gmail.com>
+Date:   Sat Jul 22 13:48:57 2023 +0200
+
+    modificando footer al gusto del cliente
+
+[33mcommit a35df58ced5a1283d8a385652b7e04d4dad4ebb3[m
+Author: Gilda Irina Ichim <onlyirina7@gmail.com>
+Date:   Sat Jul 22 13:06:51 2023 +0200
+
+    creando estilos generales para dejar margen en cada pagina+ cambiando estilos navbar
+
+[33mcommit 6417528698935a1ad8bd03c5922870534d930291[m
+Author: Gilda Irina Ichim <onlyirina7@gmail.com>
+Date:   Thu Jul 20 01:59:05 2023 +0200
+
+    empezando responsive navbar+portada
+
+[33mcommit 03fcb54a3c7feaf3e520b134845bb8e6945d794f[m
+Author: Gilda Irina Ichim <onlyirina7@gmail.com>
+Date:   Thu Jul 20 01:20:08 2023 +0200
+
+    agregando pruebas al cambiar de logo+ actualizando texto de la portada
+
+[33mcommit 356ab36fa5c81586350f8db9e72d0679a5ef6b86[m
+Author: jutelma <jutelma07051980@gmail.com>
+Date:   Tue Jul 18 16:15:53 2023 +0200
+
+    añadiendo cambios
+
+[33mcommit abc6069cc1edbac872e4d276f64a813c2c088f1f[m
+Author: jutelma <jutelma07051980@gmail.com>
+Date:   Tue Jul 18 12:01:00 2023 +0200
+
+     actualizando cambios
+
+[33mcommit 35dd7e383a37b235fd27f4f4106ef88f2d137ccd[m
+Author: jutelma <jutelma07051980@gmail.com>
+Date:   Tue Jul 18 11:52:54 2023 +0200
+
+    importando imagenes kits
+
+[33mcommit 1d5e2e67801bf85206837c4992f2f79c47397dbb[m
+Merge: 15e9d1d 68124d2
+Author: jutelma <jutelma07051980@gmail.com>
+Date:   Tue Jul 18 11:43:53 2023 +0200
+
+    Merge branch 'main' of https://github.com/Manuraptor/amunt-p1-aligra
+
+[33mcommit 15e9d1d011be278a60aeb9315c8aa0f543f83d11[m
+Author: jutelma <jutelma07051980@gmail.com>
+Date:   Tue Jul 18 11:43:30 2023 +0200
+
+    corrigiendo errores
+
+[33mcommit 68124d2b2dac4e2efa45abbb732d1250638fe2d7[m
+Author: Manuraptor <majejuma@hotmail.com>
+Date:   Tue Jul 18 11:33:06 2023 +0200
+
+    arreglandokitimg2vercel3
+
+[33mcommit d98debdaa3896528b3ae9ea3bd9718a0c06d5afd[m
+Author: Manuraptor <majejuma@hotmail.com>
+Date:   Tue Jul 18 10:48:39 2023 +0200
+
+    arreglandokitimg2vercel2
+
+[33mcommit 22c670c2a0d78046fb9ef4ef2e5047e384df85cd[m
+Author: Manuraptor <majejuma@hotmail.com>
+Date:   Tue Jul 18 10:43:33 2023 +0200
+
+    arreglandokitimg2vercel
+
+[33mcommit 978740e05eca9abd3012004ac20ebac7506b224d[m
+Author: Manuraptor <majejuma@hotmail.com>
+Date:   Tue Jul 18 09:38:36 2023 +0200
+
+    enlacescolaboradors
+
+[33mcommit cf8d89fdb3cafa498a8ae6e4b2b65373613e0198[m
+Author: jutelma <jutelma07051980@gmail.com>
+Date:   Tue Jul 18 09:20:17 2023 +0200
+
+    corrigiendo errores
+
+[33mcommit a46742d1d10ab72d017990e9a35061c2582103ac[m
+Author: jutelma <jutelma07051980@gmail.com>
+Date:   Tue Jul 18 09:12:34 2023 +0200
+
+    se cambio imagenes de kits redimencionandas
+
+[33mcommit 6832542303c1b8cc478726f66a1447cb1f10cf3a[m
+Merge: 4aa2b1c 0380944
+Author: Gilda Irina Ichim <onlyirina7@gmail.com>
+Date:   Mon Jul 17 21:27:45 2023 +0200
+
+    Merge branch 'main' of https://github.com/Manuraptor/amunt-p1-aligra
+
+[33mcommit 4aa2b1c170f8739288ce5b30bcd05835c879865e[m
+Author: Gilda Irina Ichim <onlyirina7@gmail.com>
+Date:   Mon Jul 17 21:27:23 2023 +0200
+
+    acabando estilos pagina de inicio
+
+[33mcommit 038094470681603e749bb436a8b2da24ebd1e871[m
+Merge: a77fe62 a3e7605
+Author: jutelma <jutelma07051980@gmail.com>
+Date:   Mon Jul 17 21:10:30 2023 +0200
+
+    Merge branch 'main' of https://github.com/Manuraptor/amunt-p1-aligra
+
+[33mcommit a77fe62cb237c97cadca33696df48530ce9bb8b6[m
+Author: jutelma <jutelma07051980@gmail.com>
+Date:   Mon Jul 17 21:10:13 2023 +0200
+
+     Añadiendo texto de kits
+
+[33mcommit a3e76059526c6f2f0ddd0837735a541b0136d58b[m
+Author: Gilda Irina Ichim <onlyirina7@gmail.com>
+Date:   Mon Jul 17 16:08:17 2023 +0200
+
+    arreglando estilos portada
+
+[33mcommit d6101a437fe01dd15bda14844018e85cf03c4ef8[m
+Merge: 1d15f85 ce1d176
+Author: jutelma <jutelma07051980@gmail.com>
+Date:   Mon Jul 17 16:06:50 2023 +0200
+
+    Merge branch 'main' of https://github.com/Manuraptor/amunt-p1-aligra
+
+[33mcommit 1d15f8581c27984f38b066621fea47081f3da49a[m
+Author: jutelma <jutelma07051980@gmail.com>
+Date:   Mon Jul 17 16:06:32 2023 +0200
+
+    Estructurando kits
+
+[33mcommit ce1d17635169a24813eb7d61db2d578ff6b69508[m
+Author: Manuraptor <majejuma@hotmail.com>
+Date:   Mon Jul 17 15:54:18 2023 +0200
+
+    colaboradorsenlaces
+
+[33mcommit a8f933078ab6f830f7f3a2ca5508cce2677ffaad[m
+Author: Gilda Irina Ichim <onlyirina7@gmail.com>
+Date:   Mon Jul 17 15:40:08 2023 +0200
+
+    cambiando estilos navbar a peticion del cliente
+
+[33mcommit af1ae1d2126dd40e4dcc25313ade929b57493f58[m
+Author: Manuraptor <majejuma@hotmail.com>
+Date:   Mon Jul 17 09:40:19 2023 +0200
+
+    cambiosmenoreshaciadiseño8
+
+[33mcommit fc150ff36458e9abf343966aa60367bfdf251654[m
+Author: Manuraptor <majejuma@hotmail.com>
+Date:   Mon Jul 17 09:31:46 2023 +0200
+
+    cambiospreviosdemo2
+
+[33mcommit 9df103e172d5fdea08d09e90ff01fa9aa47e1097[m
+Author: jutelma <jutelma07051980@gmail.com>
+Date:   Sun Jul 16 20:22:31 2023 +0200
+
+    se creo componente Kitcard modal y actualizacion de cambios
+
+[33mcommit b090307f53539e94c3b703dbc68bd9e36320b2ee[m
+Merge: e90eaab 9d789b0
+Author: Gilda Irina Ichim <onlyirina7@gmail.com>
+Date:   Sun Jul 16 15:24:51 2023 +0200
+
+    Merge branch 'main' of https://github.com/Manuraptor/amunt-p1-aligra
+
+[33mcommit e90eaaba83c27d7f83329a3dcfd2fab9dde90780[m
+Author: Gilda Irina Ichim <onlyirina7@gmail.com>
+Date:   Sun Jul 16 15:24:19 2023 +0200
+
+    limpiando codigo
+
+[33mcommit 9d789b057bf9e43a3564bb96d5d797a5e6e04f3c[m
+Author: jutelma <jutelma07051980@gmail.com>
+Date:   Sun Jul 16 14:49:38 2023 +0200
+
+     actualizando cambios
+
+[33mcommit 24c43c0efe486f85d83cb622ab22b08d5d334bd9[m
+Merge: 335d3fe 5c8c172
+Author: jutelma <jutelma07051980@gmail.com>
+Date:   Sun Jul 16 11:34:16 2023 +0200
+
+    Merge branch 'main' of https://github.com/Manuraptor/amunt-p1-aligra
+
+[33mcommit 5c8c172e5099e8fa32f999429e4d081d6dc9146c[m
+Author: Gilda Irina Ichim <onlyirina7@gmail.com>
+Date:   Sun Jul 16 03:08:25 2023 +0200
+
+    creando un modal+ componente+page
+
+[33mcommit d200ce019fda3fb0aa08fdbeb2965b06a162b0d1[m
+Author: Gilda Irina Ichim <onlyirina7@gmail.com>
+Date:   Sat Jul 15 19:42:45 2023 +0200
+
+    organización para presentación
+
+[33mcommit aa006e9d0bd85fe3a25538202b7d86cc21d5b174[m
+Author: Gilda Irina Ichim <onlyirina7@gmail.com>
+Date:   Sat Jul 15 18:57:55 2023 +0200
+
+    acabando estilos prueba Que es Aligra
+
+[33mcommit 4690042373346ccdd1cc01f70b92f404bf0a9df5[m
+Author: Gilda Irina Ichim <onlyirina7@gmail.com>
+Date:   Sat Jul 15 15:50:04 2023 +0200
+
+    prueba para la pagina de Que es, acabando estilos, esperando opiniones
+
+[33mcommit e550ee8d27f4aff8c6026c91de82de858a574782[m
+Author: Gilda Irina Ichim <onlyirina7@gmail.com>
+Date:   Sat Jul 15 13:57:18 2023 +0200
+
+    agregando efecto zoom en las imagenes
+
+[33mcommit 9f8936b1646e78576537823f7d2dcca81de16744[m
+Author: Gilda Irina Ichim <onlyirina7@gmail.com>
+Date:   Sat Jul 15 13:38:36 2023 +0200
+
+    creando componente para los articulos de la ruta Que es Aligra
+
+[33mcommit 335d3fe72d1ee76d0c55c4228c1338285c8fa4d5[m
+Author: jutelma <jutelma07051980@gmail.com>
+Date:   Sat Jul 15 12:21:19 2023 +0200
+
+     creando componente card
+
+[33mcommit bdeeb4b79a5286390cf87f55ee5238168160c6fa[m
+Author: Gilda Irina Ichim <onlyirina7@gmail.com>
+Date:   Sat Jul 15 12:12:26 2023 +0200
+
+    primera version de Que es Aligra
+
+[33mcommit 9c044f3b84ac440f64613c7102f2736c0e7e0486[m
+Author: Manuraptor <majejuma@hotmail.com>
+Date:   Sat Jul 15 11:33:26 2023 +0200
+
+    colaboradors
+
+[33mcommit 5472b3934dfa5cbcf0938879ad481d21da3ec77a[m
+Author: Manuraptor <majejuma@hotmail.com>
+Date:   Sat Jul 15 10:16:10 2023 +0200
+
+    cambiosmenoreshaciadiseño7
+
+[33mcommit 4761964d2b720858c40b5ab7792bea48d3617eab[m
+Author: Gilda Irina Ichim <onlyirina7@gmail.com>
+Date:   Sat Jul 15 09:42:05 2023 +0200
+
+    probando cambios background del slide de portada
+
+[33mcommit dc2e0bbaec920884a
