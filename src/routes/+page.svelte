@@ -68,7 +68,7 @@
         padding: 15px;
         margin-top: -190px;
         text-align: center;
-        transform: translateX(27%);
+        transform: translateX(7%);
 
     }
 

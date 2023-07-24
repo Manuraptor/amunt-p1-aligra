@@ -14,6 +14,9 @@
             <a href="/Aligra">Qui som?</a>
         </li>
         <li>
+            <a href="/objectiu">Objectiu</a>
+        </li>
+        <li>
             <a href="/caracteristiques">Caracteristiques</a>
         </li>
         <li>
@@ -22,9 +25,7 @@
         <li>
             <a href="/colaboradors">Colaboradors</a>
         </li>
-        <li>
-            <a href="/objectiu">Objectiu</a>
-        </li>
+
     </ul>
 </nav>
 
