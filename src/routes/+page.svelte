@@ -70,21 +70,13 @@
 
     @media screen and (min-width: 1920px) {
         div {
-            transform: translateX(37%);
+            transform: translateX(47%);
             margin-top: -130px;
 
         }
     }
 
-    @media screen and (max-width: 768px){
-        h2{
-            font-size: 17px;
 
-        }
-        h4{
-            font-size: 20px;
-        }
-    }
     /*Version Tablet*/
     @media screen and (min-width: 769px) and (max-width: 1024px) {
         div {

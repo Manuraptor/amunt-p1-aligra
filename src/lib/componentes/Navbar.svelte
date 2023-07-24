@@ -73,7 +73,6 @@
     nav ul li a:hover {
         cursor: pointer;
         color: white;
-        /*padding: 10px 20px;*/
         text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
     }
 
@@ -85,16 +84,36 @@
 
     .favicon {
         position: relative;
-        top: 20px; /* Ajustar la posición vertical del favicon según tus preferencias */
-        left: 40px; /* Ajustar la posición horizontal del favicon según tus preferencias */
+        top: 20px;
+        left: 40px;
         height: 40px;
         width: 40px;
         border-radius: 50%;
         border: #FCB900;
     }
+        @media screen and (min-width: 1920px) {
+            nav {
+                left: -9%;
+            }
+        }
+    /*Version tablet*/
+            @media screen and (min-width: 769px) and (max-width: 1024px){
+                nav{
+                    left:-14.8%;
+                }
+            }
+    /*Version movil*/
+    @media screen and (max-width: 768px){
+
+            nav{
+                left:-22%;
+            }
+
+    }
+
 
     /* Estilos para pantallas más pequeñas */
-    @media screen and (max-width: 768px) {
+   /* @media screen and (max-width: 768px) {
         nav {
             width: 20%;
             height: 100vh;
@@ -118,19 +137,11 @@
         }
         nav ul li a {
             font-size: 18px;
-            justify-content: center; /* Centrar el texto verticalmente en pantallas más pequeñas */
+            justify-content: center;
         }
-    }
+    }*/
 
-    /* Estilos para pantallas más pequeñas (Móviles) */
-    @media screen and (max-width: 480px) {
-        nav {
-            width: 40%; /* Ajustar el ancho del navbar en pantallas muy pequeñas */
-        }
-        nav ul li a {
-            font-size: 16px;
-        }
-    }
+
 </style>
 
 
