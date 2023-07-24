@@ -37,7 +37,7 @@
         top: 0;
         bottom: 0;
         align-items: flex-end;
-        width: 180px;
+        width: 230px;
         max-height: 100vh;
         flex-direction: column;
         background: rgba(0, 0, 0, 0.6);
