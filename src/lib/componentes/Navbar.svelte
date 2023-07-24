@@ -64,7 +64,7 @@
         justify-content: flex-end;
         margin-right: 18px;
         color: #FCB900;
-        text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+
         text-decoration: none;
         font-weight: normal;
         font-size: 20px;
@@ -73,7 +73,7 @@
     nav ul li a:hover {
         cursor: pointer;
         color: white;
-        text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+
     }
 
     .logo {
