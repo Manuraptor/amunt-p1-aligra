@@ -1,33 +1,32 @@
 <script>
-export let imagen
-export let texto
+    export let imagen
+    export let texto
 
-export let titulo
+    export let titulo
 
-import { fade } from 'svelte/transition';
+    import {fade} from 'svelte/transition';
 
 </script>
 
 <section>
-    <img transition:fade src={imagen}  alt="logo"/>
+    <img transition:fade src={imagen} alt="logo"/>
     <h2>{titulo}</h2>
     <p>{texto}</p>
 
 </section>
 
 
-
 <style>
 
 
-    section{
+    section {
 
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
         height: 100px;
         width: 900px;
-        gap:85px;
+        gap: 30px;
         margin-left: 275px;
         margin-bottom: 60px;
         align-items: center;
@@ -38,6 +37,7 @@ import { fade } from 'svelte/transition';
         filter: grayscale(75%);
         transition: all 0.5s ease;
     }
+
     img:hover {
         filter: none;
         transform: scale(1.1);

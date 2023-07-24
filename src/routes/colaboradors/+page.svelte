@@ -16,23 +16,22 @@
 </script>
 
 <main>
-    <a href="https://straddle3.net/es/"><Componente imagen="{straddle3}" titulo="Straddle3:" texto= " Colꞏlectiu de Barcelona que treballa en arquitectura
+     <a href="https://straddle3.net/es/"><Componente imagen="{straddle3}" titulo="Straddle3:" texto= " Colꞏlectiu de Barcelona que treballa en arquitectura
                                 i ciutat des d'una perspectiva crítica i inclusiva.
 
                                 Ha desenvolupat projectes d'habitatge social, processos participatius,
                                 intervencions en espais públics i recerca en la  construcció a  partir de
                                 materials reutilitzats i reciclats."/></a>
-
-
-    <a href="https://societatorganica.com/"><Componente imagen="{societatorganica}" texto="Societat Orgànica:   Sostenibilitat i ecologia aplicada a l’edificació. Cooperativa d’arquitectes que treballa en el paradigma de la sostenibilitat en el sector de l’edificació. La consideració del tancament del cicle dels materials com
+    <a href="https://societatorganica.com/"><Componente imagen="{societatorganica}" texto
+="Societat Orgànica:   Sostenibilitat i ecologia aplicada a l’edificació. Cooperativa d’arquitectes que treballa en el paradigma de la sostenibilitat en el sector de l’edificació. La consideració del tancament del cicle dels materials com
 a condició necessària per a aconseguir la sostenibilitat és el seu referent d’actuació."/></a>
 
 
-    <a href="https://tejido.io/es/"> <Componente imagen="{tejido}" texto="Tejido: tecnologies de la informació aplicades a la ciutat.
+    <a href="https://tejido.io/es/"> <Componente imagen="{tejido}" titulo="Tejido:" texto="Tejido: tecnologies de la informació aplicades a la ciutat.
             Cooperativa andalusa de base tecnològica que treballa en els àmbits de les tecnologies
             de codi obert per a la transformació urbana i social, l'arquitectura i l'art"/></a>
 
-    <a href="https://aiguasol.coop/"><Componente  imagen="{aiguasol}" texto="Aiguasol: Enginyeria en instalꞏlacions sostenibles.
+    <a href="https://aiguasol.coop/"><Componente  imagen="{aiguasol}" titulo="Aiguasol:"texto="Aiguasol: Enginyeria en instalꞏlacions sostenibles.
 Cooperativa autogestionada que ofereix serveis d'enginyeria i consultoria en energia i aire.
 A través d'una estructura horitzontal i socialment responsable, promou solucions innovadores
  per a reduir la petjada energètica i millorar la qualitat ambiental dels nostres entorns."/></a>
@@ -70,15 +69,15 @@ i construcció prefabricada amb aquest material."/></a>
 <style>
 
     main {
+       display:flex;
         width: 100%;
-        justify-content: center;
-        align-items: center;
-        row-gap: 300px;
+        flex-direction: column;
+        gap: 320px;
     }
 
     section {
         display: flex;
-        justify-content: center;
+    justify-content: center;
         flex-direction: column;
         align-items: center;
     }
@@ -94,7 +93,7 @@ i construcció prefabricada amb aquest material."/></a>
 
     img {
         width: 200px;
-        filter: grayscale(75%);
+        filter: grayscale(100%);
         transition: all 0.5s ease;
     }
     img:hover {
@@ -110,6 +109,7 @@ i construcció prefabricada amb aquest material."/></a>
     a{
         text-decoration: none;
         color: black;
+        font-size: 16px;
     }
 
 
