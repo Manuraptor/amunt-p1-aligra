@@ -7,23 +7,23 @@
 
     const kits = [
         {
-            title: 'KIT 1 DAMPLIACIÓ DE VOLUM',
+            title: 'KIT 1',
             link: '/kitPage1',
         },
         {
-            title: 'KIT 2 D’ENVOLUPANT BIOCLIMÀTICA.',
+            title: 'KIT 2 ',
             link: '/kitPage2',
         },
         {
-            title: 'KIT 3 ALJUB',
+            title: 'KIT 3 ',
             link: '/kitPage3',
         },
         {
-            title: 'KIT 4 FOTOVOLTAIC',
+            title: 'KIT 4 ',
             link: '/kitPage4',
         },
         {
-            title: 'KIT 5 SMART BUILDING',
+            title: 'KIT 5',
             link: '/kitPage5',
         },
     ];
@@ -44,8 +44,9 @@
 <style>
     main {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(5, 1fr);
         gap: 20px;
         padding: 1em;
+        grid-template-rows: repeat(5, 200%);
     }
 </style>
