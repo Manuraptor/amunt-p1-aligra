@@ -25,7 +25,7 @@
     </div>
 
 
-        <section>
+        <section class="image">
             <img transition:fade src={imgPortada3} alt="">
             <img transition:fade src={imgPortada1} alt="">
             <img transition:fade src={imgPortada2} alt="">
@@ -85,6 +85,84 @@
     .edificiBcn{
         width: 100%;
         object-fit: cover;
+    }
+
+    @media screen and (min-width: 1920px) {
+        .edificiBcn{
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .image img{
+            width: 350px;
+            height: 400px;
+            margin-left: 10px;
+        }
+    }
+
+
+    /*Version Tablet*/
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        .edificiBcn{
+            display: none;
+
+
+        }
+        div{
+            width:600px;
+            margin-left: -100px;
+        }
+        .image img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            filter: grayscale(90%);
+            transition: all 0.5s ease;
+            cursor:pointer;
+
+        }
+        section{
+            margin-left: -60px;
+        }
+
+
+
+        .image img:hover {
+            transform: scale(1.1);
+            filter: none;
+        }
+
+
+
+
+    }
+    /*Version movil*/
+    @media screen and (max-width: 768px) {
+        .edificiBcn{
+            display: none;
+        }
+        div{
+            width: 500px;
+           margin-left: -230px;
+        }
+
+
+        .image img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            filter: grayscale(90%);
+            transition: all 0.5s ease;
+            cursor:pointer;
+            margin-right: -1px;
+
+        }
+        section{
+            margin-left: -200px;
+            gap: 10px;
+        }
+
     }
 
 </style>

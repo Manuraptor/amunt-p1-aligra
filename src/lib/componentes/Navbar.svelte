@@ -104,14 +104,20 @@
             @media screen and (min-width: 769px) and (max-width: 1024px){
                 nav{
                     left:-21.5%;
+                    width: 40%;
                 }
             }
     /*Version movil*/
     @media screen and (max-width: 768px){
 
             nav{
-                left:-30%;
+               left:-24%;
+                width: 22%;
+
             }
+        nav:hover {
+            left: 0;
+        }
 
     }
 

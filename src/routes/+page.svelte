@@ -95,9 +95,11 @@
     /*Version movil*/
     @media screen and (max-width: 768px) {
         div {
+            width: 350px;
             transform: translateX(0);
            margin-top: -150px;
-            margin-left:-320px;
+            margin-left: -190px;
+           /* flex-wrap: nowrap;*/
 
         }
 
