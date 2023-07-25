@@ -17,7 +17,7 @@
 
         border: 6px solid black;
         padding: 1rem;
-        margin: 0.2rem;
+        margin: 0rem;
         border-radius: 15px;
         display: flex;
         flex-direction: column;
