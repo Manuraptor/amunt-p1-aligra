@@ -29,7 +29,6 @@
         </li>
 
 
-
     </ul>
 </nav>
 
@@ -80,7 +79,6 @@
     }
 
 
-
     .favicon {
         background-color: #FCB900;
         object-fit: cover;
@@ -92,67 +90,43 @@
         border-radius: 50%;
         border: #FCB900;
     }
-    .aligra{
+
+    .aligra {
         font-size: 25px;
     }
-        @media screen and (min-width: 1920px) {
-            nav {
-                left: -12%;
-            }
+
+    @media screen and (min-width: 1920px) {
+        nav {
+            left: -12%;
         }
+    }
+
     /*Version tablet*/
-            @media screen and (min-width: 769px) and (max-width: 1024px){
-                nav{
-                    left:-40px;
-                    width: 19%;
-                }
-                nav:hover {
-                    left:-20%;
-                }
-            }
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        nav {
+            left: -40px;
+            width: 19%;
+        }
+
+        nav:hover {
+            left: -20%;
+        }
+    }
+
     /*Version movil*/
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 768px) {
 
-            nav{
-               left:-24%;
-                width: 22%;
+        nav {
+            left: -24%;
+            width: 22%;
 
-            }
+        }
+
         nav:hover {
             left: 0;
         }
 
     }
-
-
-    /* Estilos para pantallas más pequeñas */
-   /* @media screen and (max-width: 768px) {
-        nav {
-            width: 20%;
-            height: 100vh;
-            left: 0;
-            justify-content: center;
-        }
-        .favicon {
-            display: none;
-        }
-        .logo {
-            height: 3rem;
-            width: 3rem;
-        }
-        nav ul {
-            margin-top: 40px;
-            display: flex;
-            flex-direction: column;
-        }
-        nav ul li {
-            padding: 10px;
-        }
-        nav ul li a {
-            font-size: 18px;
-            justify-content: center;
-        }
-    }*/
 
 
 </style>

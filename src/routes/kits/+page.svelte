@@ -52,8 +52,7 @@
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(5, 145%);
-
-
+        gap: 5px;
 
     }
 

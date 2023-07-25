@@ -24,10 +24,9 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-      /*  height: 100px;
-        width: 900px;*/
+
         gap: 15px;
-   /*     margin-left: 275px;*/
+
         margin-bottom: 60px;
         align-items: center;
     }

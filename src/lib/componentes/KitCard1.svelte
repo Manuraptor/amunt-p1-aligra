@@ -3,10 +3,12 @@
     export let numero;
 
     let showModal = false;
-    function openModal(){
+
+    function openModal() {
         showModal = true;
     }
-    function closeModal(){
+
+    function closeModal() {
         showModal = false;
     }
 
@@ -15,7 +17,7 @@
 
 <div class="kit_card">
     <img src={kit.image} alt={kit.title}/>
-    <h3>{`kit ${numero+1}: ${kit.title}`}</h3>
+    <h3>{`kit ${numero + 1}: ${kit.title}`}</h3>
     <button on:click={openModal}>Leer más</button>
 
     {#if showModal}
@@ -36,7 +38,7 @@
 
         background-color: #f5f5f5;
         border-radius: 8px;
-        padding: 20px;
+        padding: 1px;
         text-align: center;
 
     }
@@ -55,6 +57,7 @@
 
 
     }
+
     button {
         background-color: gainsboro;
         color: black;
