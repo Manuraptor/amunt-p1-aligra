@@ -1,1 +1,1 @@
-<h1>aqui va el kit 1</h1>
+<h1>KIT 1: MÒDUL AMPLIACÍO DE VOLUM</h1>

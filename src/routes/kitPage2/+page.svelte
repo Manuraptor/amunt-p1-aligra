@@ -1,1 +1,1 @@
-<h1>Aqui va el kit 2</h1>
+<h1>KIT 2:MÒDUL D'ENVOLUPANT BIOCLIMÀTICA</h1>
