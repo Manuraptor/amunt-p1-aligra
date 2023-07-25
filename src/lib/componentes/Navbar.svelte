@@ -97,20 +97,20 @@
     }
         @media screen and (min-width: 1920px) {
             nav {
-                left: -9%;
+                left: -12%;
             }
         }
     /*Version tablet*/
             @media screen and (min-width: 769px) and (max-width: 1024px){
                 nav{
-                    left:-14.8%;
+                    left:-21.5%;
                 }
             }
     /*Version movil*/
     @media screen and (max-width: 768px){
 
             nav{
-                left:-22%;
+                left:-30%;
             }
 
     }
