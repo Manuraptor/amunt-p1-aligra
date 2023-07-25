@@ -87,6 +87,47 @@
     }
 
 
+ @media screen and (min-width: 1920px) {
+
+        .container{
+            margin: 11rem;
+        }
+ }
+
+
+ /*Version Tablet*/
+ @media screen and (min-width: 769px) and (max-width: 1024px) {
+
+     .container{
+         margin-left: -150px;
+     }
+
+
+
+
+
+ }
+ /*Version movil*/
+ @media screen and (max-width: 768px) {
+        .container{
+            margin-left: -100px;
+        }
+     .cards-container{
+        width: 80vw;
+
+         margin-left: -140px;
+     }
+     .image-container{
+         width: 250px;
+         height: 250px;
+         gap: 90px;
+         margin: 550px 10px 60px;
+     }
+
+ }
+
+
+
 
 
 
