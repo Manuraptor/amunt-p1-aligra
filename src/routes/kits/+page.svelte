@@ -1,4 +1,3 @@
-
 <script>
     import KitCard from "$lib/componentes/KitCard.svelte";
     import Imagen1 from "$lib/imagenes/kits/ImgKit6.jpg";
@@ -37,9 +36,6 @@
         },
     ];
 
-
-
-
 </script>
 
 <main>
@@ -55,8 +51,10 @@
     main {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(5, 130%);
-        gap: 20px;
+        grid-template-rows: repeat(5, 145%);
+
+
 
     }
+
 </style>

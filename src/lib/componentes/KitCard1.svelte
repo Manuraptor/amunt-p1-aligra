@@ -46,6 +46,7 @@
         object-fit: cover;
         border-radius: 8px;
         margin-bottom: 10px;
+
     }
 
     h3 {
