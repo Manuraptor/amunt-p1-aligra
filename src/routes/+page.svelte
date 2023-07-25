@@ -86,8 +86,9 @@
     /*Version Tablet*/
     @media screen and (min-width: 769px) and (max-width: 1024px) {
         div {
-            transform: translateX(10%);
-            margin-top: -100px;
+            transform: translateX(1%);
+           margin-top: -110px;
+            margin-left:-170px ;
         }
 
     }
@@ -95,7 +96,8 @@
     @media screen and (max-width: 768px) {
         div {
             transform: translateX(0);
-           margin-top: -70px;
+           margin-top: -150px;
+            margin-left:-320px;
 
         }
 
