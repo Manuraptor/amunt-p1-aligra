@@ -1,14 +1,8 @@
 <script>
-<<<<<<< HEAD
-    import imgLogo from "$lib/imagenes/LogoYFaviconesMenu/image1logoAligra-removebg-preview.png";
     import '/src/global.css';
     import imgFavicon from "$lib/imagenes/LogoYFaviconesMenu/logoAligra.png";
 
 
-=======
-    import '/src/global.css'
-    import imgFavicon from "$lib/imagenes/LogoYFaviconesMenu/icon_menu.png"
->>>>>>> 515101a6537ef5b28354a5c355568374cc216022
 </script>
 
 <nav>
@@ -33,13 +27,7 @@
         <li>
             <a href="/colaboradors">Colaboradors</a>
         </li>
-<<<<<<< HEAD
-        <li>
-            <a href="/prueba">Prueba</a>
-        </li>
 
-=======
->>>>>>> 515101a6537ef5b28354a5c355568374cc216022
 
     </ul>
 </nav>
