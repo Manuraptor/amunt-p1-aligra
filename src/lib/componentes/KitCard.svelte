@@ -1,4 +1,3 @@
-
 <script>
     export let title;
     export let link;
@@ -22,18 +21,20 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        box-shadow: 5px 5px 5px  #cccccc;
+        box-shadow: 5px 5px 5px #cccccc;
 
     }
 
     .KitCard:hover {
         background-color: #FCB900;
     }
+
     .KitCard:hover a {
 
-               color: white;
+        color: white;
 
     }
+
     h3 {
         margin-bottom: 0.5rem;
     }
@@ -44,11 +45,12 @@
         text-decoration: none;
 
     }
+
     img {
         width: 100%;
         object-fit: cover;
         border-radius: 8px;
-        margin-top: 90px; /* Mueve la imagen hacia abajo */
+        margin-top: 90px;
     }
 
 </style>

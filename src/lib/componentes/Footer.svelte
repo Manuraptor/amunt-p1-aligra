@@ -20,15 +20,16 @@
         left: 0;
         display: flex;
         justify-content: center;
-        gap:80px;
+        gap: 80px;
         align-items: center;
         width: 100%;
         height: 25px;
         background-color: #131111;
         color: #FCB900;
     }
-    p:hover{
-        color:white;
+
+    p:hover {
+        color: white;
     }
 
 </style>
