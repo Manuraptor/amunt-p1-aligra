@@ -3,7 +3,7 @@
     import {fade} from 'svelte/transition';
 
     import Componente from "$lib/componentes/Componente.svelte";
-    import straddle3 from "$lib/imagenes/Colaboradors/image 1.png";
+    import straddle3 from "$lib/imagenes/Colaboradors/LogoStraddle3.jpg";
     import societatorganica from "$lib/imagenes/Colaboradors/image 2.png";
     import tejido from "$lib/imagenes/Colaboradors/image 17.jpg";
     import aiguasol from "$lib/imagenes/Colaboradors/image 3.png";
