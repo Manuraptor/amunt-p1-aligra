@@ -4,10 +4,10 @@
 
 
 <div>
-    <p>Contacto</p>
-    <p>Politica de Privacidad</p>
-    <p>Acerca de</p>
-    <p>Ayuda</p>
+    <p>Contacte</p>
+    <p>Politiques de privacitat</p>
+    <p>Sobre</p>
+    <p>Ajuda</p>
 
 </div>
 
