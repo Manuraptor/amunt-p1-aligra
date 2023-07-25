@@ -25,9 +25,9 @@ https://trello.com/b/vYcr54bl/proyecto-aligra
 <img src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" />
 <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" width="50" heigth="50"/>
 <img style="margin: 5px" src="https://profilinator.rishav.dev/skills-assets/figma-icon.svg" alt="Figma" height="50" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png" alt="VisualStudioCode" height="50" />
+<img src="https://th.bing.com/th/id/OIP.0Z-sdgqOC9z3fHe34l6rawHaHa?pid=ImgDet&rs=1" alt="IntelliJ" height="50" />
 <img src="https://images.iwantmyname.com/apps/logo_vercel.png" alt="vercel" width="50" height="50"/>
-<img src="https://w7.pngwing.com/pngs/115/721/png-transparent-trello-social-icons-icon.png" alt="trello" width="50" heigth="50"/>
+<img src="https://sveltekit-supabase-dashboard.vercel.app/svelte.png" alt="SvelteKit" width="50" heigth="50"/>
 </div>
 
 ## Instalación
@@ -36,19 +36,18 @@ https://trello.com/b/vYcr54bl/proyecto-aligra
 ```
 https://github.com/Manuraptor/amunt-p1-aligra.git
 ```
-- O bién consultalo desde la app de Vercel.
-...
-- https://vercel.com/manuraptor/amunt-p1-aligra
-
-### Para los tests
 - Una vez clonado el repositorio en la terminal de tu editor de código con el proyecto.
 ```
 npm install
 ```
-- Para ejecutarlos
+- Para ejecutarlo:
 ```
-npm run test
+npm run dev
 ```
+- O bién consultalo desde la app de Vercel:
+...
+- https://amunt-p1-aligra.vercel.app/
+...
 ## Figma
 ![Imagen del diseño 1, Figma](/src/lib/imagenes/Readme/figmadise1.png)
 <br>
