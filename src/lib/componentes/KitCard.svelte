@@ -22,30 +22,14 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
-
-
-    }
+        justify-content: space-around;}
 
     h1 {
         font-family: Impact, SansSerif;
         margin-bottom: 1rem;
 
-        box-shadow: 5px 5px 5px #cccccc;
 
     }
-
-    .KitCard:hover {
-        background-color: #FCB900;
-    }
-
-    .KitCard:hover a {
-
-        color: white;
-
-    }
-
-
 
     a {
         color: black;
@@ -60,9 +44,6 @@
         margin-top: 100px;
         margin-bottom: 10px;
 
-
     }
-
-
 
 </style>
