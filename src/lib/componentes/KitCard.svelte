@@ -48,7 +48,7 @@
         width: 100%;
         object-fit: cover;
         border-radius: 8px;
-        margin-top: auto; /* Mueve la imagen hacia abajo */
+        margin-top: 90px; /* Mueve la imagen hacia abajo */
     }
 
 </style>
