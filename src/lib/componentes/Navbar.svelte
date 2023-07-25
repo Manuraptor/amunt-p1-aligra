@@ -1,7 +1,9 @@
 <script>
-    import imgLogo from "$lib/imagenes/LogoYFaviconesMenu/image1logoAligra-removebg-preview.png"
-    import '/src/global.css'
-    import imgFavicon from "$lib/imagenes/LogoYFaviconesMenu/logoAligra.png"
+    import imgLogo from "$lib/imagenes/LogoYFaviconesMenu/image1logoAligra-removebg-preview.png";
+    import '/src/global.css';
+    import imgFavicon from "$lib/imagenes/LogoYFaviconesMenu/logoAligra.png";
+
+
 </script>
 
 <nav>
@@ -27,6 +29,8 @@
         <li>
             <a href="/prueba">Prueba</a>
         </li>
+
+
     </ul>
 </nav>
 
