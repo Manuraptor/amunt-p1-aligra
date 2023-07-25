@@ -1,7 +1,7 @@
 <script>
     import { fade } from 'svelte/transition';
-    import Foto1 from "$lib/imagenes/Caracteristiques/d18.jpg"
-    import Foto2 from "$lib/imagenes/Caracteristiques/d21.jpg"
+    import Foto1 from "$lib/imagenes/Caracteristiques/f6.jpg"
+    import Foto2 from "$lib/imagenes/Caracteristiques/f2.jpg"
     import Foto3 from "$lib/imagenes/Caracteristiques/foto3carateristiques.jpg"
     import ArticleQueEsAligra from "$lib/componentes/ArticleQueEsAligra.svelte";
 
@@ -10,12 +10,11 @@
 
 
 
-        <h2>Característiques Innovadores del Sistema Arquitectònic &nbsp<span class="aligra">Aligra</span></h2>
 
 
-
+<main>
 <section>
-    <div class="texto">
+    <div >
     <ArticleQueEsAligra>
 
                    <h2>Economia de mitjans</h2>
@@ -29,7 +28,7 @@
                <p> Dimensionalment, la part física del sistema està basat en un mòdul de 60 cm, una mida molt compatible amb els actuals estàndards industrials i de transport. El mateix criteri de composició modular s’ha seguit pel que fa a instalꞏlacions, inclosa la sensorització i el software que es proposa.</p>
        </ArticleQueEsAligra>
     </div>
-        <img transition:fade src={Foto2} alt="foto"/>
+        <img class="fotoeconomia" transition:fade src={Foto2} alt="foto"/>
 
 </section>
 <section>
@@ -52,7 +51,7 @@
     </div>
 </section>
 <section>
-    <div class="texto">
+    <div>
 
 <ArticleQueEsAligra>
                    <h2>Materials ecològics.</h2>
@@ -73,9 +72,12 @@
 
 </section>
 
-
+</main>
 
 <style>
+    main{
+        margin: 7rem;
+    }
 
    h2{
        display: flex;
@@ -83,14 +85,12 @@
        justify-content: center;
        margin-bottom: 20px;
    }
-   .aligra{
-       font-size: 24px;
-   }
 
-   .texto{
+
+   div{
        display: flex;
        flex-direction: column;
-       margin-left: -100px;
+      margin-left: -100px;
    }
 
     section {
@@ -98,7 +98,7 @@
         height: 400px;
         display: flex;
         justify-content: space-between;
-        margin-top: 220px;
+        margin-top: 250px;
         gap: 70px;
         align-items: center;
 
@@ -106,13 +106,14 @@
 
 
    img {
-       width: 450px;
-       height: 450px;
+       width: 300px;
+       height: 700px;
         filter: grayscale(100%);
        margin-right: -220px;
         transition: all 0.5s ease;
         object-fit: cover;
         cursor:pointer;
+       margin-bottom: 4px;
 
     }
     img:hover {
@@ -121,11 +122,55 @@
     }
 
     .fotocaracteristicas{
-        margin-left: -120px;
+        margin-left: -100px;
     }
     .texto1{
-        margin-left: 240px;
-        margin-right: -240px;
+        margin-left: 220px;
+        margin-right: -220px;
+
+    }
+
+    @media screen and (min-width: 1920px) {
+        main{
+            margin: 11rem;
+        }
+    }
+    @media screen and (min-width: 769px) and (max-width: 1024px){
+        main{
+            margin-left: -80px;
+        }
+        section{
+            width: 370px;
+            height: 600px;
+            margin-bottom: 150px;
+        }
+        div{
+            pointer-events: none;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        main{
+            margin-left: -90px;
+
+        }
+        section{
+            width: 300px;
+            height: 400px;
+
+        }
+        img{
+            width: 200px;
+
+        }
+        .fotocaracteristicas{
+            margin-left: -90px;
+        }
+        .texto1{
+
+            margin-right: -270px;
+            margin-top:90px;
+
+        }
 
     }
 
