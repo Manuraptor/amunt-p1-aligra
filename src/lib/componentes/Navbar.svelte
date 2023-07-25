@@ -1,6 +1,6 @@
 <script>
     import '/src/global.css';
-    import imgFavicon from "$lib/imagenes/LogoYFaviconesMenu/logoAligra.png";
+    import imgFavicon from "$lib/imagenes/LogoYFaviconesMenu/icon_menu.png";
 
 
 </script>
