@@ -41,6 +41,11 @@ experiència en el sector de la construcció amb fusta. Sistemes avançats en so
 i construcció prefabricada amb aquest material."/></a>
 
     <section>
+        <footer>
+            <a href="https://www.holaluz.com/"><img transition:fade src="{holaluz}" alt="logo"/> </a>
+            <a href="https://sisconsultoria.com/"><img transition:fade src="{sis}" alt="logo"/></a>
+            <a href="https://www.mavitecindustrial.com/"><img transition:fade src="{mavitec}" alt="logo"/></a>
+        </footer>
         <div>
             <h3>L’equip es complementa amb la colꞏlaboració permanent de:</h3>
         </div>
@@ -54,16 +59,7 @@ i construcció prefabricada amb aquest material."/></a>
             <p> - Melanie Theodosopoulou. Arquitecta i paisatgista.</p>
     </div>
     </section>
-    <article>
-    <footer>
-        <a href="https://www.holaluz.com/"><img transition:fade src="{holaluz}" alt="logo"/> </a>
-     <a href="https://sisconsultoria.com/"><img transition:fade src="{sis}" alt="logo"/></a>
-     <a href="https://www.mavitecindustrial.com/"><img transition:fade src="{mavitec}" alt="logo"/></a>
-        </footer>
 
-
-
-    </article>
 </main>
 
 <style>
@@ -82,7 +78,7 @@ i construcció prefabricada amb aquest material."/></a>
         align-items: center;
     }
 
-    article {
+    /*article {
 
        margin-top:70px;
         width: 1000px;
@@ -91,7 +87,7 @@ i construcció prefabricada amb aquest material."/></a>
         flex-direction: row;
         justify-content: space-between
 
-    }
+    }*/
 
     img {
         width: 150px;
@@ -120,7 +116,10 @@ a{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 150px;
+        gap: 130px;
+    }
+    div h3{
+        margin-top: 60px;
     }
 
 
