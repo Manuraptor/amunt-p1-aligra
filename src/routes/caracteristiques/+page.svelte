@@ -10,11 +10,12 @@
 
 
 
-        <h2>Característiques Innovadores del Sistema Arquitectònic &nbsp<span>Aligra</span></h2>
+        <h2>Característiques Innovadores del Sistema Arquitectònic &nbsp<span class="aligra">Aligra</span></h2>
 
 
 
 <section>
+    <div class="texto">
     <ArticleQueEsAligra>
 
                    <h2>Economia de mitjans</h2>
@@ -27,14 +28,14 @@
 
                <p> Dimensionalment, la part física del sistema està basat en un mòdul de 60 cm, una mida molt compatible amb els actuals estàndards industrials i de transport. El mateix criteri de composició modular s’ha seguit pel que fa a instalꞏlacions, inclosa la sensorització i el software que es proposa.</p>
        </ArticleQueEsAligra>
-
-        <img class="fotocaracteristicas" transition:fade src={Foto2} alt="foto"/>
+    </div>
+        <img transition:fade src={Foto2} alt="foto"/>
 
 </section>
 <section>
 
         <img class="fotocaracteristicas" transition:fade src={Foto1} alt="foto"/>
-
+    <div class="texto1">
         <ArticleQueEsAligra>
                     <h2>Lleugeresa</h2>
 
@@ -48,8 +49,11 @@
                 <p> La combinació de lleugeresa i modularitat, juntament amb l'ús d'unions reversibles i accessibles, facilita notablement el muntatge i el desmuntatge dels elements constructius.
                 </p>
     </ArticleQueEsAligra>
+    </div>
 </section>
 <section>
+    <div class="texto">
+
 <ArticleQueEsAligra>
                    <h2>Materials ecològics.</h2>
 
@@ -63,8 +67,8 @@
                     facilita l’adaptació a eventuals modificacions amb la possible
                     participació dels futurs usuaris.</p>
            </ArticleQueEsAligra>
-
-        <img class="fotocaracteristicas" transition:fade src={Foto3} alt="foto"/>
+    </div>
+        <img transition:fade src={Foto3} alt="foto"/>
 
 
 </section>
@@ -77,28 +81,35 @@
        display: flex;
        align-items: center;
        justify-content: center;
-       margin-bottom: 40px;
+       margin-bottom: 20px;
    }
-   span{
-       color: #FCB900;
+   .aligra{
+       font-size: 24px;
    }
 
+   .texto{
+       display: flex;
+       flex-direction: column;
+       margin-left: -100px;
+   }
 
     section {
         width: 100%;
         height: 400px;
         display: flex;
         justify-content: space-between;
-        margin-top: 120px;
-        gap: 30px;
+        margin-top: 220px;
+        gap: 70px;
+        align-items: center;
 
     }
 
 
    img {
-       width: 300px;
-       height: 380px;
-        filter: grayscale(75%);
+       width: 450px;
+       height: 450px;
+        filter: grayscale(100%);
+       margin-right: -220px;
         transition: all 0.5s ease;
         object-fit: cover;
         cursor:pointer;
@@ -107,6 +118,15 @@
     img:hover {
         filter: none;
         transform: scale(1.1);
+    }
+
+    .fotocaracteristicas{
+        margin-left: -120px;
+    }
+    .texto1{
+        margin-left: 240px;
+        margin-right: -240px;
+
     }
 
 </style>

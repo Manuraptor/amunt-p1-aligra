@@ -4,12 +4,17 @@
     import imgPortada1 from "$lib/imagenes/AligraQueEs/ImgPortadaAligra1.jpg";
     import imgPortada2 from "$lib/imagenes/AligraQueEs/ImgPortadaAligra2.jpg";
     import imgPortada3 from "$lib/imagenes/AligraQueEs/ImgPortadaAligra3.jpg";
-    import imgPortada4 from "$lib/imagenes/AligraQueEs/ImgPortadaAligra4.jpg";
     import Article from '$lib/componentes/ArticleQueEsAligra.svelte';
+    /*import imageRepteUrba from '$lib/imagenes/AligraQueEs/Repte urbà_Aligra_1.jpg'*/
 
 </script>
 
 <main>
+
+    <section>
+        <img transition:fade src={imgPortada3} alt="" class="edificiBcn">
+
+    </section>
 
     <div>
 
@@ -21,10 +26,10 @@
 
 
         <section>
+            <img transition:fade src={imgPortada3} alt="">
             <img transition:fade src={imgPortada1} alt="">
             <img transition:fade src={imgPortada2} alt="">
-            <img transition:fade src={imgPortada3} alt="">
-            <img transition:fade src={imgPortada4} alt="">
+
         </section>
     <div>
         <Article>
@@ -37,6 +42,8 @@
             licitació o situació constructiva sense les restriccions imposades per les patents privatives.
         </Article>
     </div>
+
+
 <div>
         <Article>
             <span class="aligra">Aligra</span> està concebut per adaptar-se a una gran diversitat de situacions, tant a escala arquitectònica com a nivell de paisatge urbà. S’han analitzat diferents configuracions d’ampliació de volum a partir d’edificis reals de la ciutat de Barcelona, des de polígons residencials fins a finques de l'Eixample, passant per alguns casos menys habituals d’edificis no alineats a carrer.<br>
@@ -58,14 +65,14 @@
 
     section {
         display: flex;
-        margin: 40px;
         gap: 30px;
+        margin-bottom: 80px;
 
     }
 
     section img {
-        width: 240px;
-        height: 240px;
+        width: 218px;
+        height: 260px;
         object-fit: cover;
         filter: grayscale(90%);
         transition: all 0.5s ease;
@@ -74,6 +81,10 @@
     section img:hover {
         transform: scale(1.1);
         filter: none;
+    }
+    .edificiBcn{
+        width: 100%;
+        object-fit: cover;
     }
 
 </style>

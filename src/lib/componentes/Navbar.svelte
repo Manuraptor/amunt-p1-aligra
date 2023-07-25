@@ -1,21 +1,28 @@
 <script>
+<<<<<<< HEAD
     import imgLogo from "$lib/imagenes/LogoYFaviconesMenu/image1logoAligra-removebg-preview.png";
     import '/src/global.css';
     import imgFavicon from "$lib/imagenes/LogoYFaviconesMenu/logoAligra.png";
 
 
+=======
+    import '/src/global.css'
+    import imgFavicon from "$lib/imagenes/LogoYFaviconesMenu/icon_menu.png"
+>>>>>>> 515101a6537ef5b28354a5c355568374cc216022
 </script>
 
 <nav>
     <img src={imgFavicon} alt="Favicon" class="favicon">
     <ul>
         <li>
-            <a href="/">
-                <img src={imgLogo} alt="LogotipoAligra" class="logo">
+            <a href="/" class="aligra">Aligra
             </a>
         </li>
         <li>
             <a href="/Aligra">Qui som?</a>
+        </li>
+        <li>
+            <a href="/objectiu">Objectiu</a>
         </li>
         <li>
             <a href="/caracteristiques">Caracteristiques</a>
@@ -26,10 +33,13 @@
         <li>
             <a href="/colaboradors">Colaboradors</a>
         </li>
+<<<<<<< HEAD
         <li>
             <a href="/prueba">Prueba</a>
         </li>
 
+=======
+>>>>>>> 515101a6537ef5b28354a5c355568374cc216022
 
     </ul>
 </nav>
@@ -41,12 +51,12 @@
         top: 0;
         bottom: 0;
         align-items: flex-end;
-        width: 180px;
+        width: 230px;
         max-height: 100vh;
         flex-direction: column;
         background: rgba(0, 0, 0, 0.6);
         transition: 0.4s linear;
-        left: -11%;
+        left: -15%;
     }
 
     nav:hover {
@@ -68,7 +78,7 @@
         justify-content: flex-end;
         margin-right: 18px;
         color: #FCB900;
-        text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+
         text-decoration: none;
         font-weight: normal;
         font-size: 20px;
@@ -77,23 +87,24 @@
     nav ul li a:hover {
         cursor: pointer;
         color: white;
-        text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+
     }
 
-    .logo {
-        height: 2.5rem;
-        width: 2.5rem;
-        border-radius: 50%;
-    }
+
 
     .favicon {
+        background-color: #FCB900;
+        object-fit: cover;
         position: relative;
         top: 20px;
-        left: 40px;
-        height: 40px;
-        width: 40px;
+        left: 36px;
+        height: 35px;
+        width: 35px;
         border-radius: 50%;
         border: #FCB900;
+    }
+    .aligra{
+        font-size: 25px;
     }
         @media screen and (min-width: 1920px) {
             nav {

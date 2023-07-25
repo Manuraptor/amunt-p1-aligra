@@ -5,10 +5,10 @@
 }
 body{
     font-family: 'Ubuntu', sans-serif;
-     margin: 11rem 11rem 1rem;
+    margin: 11rem 400px 1rem;
 }
 h2{
-    font-size: 23px;
+   font-size: 24px;
     font-weight: bold;
 }
 h3{
@@ -16,12 +16,13 @@ h3{
 }
 p{
     font-size: 16px;
+    letter-spacing: 1px;
 }
 
 
 .aligra{
 
-    font-family: Impact;
+    font-family: Impact,sans-serif;
     color: #FCB900;
     letter-spacing: 2px;
     font-size: 22px;
