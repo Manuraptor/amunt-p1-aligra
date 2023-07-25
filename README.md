@@ -1,4 +1,4 @@
-![logo de Aligra](/src/lib/imagenes/Readme/logoAligra.png)
+![logo de Aligra](/src/lib/imagenes/Readme/logoAligrapeque.jpg)
 # ALIGRA
 *Es uno de los proyectos ganadores de la convocatoria  para la “Regeneración de edificios de viviendas con sistemas innovadores sostenibles” de la fundación BitHábitat.
 
@@ -13,8 +13,12 @@ División del proyecto y estado final de las tareas:
 
 ![trello](/src/lib/imagenes/Readme/trelloreadme.jpg)
 
+Enlace Trello:
 
-## :hammer:Tecnologías y Herramientas Utilizadas
+https://trello.com/b/vYcr54bl/proyecto-aligra
+
+
+## Tecnologías y Herramientas Utilizadas
 <div align=""> 
 <img src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" />  
 <img src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" />  
