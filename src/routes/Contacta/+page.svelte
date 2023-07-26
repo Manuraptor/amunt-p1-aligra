@@ -16,7 +16,7 @@
 <main style="height: 70vh;">
     <section>
         <article>
-            <h2>Contacta Con</h2>
+            <h2>Contacta amb</h2>
             <h2>
                 <span class="rotate-letter">A</span>
                 <span class="rotate-letter">L</span>
@@ -29,26 +29,26 @@
         <div class="contact-form">
             <form id="contact-form" on:submit|preventDefault={handleSubmit}>
                 <div>
-                    <label for="nombre">Nombre completo:</label>
+                    <label for="nombre">Nom complet:</label>
                     <input type="text" id="nombre" name="nombre" required />
                 </div>
                 <div>
-                    <label for="telefono">Teléfono:</label>
+                    <label for="telefono">Teléfon:</label>
                     <input type="tel" id="telefono" name="telefono" pattern="[0-9]+" required />
                 </div>
                 <div>
-                    <label for="asunto">Asunto:</label>
+                    <label for="asunto">Assumpte:</label>
                     <input type="text" id="asunto" name="asunto" required />
                 </div>
                 <div>
-                    <label for="mensaje">Mensaje:</label>
+                    <label for="mensaje">Missatge:</label>
                     <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
                 </div>
                 <button type="submit">Enviar</button>
             </form>
         </div>
         <footer class="success-message" style="display: none;">
-            ¡El formulario se ha enviado con éxito! Pronto te responderemos.
+            El formulari ha estat enviat correctament! Aviat us respondrem.
         </footer>
     </section>
 
