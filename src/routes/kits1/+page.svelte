@@ -1,10 +1,10 @@
 <script>
     import KitCard from '$lib/componentes/KitCard.svelte';
-    import Imagen1 from "$lib/imagenes/kits/ImgKit1.jpg";
-    import Imagen2 from "$lib/imagenes/kits/ImgKit2.jpg";
-    import Imagen3 from "$lib/imagenes/kits/ImgKit3.jpg";
-    import Imagen4 from "$lib/imagenes/kits/ImgKit4.jpg";
-    import Imagen5 from "$lib/imagenes/kits/ImgKit5.jpg"
+    import Imagen1 from "$lib/imagenes/kits/imgKit1.jpg";
+    import Imagen2 from "$lib/imagenes/kits/imgKit2.jpg";
+    import Imagen3 from "$lib/imagenes/kits/imgKit3.jpg";
+    import Imagen4 from "$lib/imagenes/kits/imgKit4.jpg";
+    import Imagen5 from "$lib/imagenes/kits/imgKit5.jpg"
 
 
     let kits = [
