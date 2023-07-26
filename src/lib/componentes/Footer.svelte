@@ -4,7 +4,7 @@
 
 
 <div>
-    <p>Contacte</p>
+    <p><a href="#contacta">Contacte</a></p>
     <p>Politiques de privacitat</p>
     <p>Sobre</p>
     <p>Ajuda</p>
@@ -31,5 +31,13 @@
     p:hover {
         color: white;
     }
+    a{
+        text-decoration: none;
+        color: #FCB900;
+    }
+    a:hover{
+        color: white;
+    }
+
 
 </style>

@@ -27,6 +27,9 @@
         <li>
             <a href="/colaboradors">Colaboradors</a>
         </li>
+        <li>
+            <a href="/Contacta">Contacta</a>
+        </li>
 
 
     </ul>
