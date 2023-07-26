@@ -32,13 +32,13 @@ a condició necessària per a aconseguir la sostenibilitat és el seu referent d
 
 
     <a href="https://tejido.io/es/">
-        <Componente imagen="{tejido}" titulo="Tejido:" texto="Tejido: tecnologies de la informació aplicades a la ciutat.
+        <Componente imagen="{tejido}" titulo="Tejido:" texto=" Tecnologies de la informació aplicades a la ciutat.
             Cooperativa andalusa de base tecnològica que treballa en els àmbits de les tecnologies
             de codi obert per a la transformació urbana i social, l'arquitectura i l'art."/>
     </a>
 
     <a href="https://aiguasol.coop/">
-        <Componente imagen="{aiguasol}" titulo="Aiguasol:" texto="Aiguasol: Enginyeria en instalꞏlacions sostenibles.
+        <Componente imagen="{aiguasol}" titulo="Aiguasol:" texto=" Enginyeria en instalꞏlacions sostenibles.
 Cooperativa autogestionada que ofereix serveis d'enginyeria i consultoria en energia i aire.
 A través d'una estructura horitzontal i socialment responsable, promou solucions innovadores
  per a reduir la petjada energètica i millorar la qualitat ambiental dels nostres entorns."/>
