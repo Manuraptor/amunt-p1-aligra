@@ -25,12 +25,8 @@
             <a href="/kits">Kits</a>
         </li>
         <li>
-            <a href="/colaboradors">Colaboradors</a>
+            <a href="/colaboradors">Col·laboradors</a>
         </li>
-        <li>
-            <a href="/Contacta">Contacta</a>
-        </li>
-
 
     </ul>
 </nav>
