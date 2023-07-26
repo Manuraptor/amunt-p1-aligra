@@ -1,6 +1,6 @@
 <script>
     import {fade} from 'svelte/transition';
-    import Imagen4 from "$lib/imagenes/kits/ImgKit4.jpg";
+    import Imagen4 from "$lib/imagenes/kits/imgKit4.jpg";
 </script>
 
 <section>
