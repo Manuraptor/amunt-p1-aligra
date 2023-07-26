@@ -4,7 +4,7 @@
 
 
 <div>
-    <p><a href="#contacta">Contacte</a></p>
+    <p><a href="/Contacta">Contacte</a></p>
     <p>Politiques de privacitat</p>
     <p>Sobre</p>
     <p>Ajuda</p>
