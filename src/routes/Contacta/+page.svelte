@@ -47,16 +47,16 @@
                 <button type="submit">Enviar</button>
             </form>
         </div>
+        <footer class="success-message" style="display: none;">
+            ¡El formulario se ha enviado con éxito! Pronto te responderemos.
+        </footer>
     </section>
 
 
-    <footer class="success-message" style="display: none;">
-        ¡El formulario se ha enviado con éxito! Pronto te responderemos.
-    </footer>
 </main>
 
 <style>
-   /* main {
+    main {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -75,6 +75,7 @@
     }
 
     article {
+        width: 300px;
         text-align: center;
         margin-bottom: 90px;
     }
@@ -146,99 +147,9 @@
         50% {
             opacity: 1;
         }
-    }*/
-   main {
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       height: 100vh;
-       overflow: hidden;
-   }
-
-   section {
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-       width: 90%;
-       padding: 20px;
-       border: 1px solid #131111;
-       border-radius: 10px;
-   }
-
-   article {
-       text-align: center;
-       margin-bottom: 90px;
-   }
-
-   .contact-form {
-       width: 50%;
-   }
-
-   div {
-       margin-bottom: 20px;
-   }
-
-   label {
-       display: block;
-       margin-bottom: 5px;
-   }
-
-   input,
-   textarea {
-       width: 100%;
-       padding: 10px;
-       border: 1px solid #ccc;
-       border-radius: 5px;
-       font-size: 16px;
-       background-color: #f5f5f5;
-   }
-
-   textarea {
-       resize: vertical;
-   }
-
-   button {
-       background-color: #f5f5f5;
-       color: black;
-       border: 1px solid #f5f5f5;
-       border-radius: 5px;
-       padding: 10px 20px;
-       cursor: pointer;
-       font-size: 16px;
-   }
-
-   .rotate-letter {
-       margin-top: 30px;
-       display: inline-block;
-       font-family: Impact, sans-serif;
-       font-weight: lighter;
-       color: #FCB900;
-       font-size: 40px;
-       /* Agregar efecto 3D */
-       transform-style: preserve-3d;
-       perspective: 1000px;
-       /* Inicialmente invisible */
-       opacity: 0;
-       /* Aparición gradual con opacidad */
-       animation: rotateLetter 6s linear infinite, fadeInOut 6s linear infinite;
-   }
-
-   @keyframes rotateLetter {
-       0% {
-           transform: rotateY(0deg);
-       }
-       100% {
-           transform: rotateY(360deg);
-       }
-   }
-
-   @keyframes fadeInOut {
-       0%, 100% {
-           opacity: 0;
-       }
-       50% {
-           opacity: 1;
-       }
-   }
+    }
+    .success-message{
+        margin-left: 30px;
+    }
 
 </style>
