@@ -6,7 +6,7 @@
 </script>
 
 <div class="KitCard">
-    <h1>{title}</h1>
+    <h2>{title}</h2>
     <img src={image} alt="kit 1"/>
     <a href={link}>*</a>
 </div>
@@ -15,7 +15,7 @@
 
     .KitCard {
 
-        border: 6px solid black;
+        border: 3px solid black;
         padding: 1rem;
         margin: 0rem;
         border-radius: 15px;
@@ -24,7 +24,7 @@
         align-items: center;
         justify-content: space-around;}
 
-    h1 {
+    h2 {
         font-family: Impact, SansSerif;
         margin-bottom: 1rem;
 
