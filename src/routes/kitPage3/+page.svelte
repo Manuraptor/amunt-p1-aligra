@@ -1,6 +1,6 @@
 <script>
     import {fade} from 'svelte/transition';
-    import Imagen3 from "$lib/imagenes/kits/ImgKit3.jpg";
+    import Imagen3 from "$lib/imagenes/kits/imgKit3.jpg";
 </script>
 
 <section>
@@ -33,6 +33,18 @@
         text-align: justify;
         margin-bottom: 50px;
     }
+    img{
+        width: 700px;
+        height: 600px;
+        object-fit: contain;
+        margin-top: -20px;
+        filter: grayscale(90%);
+        transition: all 0.5s ease;
 
+    }
+    img:hover {
+        transform: scale(1.1);
+        filter: none;
+    }
 
 </style>

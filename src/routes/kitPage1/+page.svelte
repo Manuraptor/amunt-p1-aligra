@@ -1,6 +1,6 @@
 <script>
     import {fade} from 'svelte/transition';
-    import Imagen1 from "$lib/imagenes/kits/ImgKit1.jpg";
+    import Imagen1 from "$lib/imagenes/kits/imgKit1.jpg";
 </script>
 
     <section>
@@ -8,10 +8,8 @@
             <h2>Kit 1: D’ampliació de volum</h2>
             <p> Modularitat adaptable. Es tracta d'un sistema modular bidimensional, lleuger i en sec, desmuntable i reutilitzable,
                 basat principalment en fusta microlaminada. La modulació proposada permet resoldre fàcilment diverses mides d'ampliació.
-
                 Economia material. El sistema es diferencia d'altres solucions basades en fusta per la reducció de l’ús de material,
                 en un exercici d'optimització radical dels recursos mitjançant l'aprofitament de les tècniques més avançades de la indústria de la fusta.
-
                 Prestacions estructurals i acústiques. La combinació d'un entramat lleuger de fusta amb una capa de compressió de formigó armat
                 colꞏlaborant permet millorar alhora les prestacions estructurals i acústiques del mòdul de forjat.
 
@@ -30,5 +28,16 @@
         margin-bottom: 50px;
     }
 
+    img{
+        width: 1000px;
+        height: 500px;
+        object-fit: contain;
+        margin-top: -20px;
+        transition: all 0.5s ease;
+    }
+    img:hover {
+        transform: scale(1.1);
+        filter: none;
+    }
 
 </style>

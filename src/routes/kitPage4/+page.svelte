@@ -26,6 +26,21 @@
         text-align: justify;
         margin-bottom: 50px;
     }
+    img{
+        width: 700px;
+        height: 600px;
+        object-fit: contain;
+        margin-top: -20px;
+        filter: grayscale(90%);
+        transition: all 0.5s ease;
+
+    }
+
+    img:hover {
+        transform: scale(1.1);
+        filter: none;
+    }
 
 
 </style>
+

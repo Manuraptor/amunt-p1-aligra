@@ -1,6 +1,6 @@
 <script>
     import {fade} from 'svelte/transition';
-    import Imagen5 from "$lib/imagenes/kits/ImgKit5.jpg";
+    import Imagen5 from "$lib/imagenes/kits/imgKit5.jpg";
 </script>
 
 <section>
@@ -22,7 +22,9 @@
             dades intercanviades. L'aplicació Docker garantirà que el sistema es pugui replicar i escalar.
         </p>
     </div>
+
     <img class="ImgKit5" transition:fade src={Imagen5} alt="foto"/>
+
 </section>
 
 <style>
@@ -33,6 +35,20 @@
         padding: 20px;
         text-align: justify;
         margin-bottom: 50px;
+    }
+    img{
+        width: 700px;
+        height: 600px;
+        object-fit: contain;
+        margin-top: -20px;
+        filter: grayscale(90%);
+        transition: all 0.5s ease;
+
+    }
+
+    img:hover {
+        transform: scale(1.1);
+        filter: none;
     }
 
 
