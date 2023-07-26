@@ -86,6 +86,7 @@ i construcció prefabricada amb aquest material."/>
         justify-content: center;
         flex-direction: column;
         align-items: center;
+        padding-bottom: 50px;
     }
 
 
@@ -123,6 +124,11 @@ i construcció prefabricada amb aquest material."/>
     div h3 {
         margin-top: 60px;
     }
-
+    @media screen and (max-width: 768px) {
+        footer {
+            display: flex;
+            flex-direction: column;
+        }
+    }
 
 </style>
