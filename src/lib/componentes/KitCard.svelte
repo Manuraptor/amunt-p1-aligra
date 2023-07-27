@@ -36,9 +36,7 @@
         margin-bottom: 1rem;
     }
     h4 {
-        font-size: 16px;
-        margin-top: -50px;
-
+        font-size: 12px;
 
     }
 
